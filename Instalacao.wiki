@@ -1,6 +1,6 @@
 #summary Informações gerais sobre a Instalação
 #labels Instalacao
-
+#sidebar BarraLateral
 NOTAS adicionais sobre instalação:
 
    # Infelizmente, o software da TI é ... incompleto. Nomeadamente, apesar dos ficheiros estarem devidamente catalogados como arquivados, o seu estado após transferido varia de modelo para modelo.
