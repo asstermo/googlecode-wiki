@@ -1,0 +1,18 @@
+#labels TODO,NaCalha,Porfazer
+= Ainda por ser implementado no Asstermo original =
+    * Documentação “científica” das fórmulas todas utilizadas está ainda em rascunho.
+    * Arrumar as tabelas A-4, A-9, A-15 melhor... posso poupar uns quantos kB.
+    * Adicionar opção de procurar na tabela ao lado, caso o título saia fora.
+    * Redução da pegada de memória em RAM, por parte do Assistente de Psicrometria e por parte do Assistente de Combustão. Dar a capacidade de sair do Asstermo a partir destes assistentes.
+    * Procura genérica nas tabelas, a partir de 2 propriedades e a escolha da tabela onde procurar, para a água e os refrigerantes.
+    * Nas tabelas de água e refrigerantes, adicionar o cálculo com base no rendimento isentrópico.
+    * Na tabela do ar, adicionar o cálculo da entropia “real”.
+
+= Ainda por ser implementado no Asstermo em geral =
+    * Criar uma variante do Asstermo para TI-83/84.
+    * Criar uma variante do Asstermo para CASIOs... modelos ainda por definir.
+    * Criar um sistema de tradução para o Asstermo, para que seja possível publica-lo em várias línguas.
+    * Pedir autorização especial aos autores e/ou editora do livro "Fundamentals of Engineering Thermodynamics", do Michael J. Moran e Howard N. Shapiro. Ainda não o fiz por dois motivos:
+      # Medo, muito medo...
+      # Porque a secção legal da editora anda cheia de trabalho e achei que eles têm problemas maiores para resolver.
+      Após muita investigação, ainda não descobri nada sobre leis específicas de usar tabelas que estejam em livros e metê-las em software...
