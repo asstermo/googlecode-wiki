@@ -1,0 +1,40 @@
+#summary Aqui está o desenvolvimento da página principal
+<wiki:toc max_depth="3" />
+
+= Introdução =
+O Asstermo (Assistente de Termodinâmica) foi concebido para as calculadoras gráficas *TI-89 (Titanium)*, *TI-92 (+)* e *Voyage 200*. O software em si é gratuito, mas a utilização (e consequente validação) das tabelas requer a posse do livro "Fundamentals of Engineering Thermodynamics, by Michael J. Moran and Howard N. Shapiro".
+
+= Capacidades do Asstermo =
+Este software mostra valores das tabelas para a:
+
+    * Água;
+    * Amónia;
+    * os Refrigerantes 22 e 134a;
+    * Propano (a partir da versão 2.00);
+    * Fórmulas químicas, Massas Molares e R's mássicos correspondentes para várias substâncias;
+    * Calores Específicos para Gases Comuns (Ar, N2, O2, CO2, CO, H2) (a partir da versão 2.15);
+    * e a do Ar!
+
+Obter as propriedades, a partir de uma ou duas outras, para os elementos tabelados... por outras palavras, definir completamente um ponto do sistema fechado/aberto a partir da informação dada. Exemplo: Água - Vapor Sobreaquecido, Pressão, Temperatura -> T,P,v,u,h,s, obtido a partir das tabelas, e o que não estiver explicitamente nas tabelas, é obtido por interpolação.
+
+Faz quase todos os cálculos que se possa pensar em Psicrometria (de que eu saiba)... até ao ponto de ter um diagrama psicrométrico numérico "cá dentro"! É até mesmo possível ver o diagrama no gráfico! E é adaptável a qualquer pressão do ar húmido!!!!
+
+E para facilitar as contas a fazer, e não se andar a entrar e a sair do programa, há quase em todos os menus a opção "Fazer umas contas", que permite fazer as contas que o programa não faz por si próprio! E é possível utilizar os valores obtidos das tabelas... o melhor é dar o exemplo(h-35)/15, onde h é a entalpia obtida da tabela anteriormente!
+
+A partir da versão 1.34, agora tem o Assistente de Combustão, que tem as tabelas A-23, 25 e 27 da 4ª Edição (Propriedades dos Gases Ideais, Propriedades Termoquímicas e Log10(K)), ajuda com o equilíbrio/acerto das equações químicas (a CO2 <=> 2C + bO2 -> a=2 and b=2) e ajuda a calcular e iterar (iteração manual) os cálculos das entalpias dos reagentes e dos produtos!
+
+= Por onde começar =
+
+O melhor mesmo é ter um espírito aventureiro e começar a utilizar o programa! À medida que se vai aprendendo Termodinâmica e se vai sentindo as necessidades de obter valores das tabelas, é que se vê que este programa "sacia" essas necessidades! *No entanto*, *só* se trata de um Assistente, *Não* é um *faz tudo*... ou seja, só calcula a informação a partir das tabelas, não calcula trabalhos e calores!
+
+= Informações Importantes =
+As tabelas que este programa utiliza foram extraídas do livro "Fundamentals of Engineering Thermodynamics", 4ª edição. São elas as A-1(apenas parte), 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 23, 25 e 27. A utilização devida deste programa só deverá ser feita com a posse de qualquer uma das edições deste livro.
+
+Locais onde este livro pode ser adquirido: [http://lmgtfy.com/?q=Fundamentals+of+Engineering+Thermodynamics Fundamentals of Engineering Thermodynamics], by Michael J. Moran and Howard N. Shapiro
+
+O Asstermo *não* é suportado pelos autores deste livro nem pela sua publicadora. Este programa tenta preencher uma lacuna no ensino de Termodinâmica, visto que os engenheiros têm mais em que se _preocupar_ do que _andar a interpolar valores a torto e a direito_...
+
+
+*NOTA*: utilize o programa ao seu *próprio risco*. Foi testado até ao máximo das minhas possibilidades "temporais". Cerca de 205 a 220 horas foram empregues por mim *sozinho* neste programa. Para mais informações, ver os [Manuais manuais]!
+
+*NOTE*: this software project still doesn't have an English version.
