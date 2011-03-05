@@ -1,0 +1,11 @@
+#summary Na Calha para as TI-nSpire
+#labels TI-nSpire
+#sidebar BarraLateral
+
+= Introdução =
+
+Neste momento não existem planos para criar uma variante do Asstermo para as TI-nSpire. Estas calculadoras são na realidade as mais potentes que a TI alguma vez criou até agora, mas ele cometeram um erro crasso do ponto de vista do utilizador: é legalmente impossível de utilizar a calculadora para além das limitações que eles impuseram sobre esta.
+
+Ironicamente, esta calculadora é tão _potente_ com o seu [http://en.wikipedia.org/wiki/ARM_architecture ARM] como CPU, que seria possível correr Linux nesta, tornando assim o primeiro PDA a preto e branco que a TI lançava.
+
+Dum ponto de vista menos _legal_ e como demonstração do poder monstruoso destas calculadoras: já existe um [http://omnimaga.org/index.php?topic=1301.0 emulador de GameBoy para as TI-nSpire].
