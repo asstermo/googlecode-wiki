@@ -1,0 +1,11 @@
+#summary Lista de manuais disponíveis
+#labels Manuais
+
+= Manuais disponíveis em formato PDF =
+
+  * Manual para o Asstermo 1.83
+  * Manual para o Asstermo 2.00
+  * Manual para o Asstermo 2.15
+
+= Manuais em formato wiki =
+(ainda por transcrever...)
