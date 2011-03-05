@@ -1,0 +1,3 @@
+#summary Correcções às tabelas
+
+Aqui estão listadas as correcções manuais feitas às tabelas.
