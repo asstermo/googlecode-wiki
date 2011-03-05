@@ -1,6 +1,6 @@
 #summary Correcções às tabelas
 #labels Correcções
-
+#sidebar BarraLateral
 Aqui estão listadas as correcções manuais feitas no Asstermo às tabelas do livro:
 
 || Tabela || Posição na tabela || Valor prévio || Valor corrigido ||
