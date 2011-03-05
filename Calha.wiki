@@ -1,5 +1,7 @@
+#summary Na Calha...
 #labels TODO,NaCalha,Porfazer
 #sidebar BarraLateral
+
 = Ainda por ser implementado no Asstermo original =
     * Documentação “científica” das fórmulas todas utilizadas está ainda em rascunho.
     * Arrumar as tabelas A-4, A-9, A-15 melhor... posso poupar uns quantos kB.
