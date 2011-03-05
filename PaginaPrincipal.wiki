@@ -1,5 +1,5 @@
 #summary Aqui está o desenvolvimento da página principal
-#sidebar TableOfContents
+#sidebar BarraLateral
 <wiki:toc max_depth="3" />
 
 = Introdução =
