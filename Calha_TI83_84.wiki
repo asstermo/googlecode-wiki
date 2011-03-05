@@ -1,8 +1,16 @@
 #summary Apontamentos sobre o que falta fazer para a versão do Asstermo para TI-83/84
+#labels TI-83,TI-84
 
 = Introdução =
-Existem planos de criar uma variante do Asstermo para as TI-83/84. No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92 e Voyage 200.
+Existem planos de criar uma variante do Asstermo para as TI-83/84 (e Plus). No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92 e Voyage 200.
 
 = Limites Tecnológicos a ultrapassar =
 
-  * 
+  * Programa de compressão - solução possível: compilar o [http://www.oberhumer.com/opensource/lzo/ miniLZO] utilizando o [http://www.z88dk.org z88dk]. Para mais info ver [http://forum.ticalcs.net/showthread.php?tid=432&page=3 aqui].
+  * Programa para apresentar caixas de diálogo de jeito, porque as letras "naturais" da calculadora são monstruosas - solução possível: criar uma função/subrotina genérica com base no [http://www.ticalc.org/archives/files/fileinfo/318/31801.html cheetah].
+  * Descobrir como armazenar tabelas tão grandes como as do Asstermo, quando o que as TI 83/84 têm são apenas listas muita estranhas.
+
+Muito provavelmente a única solução mais viável será criar um programa mais centrado em assembly do que basic.
+Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar nas TI-nSpire.
+
+Se souberem mais detalhes para alguns destes pontos, por favor comentem nesta página wiki que estão a ler!
