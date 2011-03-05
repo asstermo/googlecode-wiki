@@ -1,0 +1,8 @@
+#summary Apontamentos sobre o que falta fazer para a versão do Asstermo para TI-83/84
+
+= Introdução =
+Existem planos de criar uma variante do Asstermo para as TI-83/84. No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92 e Voyage 200.
+
+= Limites Tecnológicos a ultrapassar =
+
+  * 
