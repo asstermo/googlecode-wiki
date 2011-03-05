@@ -1,6 +1,6 @@
 #summary Sobre o Asstermo
 #labels About
-
+#sidebar BarraLateral
 = Introdução =
 O Asstermo (Assistente de Termodinâmica) foi concebido para as calculadoras gráficas *TI-89 (Titanium)*, *TI-92 (+)* e *Voyage 200*. O software em si é gratuito, mas a utilização (e consequente validação) das tabelas requer a posse do livro "Fundamentals of Engineering Thermodynamics, by Michael J. Moran and Howard N. Shapiro".
 
