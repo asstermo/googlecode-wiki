@@ -3,9 +3,9 @@
 
 = Manuais disponíveis em formato PDF =
 
-  * Manual para o Asstermo 1.83
-  * Manual para o Asstermo 2.00
-  * Manual para o Asstermo 2.15
+  * [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO.pdf Manual para o Asstermo 1.83]
+  * [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.00.pdf Manual para o Asstermo 2.00]
+  * [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.15.pdf Manual para o Asstermo 2.15]
 
 = Manuais em formato wiki =
 (ainda por transcrever...)
