@@ -1,6 +1,6 @@
 #summary Lista de manuais disponíveis
 #labels Manuais
-
+#sidebar BarraLateral
 = Manuais disponíveis em formato PDF =
 
   * [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO.pdf Manual para o Asstermo 1.83]
