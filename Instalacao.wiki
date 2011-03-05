@@ -1,0 +1,14 @@
+#summary Informações gerais sobre a Instalação
+#labels Instalacao
+
+NOTAS adicionais sobre instalação:
+
+   # Infelizmente, o software da TI é ... incompleto. Nomeadamente, apesar dos ficheiros estarem devidamente catalogados como arquivados, o seu estado após transferido varia de modelo para modelo.
+
+     Na maioria das situações, aparentemente, os ficheiros aparecem em modo lock em vez de arquive. Portanto, *antes* de transferir o Asstermo para a calculadora, é preciso *arquivar todos os ficheiros* que existem na calculadora, para que os 150 kB do Asstermo caibam na RAM.
+
+     Ao transferir o Asstermo, é preciso ter cuidado como se efectua a tranferência. No TI Device Explorer, eu costumo arrastar o ficheiro “asstermo.89g” a partir da janela do Windows Explorer para a janela do TI Device Explorer, mas só largo o ficheiro em cima do símbolo da calculadora (TI-89 no meu caso). Caso se largue em cima da pasta `main`, os ficheiros não vão parar à pasta intencionada asstermo. Finalmente, já na calculadora, seleccionar a pasta asstermo e fazer unlock, e voltar a seleccionar e fazer archive.
+
+   # Outra hipótese, é usar o [http://sourceforge.net/projects/tilp/ TiLP] para transferir os ficheiros para a calculadora. A versão TiLP2 é a mais recente. Convém permitir que o instalador do TiLP faça o download do GTK+, que assim é mais fácil que fique tudo instalado. A parte porreira, é que o TiLP existe em versões para Windows e Linux! No entanto, é preciso ter cuidado, porque os drivers de USB do TiLP são incompatíveis com os do TI Connect. No site tem lá o manual de utilização.
+
+   # Executar `asstermo\zcompile()` na calculadora, após fazer o upload para esta, antes de começar a utilizar o programa. Isto é para optimizar a sua utilização, se não fica muito lento em várias partes do programa.
