@@ -7,3 +7,5 @@
   * [Manuais Manuais]
   * [Calha Na calha...]
     * [Calha_TI83_84 Na calha para TI-83/84]
+    * [Calha_TInSpire Na calha para as TI-nSpire]
+    * [Calha_CASIO Na calha para as calculadoras CASIO]
