@@ -1,4 +1,5 @@
 #summary Notícias
+#sidebar BarraLateral
 
 = 2011-03-05 =
 Lançamento da página do Asstermo no Google Code. O objectivo é não deixar que o desenvolvimento do código fique completamente parado por eu não ter tempo para este.
