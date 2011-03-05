@@ -3,6 +3,15 @@
   <ModulePrefs title="Ajax Show Wiki Page" />
   <Content type="html">
   <![CDATA[
+    <h1>Notícias</h1>
+    <div title="Noticias" class="smartload"></div>
+
+    <h1>Versões Disponíveis</h1>
+    <div title="Downloads" class="smartload"></div>
+
+    <h1>Wiki</h1>
+    <div title="BarraLateral" class="smartload"></div>
+
     <script src="http://wiki.asstermo.googlecode.com/hg/gadgets/dwiki_scripts_20081003.js" type="text/javascript" />
     <script type="text/javascript">
 
