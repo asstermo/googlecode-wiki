@@ -1,0 +1,10 @@
+#summary Notícias
+
+= 2011-03-05 =
+Lançamento da página do Asstermo no Google Code. O objectivo é não deixar que o desenvolvimento do código fique completamente parado por eu não ter tempo para este.
+
+= 2009-06-14 =
+Lançamento da nova página reestruturada no [http://asstermo.no.sapo.pt asstermo.no.sapo.pt]. O ambiente criado foi inspirado no ambiente das calculadoras gráficas da Texas Instruments. Isto porque eu já estava farto do fundo cinzento e achei que dar-lhe cor seria bom... claro que só verde também se vai tornar enjoativo.
+
+= 2009-06-13 =
+Lançamento da versão 2.15 do Asstermo, versão TI-89/92/200. Agora com a tabela A-20.
