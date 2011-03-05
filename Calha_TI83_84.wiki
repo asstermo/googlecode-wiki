@@ -1,5 +1,6 @@
 #summary Apontamentos sobre o que falta fazer para a versão do Asstermo para TI-83/84
 #labels TI-83,TI-84
+#sidebar BarraLateral
 
 = Introdução =
 Existem planos de criar uma variante do Asstermo para as TI-83/84 (e Plus). No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92 e Voyage 200.
