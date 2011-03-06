@@ -279,6 +279,16 @@
       throw e;
     }
   };
+  function XH_XmlHttpGET(a, b, d) {
+    a.open("GET", b, true);
+    a.onreadystatechange = d;
+    try {
+      a.send(null)
+    } catch(e) {
+      log("XMLHttpSend failed " + e.toString() + "<br>" + e.stack);
+      throw e;
+    }
+  };
   if ("undefined" == typeof log) log = function () {};
   var DW_sidebarXmlHttp = undefined;
   function DW_toggleSidebar(a, b, c, d) {
@@ -410,8 +420,7 @@
   function DW_getWikiPage(a, b, c) {
     DW_getXmlHttp = XH_ieProgId_ ? new ActiveXObject(XH_ieProgId_) : new XMLHttpRequest;
     b = a + b + c;
-    a = "";
-    XH_XmlHttpPOST(DW_getXmlHttp, b, a, DW_getXmlHttpCallback)
+    XH_XmlHttpGET(DW_getXmlHttp, b, DW_getXmlHttpCallback)
   }
   function DW_getXmlHttpCallback() {
     if (DW_getXmlHttp.readyState == 4) if (DW_getXmlHttp.status == 200) {
