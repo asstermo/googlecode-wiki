@@ -5,6 +5,8 @@
 = Introdução =
 Existem planos de criar uma variante do Asstermo para as TI-83/84 (e Plus). No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92 e Voyage 200.
 
+Enquanto não for possível ter o Asstermo nestas calculadoras, usem estas tabelas: [http://www.steamtables-pocket-calculators.com Property Libraries for Pocket Calculators]
+
 = Limites Tecnológicos a ultrapassar =
 
   * Programa de compressão - solução possível: compilar o [http://www.oberhumer.com/opensource/lzo/ miniLZO] utilizando o [http://www.z88dk.org z88dk]. Para mais info ver [http://forum.ticalcs.net/showthread.php?tid=432&page=3 aqui].
@@ -14,4 +16,9 @@ Existem planos de criar uma variante do Asstermo para as TI-83/84 (e Plus). No e
 Muito provavelmente a única solução mais viável será criar um programa mais centrado em assembly do que basic.
 Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar nas TI-nSpire.
 
-Se souberem mais detalhes para alguns destes pontos, por favor comentem nesta página wiki que estão a ler!
+*Se souberem mais detalhes para alguns destes pontos, por favor comentem nesta página wiki que estão a ler!*
+
+= Apontamentos =
+  * Doors CS é uma referência importante no mundo das TI-83/84. No entanto:
+    * apesar de eles terem uma biblioteca para comunicação quase infinita (2 milhões!) entre calculadoras ao mesmo tempo, não aparentam ter ainda um sistema avançado de gestão de ficheiros.
+    * Funciona também na virtualização nas TI-nSpire, o que deverá tornar mais possível ter-se o Asstermo nas nSpire em simultaneo...
