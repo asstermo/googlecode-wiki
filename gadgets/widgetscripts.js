@@ -1,4 +1,4 @@
-
+  _parsedWikiText="";_wikiText="";
   function _DW_getWikiPage(a,b,c){
         var params = {};
         params[gadgets.io.RequestParameters.CONTENT_TYPE] = gadgets.io.ContentType.TEXT;
@@ -8,6 +8,7 @@
   }
   function DW_getXmlHttpCallback(DW_getXmlHttp) {
       _appendText("Object: "+DW_getXmlHttp);
+      _appendText("Text: "+DW_getXmlHttp.text);
       _wikiText=DW_getXmlHttp.text;
   }
   _appendText=function(text2append){
@@ -15,7 +16,6 @@
     d.innerHTML=text2append;
     document.body.appendChild(d);
   }
-  _parsedWikiText="";_wikiText="";
 
 if(!document.getElementsByClassName)
 {
