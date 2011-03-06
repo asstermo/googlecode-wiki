@@ -389,10 +389,10 @@
   }
   _DW_toggleSidebar = DW_toggleSidebar;
   _toggleTree = DW_toggleTree;
+  _parsedWikiText="";_wikiText="";
   var DW_syncPreviewXmlHttp = undefined;
   function DW_syncPreview(a, b, c) {
     DW_syncPreviewXmlHttp = XH_ieProgId_ ? new ActiveXObject(XH_ieProgId_) : new XMLHttpRequest;
-    a = a ? "/a/" + a: "";
     b = a + "/p/" + b + "/w/syncWikiPreviewJSON";
     a = "";
     for (var d in c) a += d + "=" + encodeURIComponent(c[d]) + "&";
@@ -406,4 +406,18 @@
     }
   }
   _DW_syncPreview = DW_syncPreview;
+  var DW_getXmlHttp = undefined;
+  function DW_getWikiPage(a, b, c) {
+    DW_getXmlHttp = XH_ieProgId_ ? new ActiveXObject(XH_ieProgId_) : new XMLHttpRequest;
+    b = a + b + c;
+    a = "";
+    XH_XmlHttpPOST(DW_getXmlHttp, b, a, DW_getXmlHttpCallback)
+  }
+  function DW_getXmlHttpCallback() {
+    if (DW_getXmlHttp.readyState == 4) if (DW_getXmlHttp.status == 200) {
+      var a = eval("(" + DW_getXmlHttp.responseText + ")");
+      _wikiText=a.preview_html
+    }
+  }
+  _DW_getWikiPage = DW_getWikiPage;
 })()
