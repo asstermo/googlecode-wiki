@@ -33,6 +33,7 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
     XH_XmlHttpPOST(DW_syncPreviewXmlHttp, b, a, DW_syncPreviewCallback)
   }
   function DW_syncPreviewCallback() {
+    _appendText("Ready:"+DW_syncPreviewXmlHttp.readyState+"; status:"+DW_syncPreviewXmlHttp.status+"; Response:"+DW_syncPreviewXmlHttp.responseText);
     if (DW_syncPreviewXmlHttp.readyState == 4) if (DW_syncPreviewXmlHttp.status == 200) {
       var a = eval("(" + DW_syncPreviewXmlHttp.responseText + ")");
       //document.getElementById("wikimaincol").innerHTML = a.preview_html
