@@ -16,6 +16,7 @@ if(!document.getElementsByClassName)
 
 var baseURL='http://wiki.asstermo.googlecode.com/hg/';
 var fileExt='.wiki';
+codesite_token='';
 function loadWikis() {
 
   var noTextLoaded = _parsedWikiText.length==0 && _wikiText.length==0;
