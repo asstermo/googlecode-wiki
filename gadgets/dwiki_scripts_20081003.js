@@ -41,7 +41,7 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
         //document.getElementById("wikimaincol").innerHTML = a.preview_html
         _parsedWikiText=a.preview_html
       }
-      else if(DW_syncPreviewXmlHttp.status == 0)
+      else if(DW_syncPreviewXmlHttp.status != 0)
       {
         _parsedWikiText='<error>';
       }
