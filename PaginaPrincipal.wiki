@@ -9,6 +9,8 @@ Este software foi concebido para auxiliar os estudantes com as disciplinas de Te
 
 [SobreAsstermo Mais sobre o Asstermo].
 
+*NOTE to english readers*: This software is currently *not* available in English.
+
 = Notícias =
 == 2011-03-05 ==
 Lançamento da página do Asstermo no Google Code. O objectivo é não deixar que o desenvolvimento do código fique completamente parado por eu não ter tempo para este.
