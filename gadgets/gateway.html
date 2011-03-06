@@ -4,7 +4,7 @@
 <body>
 <div title="Dumb" class="smartload" style="display:none;"></div>
 <script>
-document.getElementsByTagName("DIV")[0].setAttribute("title",document.location.hash);
+document.getElementsByTagName("DIV")[0].setAttribute("title",document.location.hash.substring(1));
 </script>
 <script src="http://wiki.asstermo.googlecode.com/hg/gadgets/dwiki_scripts_20081003.js" type="text/javascript" ></script>
 <script src="http://wiki.asstermo.googlecode.com/hg/gadgets/widgetscripts.js" type="text/javascript" ></script>
