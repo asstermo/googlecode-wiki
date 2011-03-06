@@ -13,7 +13,6 @@ if(!document.getElementsByClassName)
   };
 }
 
-(function () {
 var baseURL='http://wiki.asstermo.googlecode.com/hg/';
 var fileExt='.wiki';
 function loadWikis() {
@@ -62,4 +61,3 @@ function loadWikis() {
   setTimeout(loadWikis, 100);
 }
 setTimeout(loadWikis, 300);
-})()
