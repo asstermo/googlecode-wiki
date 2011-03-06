@@ -41,7 +41,8 @@ function loadWikis() {
       if(_wikiText.length>10)
       {
         smartloads[j].innerHTML=_wikiText;
-        _DW_syncPreview('http://code.google.com', 'asstermo', {'content': _wikiText, 'token': ''});
+        var ToTranslate={'content': smartloads[j].innerHTML, 'token': 'b3a66482366194235aaaa830c9568e00'};
+        _DW_syncPreview('http://code.google.com', 'asstermo', ToTranslate);
         _wikiText="";
         _appendText("sending request for wiki convertion...");
       }
