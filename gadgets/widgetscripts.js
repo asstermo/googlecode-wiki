@@ -1,21 +1,3 @@
-  _parsedWikiText="";_wikiText="";
-  function _DW_getWikiPage(a,b,c){
-        var params = {};
-        params[gadgets.io.RequestParameters.CONTENT_TYPE] = gadgets.io.ContentType.TEXT;
-        var url = a+b+c;
-        gadgets.io.makeRequest(url, DW_getXmlHttpCallback, params);
-
-  }
-  function DW_getXmlHttpCallback(DW_getXmlHttp) {
-      _appendText("Object: "+DW_getXmlHttp);
-      _appendText("Text: "+DW_getXmlHttp.text);
-      _wikiText=DW_getXmlHttp.text;
-  }
-  _appendText=function(text2append){
-    var d=document.createElement("div");
-    d.innerHTML=text2append;
-    document.body.appendChild(d);
-  }
 
 if(!document.getElementsByClassName)
 {
