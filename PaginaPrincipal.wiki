@@ -27,7 +27,7 @@ Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15
 
 
 = Wiki =
-== [Noticias Notícias] ==
+  * [Noticias Notícias]
   * [SobreAsstermo Sobre o Asstermo]
     * [Motivacao Motivação]
     * [CorreccoesTabelas Correcções às tabelas]
