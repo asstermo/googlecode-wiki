@@ -6,10 +6,30 @@
 O Asstermo (Assistente de Termodinâmica) foi concebido para as calculadoras gráficas *TI-89 (Titanium)*, *TI-92 (+)* e *Voyage 200*. O software em si é gratuito, mas a utilização (e consequente validação) das tabelas requer a posse do livro "Fundamentals of Engineering Thermodynamics, by Michael J. Moran and Howard N. Shapiro".
 
 = Notícias =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/newswidget.xml" width="100%" height="400" border="0"/>
+== 2011-03-05 ==
+Lançamento da página do Asstermo no Google Code. O objectivo é não deixar que o desenvolvimento do código fique completamente parado por eu não ter tempo para este.
+
 
 = Versões Disponíveis =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/versionswidget.xml" width="100%" height="400" border="0"/>
+== Asstermo 1.83 para TI-89/92 (Plus) e Voyager 200 ==
+Versão de 10-07-2006, considerada estável. No entanto, não funciona a 100% nas calculadoras com AMS 3.xx. Precisa do “autoalpha off”.
+
+Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.1.83.zip asstermo.1.83.zip]
+
+== Asstermo 2.15 para TI-89/92 (inclusive Titanium/Plus), Voyager 200 ==
+Versão de 13/14-05-2009, considerada instável, mas minimamente segura e com menos bugs que a 2.00. Requer AMS 2.08 ou 3.08.
+
+Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15.zip asstermo.2.15.zip]
+
 
 = Wiki =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/linkswidget.xml" width="100%" height="400" border="0"/>
+  * [Noticias Notícias]
+  * [SobreAsstermo Sobre o Asstermo]
+    * [Motivacao Motivação]
+    * [CorreccoesTabelas Correcções às tabelas]
+  * [http://code.google.com/p/asstermo/downloads/list Downloads]
+  * [Manuais Manuais]
+  * [Calha Na calha...]
+    * [Calha_TI83_84 Na calha para TI-83/84]
+    * [Calha_TInSpire Na calha para as TI-nSpire]
+    * [Calha_CASIO Na calha para as calculadoras CASIO]
