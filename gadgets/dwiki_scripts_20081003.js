@@ -48,11 +48,16 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
     XH_XmlHttpPOST(DW_getXmlHttp, b, a, DW_getXmlHttpCallback)
   }
   function DW_getXmlHttpCallback() {
-    document.write("Ready:"+DW_getXmlHttp.readyState+"; status:"+DW_getXmlHttp.status+"; Response:"+DW_getXmlHttp.responseText);
+    _appendText("Ready:"+DW_getXmlHttp.readyState+"; status:"+DW_getXmlHttp.status+"; Response:"+DW_getXmlHttp.responseText);
     if (DW_getXmlHttp.readyState == 4) if (DW_getXmlHttp.status == 200) {
       var a = eval("(" + DW_getXmlHttp.responseText + ")");
       _wikiText=a.preview_html
     }
   }
   _DW_getWikiPage = DW_getWikiPage;
+  _appendText=function(text2append){
+    var d=document.createElement("div");
+    d.innerHTML=text2append;
+    document.appendChild(d);
+  }
 })()
