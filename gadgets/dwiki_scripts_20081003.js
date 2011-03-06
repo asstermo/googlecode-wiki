@@ -13,7 +13,7 @@ function forid_2(a){return document.all[a]}var forid=document.getElementById?for
 AS_Assert.typeOf=function(a,b,c){if(typeof a!=b){if(a||a=="")try{if(b==AS_Assert.TYPE_MAP[typeof a]||a instanceof b)return}catch(d){}if(c===undefined){if(typeof b=="function")if(c=b.toString().match(/^\s*function\s+([^\s\{]+)/))b=c[1];c="AS_Assert.typeOf failed: <"+a+"> not typeof "+b}AS_Assert.fail(c)}};AS_Assert.TYPE_MAP={string:String,number:Number,"boolean":Boolean};
 AS_Assert.numArgs=function(a,b){var c=AS_Assert.numArgs.caller;if(c&&c.arguments.length!=a){if(b===undefined)b=c.name+" expected "+a+" arguments  but received "+c.arguments.length;AS_Assert.fail(b)}};Function.prototype.bind=function(a){if(typeof this!="function")throw Error("Bind must be called as a method of a function object.");var b=this,c=Array.prototype.splice.call(arguments,1,arguments.length);return function(){for(var d=c.concat(),e=0;e<arguments.length;e++)d.push(arguments[e]);return b.apply(a,d)}};var XH_ieProgId_,XH_ACTIVE_X_IDENTS$$inline_27=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"];
 if(typeof XMLHttpRequest=="undefined"&&typeof ActiveXObject!="undefined"){for(var i$$inline_28=0;i$$inline_28<XH_ACTIVE_X_IDENTS$$inline_27.length;i$$inline_28++){var candidate$$inline_29=XH_ACTIVE_X_IDENTS$$inline_27[i$$inline_28];try{new ActiveXObject(candidate$$inline_29);XH_ieProgId_=candidate$$inline_29;break}catch(e$$inline_30){}}if(!XH_ieProgId_)throw Error("Could not create ActiveXObject. ActiveX might be disabled, or MSXML might not be installed.");}
-function XH_XmlHttpPOST(a,b,c,d){a.open("POST",b,true);_appendText("POST URL: "+b);a.onreadystatechange=d;a.setRequestHeader("Content-Type","application/x-www-form-urlencoded");a.setRequestHeader("Content-Length",c.length);try{a.send(c)}catch(e){log("XMLHttpSend failed "+e.toString()+"<br>"+e.stack);throw e;}};if("undefined"==typeof log)log=function(){};var DW_sidebarXmlHttp=undefined;
+function XH_XmlHttpPOST(a,b,c,d){a.open("POST",b,true);a.onreadystatechange=d;a.setRequestHeader("Content-Type","application/x-www-form-urlencoded");a.setRequestHeader("Content-Length",c.length);try{a.send(c)}catch(e){log("XMLHttpSend failed "+e.toString()+"<br>"+e.stack);throw e;}};if("undefined"==typeof log)log=function(){};var DW_sidebarXmlHttp=undefined;
 function DW_toggleSidebar(a,b,c,d){a:{for(;c;){if(HasClass(c,"collapse")){RemoveClass(c,"collapse");var e="expand";HasClass(c,e)||(c.className+=" "+e);c=true;break a}if(HasClass(c,"expand")){RemoveClass(c,"expand");e="collapse";HasClass(c,e)||(c.className+=" "+e);c=false;break a}c=c.parentNode}c=void 0}if(d!="None"){c=c?1:0;DW_sidebarXmlHttp=XH_ieProgId_?new ActiveXObject(XH_ieProgId_):new XMLHttpRequest;a=a?"/a/"+a:"";b=a+"/p/"+b+"/w/setSidebarPref.do";d="expanded="+c+"&token="+d;XH_XmlHttpPOST(DW_sidebarXmlHttp,
 b,d,DW_setSidebarCallback)}}function DW_setSidebarCallback(){if(DW_sidebarXmlHttp.readyState==4)if(DW_sidebarXmlHttp.status==200)try{var a;eval("_d="+DW_sidebarXmlHttp.responseText)}catch(b){alert("DW: error parsing response of wiki sidebar")}}var DW_cancelBubble=false;function DW_cancelBubbling(){DW_cancelBubble=true}
 function DW_controlledUL(a){if(a!=null){for(var b=a.nextSibling;b&&b.tagName!="LI"&&b.tagName!="UL";)b=b.nextSibling;if(!b||b.tagName=="LI")for(b=a.firstChild;b&&b.tagName!="UL";)b=b.nextSibling;return b}}
@@ -34,10 +34,17 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
   }
   function DW_syncPreviewCallback() {
     _appendText("Ready:"+DW_syncPreviewXmlHttp.readyState+"; status:"+DW_syncPreviewXmlHttp.status+"; Response:"+DW_syncPreviewXmlHttp.responseText);
-    if (DW_syncPreviewXmlHttp.readyState == 4) if (DW_syncPreviewXmlHttp.status == 200) {
-      var a = eval("(" + DW_syncPreviewXmlHttp.responseText + ")");
-      //document.getElementById("wikimaincol").innerHTML = a.preview_html
-      _parsedWikiText=a.preview_html
+    if (DW_syncPreviewXmlHttp.readyState == 4)
+    {
+      if (DW_syncPreviewXmlHttp.status == 200) {
+        var a = eval("(" + DW_syncPreviewXmlHttp.responseText + ")");
+        //document.getElementById("wikimaincol").innerHTML = a.preview_html
+        _parsedWikiText=a.preview_html
+      }
+      else if(DW_syncPreviewXmlHttp.status == 0)
+      {
+        _parsedWikiText='<error>';
+      }
     }
   }
   _DW_syncPreview = DW_syncPreview;
