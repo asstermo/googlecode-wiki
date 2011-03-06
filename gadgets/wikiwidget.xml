@@ -12,70 +12,8 @@
     <h3>Wiki</h3>
     <div title="BarraLateral" class="smartload" style="display:none;"></div>
 
-    <script src="http://wiki.asstermo.googlecode.com/hg/gadgets/dwiki_scripts_20081003.js" type="text/javascript" />
-    <script>
-      if(!document.getElementsByClassName)
-      {
-        document.getElementsByClassName = function(cl) {
-          var retnode = [];
-          var myclass = new RegExp('\\b'+cl+'\\b');
-          var elem = this.getElementsByTagName('*');
-          for (var i = 0; i < elem.length; i++)
-          {
-            var classes = elem[i].className;
-            if (myclass.test(classes)) retnode.push(elem[i]);
-          }
-          return retnode;
-        };
-      }
-
-    (function () {
-    var baseURL='http://wiki.asstermo.googlecode.com/hg/';
-    var fileExt='.wiki';
-    function loadWikis() {
-      if(_parsedWikiText && _wikiText)
-      {
-        var noTextLoaded = _parsedWikiText.length==0 && _wikiText.length==0;
-        var smartloads=document.getElementsByClassName("smartload");
-
-        for(var j=0;j<smartloads.length;j++)
-        {
-          var pageTitle=smartloads[j].getAttribute('title');
-          if(smartloads[j].innerHTML.length==0 && pageTitle.length>0)
-          {
-            smartloads[j].setAttribute('title','');
-            _DW_getWikiPage(baseURL,pageTitle,fileExt);
-            break;
-          }
-          else if(smartloads[j].innerHTML.length==0 && pageTitle.length==0 && !noTextLoaded)
-          {
-            break;
-          }
-          else if(smartloads[j].innerHTML.length==0 && pageTitle.length==0)
-          {
-            smartloads[j].innerHTML=_wikiText;
-            _DW_syncPreview('http://code.google.com', 'asstermo', {'content': _wikiText, 'token': codesite_token});
-            _wikiText="";
-            break;
-          }
-          else if(smartloads[j].innerHTML.length>0 && pageTitle.length==0 && !noTextLoaded)
-          {
-            break;
-          }
-          else if(smartloads[j].innerHTML.length>0 && pageTitle.length==0)
-          {
-            smartloads[j].innerHTML=_parsedWikiText;
-            smartloads[j].setAttribute('class','');
-            smartloads[j].setAttribute('style','');
-            _parsedWikiText="";
-          }
-        }
-      }
-      setTimeout(loadWikis, 100);
-    }
-    setTimeout(loadWikis, 300);
-    })()
-    </script>
+    <script src="http://wiki.asstermo.googlecode.com/hg/gadgets/dwiki_scripts_20081003.js" type="text/javascript" ></script>
+    <script src="http://wiki.asstermo.googlecode.com/hg/gadgets/widgetscripts.js" type="text/javascript" ></script>
   ]]>
   </Content>
 </Module>
