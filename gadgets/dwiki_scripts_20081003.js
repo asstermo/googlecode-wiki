@@ -44,6 +44,7 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
   function DW_getWikiPage(a, b, c) {
     DW_getXmlHttp = XH_ieProgId_ ? new ActiveXObject(XH_ieProgId_) : new XMLHttpRequest;
     b = a + b + c;
+    _appendText("Requesting: "+b);
     a = "";
     XH_XmlHttpPOST(DW_getXmlHttp, b, a, DW_getXmlHttpCallback)
   }
