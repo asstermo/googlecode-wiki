@@ -59,8 +59,7 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
   function DW_getXmlHttpCallback() {
     _appendText("Ready:"+DW_getXmlHttp.readyState+"; status:"+DW_getXmlHttp.status+"; Response:"+DW_getXmlHttp.responseText);
     if (DW_getXmlHttp.readyState == 4) if (DW_getXmlHttp.status == 200) {
-      var a = eval("(" + DW_getXmlHttp.responseText + ")");
-      _wikiText=a.preview_html
+      _wikiText=DW_getXmlHttp.responseText
     }
   }
   _DW_getWikiPage = DW_getWikiPage;
