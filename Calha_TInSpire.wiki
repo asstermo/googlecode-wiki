@@ -9,3 +9,5 @@ Neste momento não existem planos para criar uma variante do Asstermo para as TI
 Ironicamente, esta calculadora é tão _potente_ com o seu [http://en.wikipedia.org/wiki/ARM_architecture ARM] como CPU, que seria possível correr Linux nesta, tornando assim o primeiro PDA a preto e branco que a TI lançava.
 
 Dum ponto de vista menos _legal_ e como demonstração do poder monstruoso destas calculadoras: já existe um [http://omnimaga.org/index.php?topic=1301.0 emulador de GameBoy para as TI-nSpire].
+
+De qualquer forma, a TI-nSpire tem um emulador de TI-84 integrado, por isso quando se conseguir ter uma variante para as TI-83/84, então deve ser possível automaticamente ter nas TI-nSpire. Portanto, acompanhem também o que vai [Calha_TI83_84 na calha para as TI-83/84].
