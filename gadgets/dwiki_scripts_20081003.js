@@ -58,6 +58,6 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
   _appendText=function(text2append){
     var d=document.createElement("div");
     d.innerHTML=text2append;
-    document.appendChild(d);
+    document.body.appendChild(d);
   }
 })()
