@@ -9,12 +9,18 @@ Este software foi concebido para auxiliar os estudantes com as disciplinas de Te
 
 [SobreAsstermo Mais sobre o Asstermo].
 
+<br/>
 *NOTE to english readers*: This software is currently *not* available in English.
+
+----
+<br/>
 
 = Notícias =
 == 2011-03-05 ==
 Lançamento da página do Asstermo no Google Code. O objectivo é não deixar que o desenvolvimento do código fique completamente parado por eu não ter tempo para este.
 
+----
+<br/>
 
 = Versões Disponíveis =
 == Asstermo 1.83 para TI-89/92 (Plus) e Voyager 200 ==
@@ -31,6 +37,8 @@ Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15
 
 Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.15.pdf asstermo.2.15.pdf]
 
+----
+<br/>
 
 = Wiki =
   * [Noticias Notícias]
