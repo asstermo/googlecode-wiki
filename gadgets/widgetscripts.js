@@ -60,6 +60,6 @@ function loadWikis() {
       _parsedWikiText="";
     }
   }
-  setTimeout(loadWikis, 100);
+  setTimeout(loadWikis, 1000);
 }
 setTimeout(loadWikis, 300);
