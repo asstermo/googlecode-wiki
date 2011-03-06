@@ -52,6 +52,7 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
     a.open("POST", b, true);
     a.onreadystatechange = d;
     a.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    a.setRequestHeader("Origin", "http://code.google.com");
     a.setRequestHeader("Content-Length", c.length);
     try {
       a.send(c)
