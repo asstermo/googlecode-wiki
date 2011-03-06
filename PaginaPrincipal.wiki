@@ -20,10 +20,14 @@ Versão de 10-07-2006, considerada estável. No entanto, não funciona a 100% na
 
 Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.1.83.zip asstermo.1.83.zip]
 
+Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO.pdf asstermo.1.83.pdf]
+
 == Asstermo 2.15 para TI-89/92 (inclusive Titanium/Plus), Voyager 200 ==
 Versão de 13/14-05-2009, considerada instável, mas minimamente segura e com menos bugs que a 2.00. Requer AMS 2.08 ou 3.08.
 
 Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15.zip asstermo.2.15.zip]
+
+Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.15.pdf asstermo.2.15.pdf]
 
 
 = Wiki =
