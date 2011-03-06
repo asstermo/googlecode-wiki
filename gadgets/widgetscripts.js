@@ -31,7 +31,7 @@ function loadWikis() {
       _appendText("sending request for wiki page...");
       break;
     }
-    else if(smartloads[j].innerHTML.length==0 && pageTitle.length==0 && !noTextLoaded)
+    else if(smartloads[j].innerHTML.length==0 && pageTitle.length==0 && noTextLoaded)
     {
       _appendText("waiting for request for wiki page...");
       break;
@@ -47,7 +47,7 @@ function loadWikis() {
       }
       break;
     }
-    else if(smartloads[j].innerHTML.length>0 && pageTitle.length==0 && !noTextLoaded)
+    else if(smartloads[j].innerHTML.length>0 && pageTitle.length==0 && noTextLoaded)
     {
       _appendText("waiting for request for wiki convertion...");
       break;
