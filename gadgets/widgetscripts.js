@@ -29,10 +29,12 @@ function loadWikis() {
       {
         smartloads[j].setAttribute('title','');
         _DW_getWikiPage(baseURL,pageTitle,fileExt);
+        document.write("sending request for wiki page...");
         break;
       }
       else if(smartloads[j].innerHTML.length==0 && pageTitle.length==0 && !noTextLoaded)
       {
+        document.write("waiting for request for wiki page...");
         break;
       }
       else if(smartloads[j].innerHTML.length==0 && pageTitle.length==0)
@@ -40,10 +42,12 @@ function loadWikis() {
         smartloads[j].innerHTML=_wikiText;
         _DW_syncPreview('http://code.google.com', 'asstermo', {'content': _wikiText, 'token': codesite_token});
         _wikiText="";
+        document.write("sending request for wiki convertion...");
         break;
       }
       else if(smartloads[j].innerHTML.length>0 && pageTitle.length==0 && !noTextLoaded)
       {
+        document.write("waiting for request for wiki convertion...");
         break;
       }
       else if(smartloads[j].innerHTML.length>0 && pageTitle.length==0)

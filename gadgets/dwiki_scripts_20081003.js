@@ -45,9 +45,11 @@ if(DW_currentlyViewedLink){DW_currentlyViewedLink.className="currentpagelink";fo
     DW_getXmlHttp = XH_ieProgId_ ? new ActiveXObject(XH_ieProgId_) : new XMLHttpRequest;
     b = a + b + c;
     a = "";
+    document.write("posting request for wiki page...");
     XH_XmlHttpPOST(DW_getXmlHttp, b, a, DW_getXmlHttpCallback)
   }
   function DW_getXmlHttpCallback() {
+    document.write("Ready:"+DW_getXmlHttp.readyState+"; status:"+DW_getXmlHttp.status+"; Response:"+DW_getXmlHttp.responseText);
     if (DW_getXmlHttp.readyState == 4) if (DW_getXmlHttp.status == 200) {
       var a = eval("(" + DW_getXmlHttp.responseText + ")");
       _wikiText=a.preview_html
