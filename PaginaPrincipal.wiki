@@ -15,13 +15,6 @@ Este software foi concebido para auxiliar os estudantes com as disciplinas de Te
 ----
 <br/>
 
-= Notícias =
-== 2011-03-05 ==
-Lançamento da página do Asstermo no Google Code. O objectivo é não deixar que o desenvolvimento do código fique completamente parado por eu não ter tempo para este.
-
-----
-<br/>
-
 = Versões Disponíveis =
 == Asstermo 1.83 para TI-89/92 (Plus) e Voyager 200 ==
 Versão de 10-07-2006, considerada estável. No entanto, não funciona a 100% nas calculadoras com AMS 3.xx. Precisa do “autoalpha off”.
