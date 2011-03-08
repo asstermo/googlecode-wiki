@@ -1,6 +1,12 @@
 #summary Notícias
 #sidebar BarraLateral
 
+= 2011-03-08 =
+Recolha de informações para possíveis variantes do Asstermo foi completada. Conclusões disponíveis aqui:
+  * [Calha_TI83_84 Na calha para TI-83/84]
+  * [Calha_TInSpire Na calha para as TI-nSpire]
+  * [Calha_CASIO Na calha para as calculadoras CASIO]
+
 = 2011-03-05 =
 Lançamento da página do Asstermo no Google Code. O objectivo é não deixar que o desenvolvimento do código fique completamente parado por eu não ter tempo para este.
 
