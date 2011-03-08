@@ -34,9 +34,13 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
     * 5kB em 21 funções;
     * 15kB em 4 aplicações em assembly/C.
   Face a estas características da versão original, é questionável se será exequível nas TI-83/84 ter tanto programa "perdido" na calculadora. Isto implica que muito provavelmente todo o programa tem se ser feito numa só "flash app".
-  * Isto pode ajudar na parte de arrumar os N programas em basic numa só "flash app": [http://www.ticalc.org/archives/files/fileinfo/321/32127.html BasicBuilder 3.0]
+  * Isto pode ajudar na parte de arrumar os N programas em basic numa só "flash app", fora o facto que tem compressão de dados também, o que pode dar muito jeito:
+    * [http://www.ticalc.org/archives/files/fileinfo/321/32127.html BasicBuilder 3.0]
+    * [http://www.ticalc.org/archives/files/fileinfo/389/38998.html Tutorial para o BasicBuilder]
+    * [http://sourceforge.net/projects/basicbuilder/ Código fonte]
 
 
 = Conclusões =
   # Só as TI-83 +SE, TI-84 Plus e TI-84 +SE é que estão dentro dos parâmetros operacionais.
   # Face às necessidades operacionais de uma variante do Asstermo, só será possível se se fizer uma aplicação completa em TI-Flash. Isto implica aprender Z80 Assembly específico para estas calculadoras: [http://education.ti.com/downloads/guidebooks/sdk/83p/sdk83pguide.pdf Manual do SDK para TI-83]
+  # O BasicBuilder pode ajudar a reduzir as lacunas criadas ao se usar somente Assembly. Deverá permitir que mais facilmente se consiga criar uma aplicação flash super poderosa, em que parte do código seja escrito em Basic e o que faltar seja em Assembly. Algumas arestas potencialmente também poderão ser colmatadas ao usar o z88dk.
