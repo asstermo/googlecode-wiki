@@ -6,13 +6,17 @@
 Neste momento não existem planos para criar uma variante do Asstermo para as calculadoras CASIO.
 
 De acordo com uma investigação que fiz há uns anos atrás, as únicas calculadoras CASIO que poderiam conseguir suportar o Asstermo a nível de memória seriam:
-  * FX-9860G
-  * FX-1.0/2.0
-  * Classpad
+  * 9860G e companhia:
+    * SDKs: [http://sourceforge.net/apps/trac/fxsdk fxSDK] e [http://edu.casio.com/products/sdk/9860sdk.html SDK oficial]
+    * grande vantagem: programação em C em vez de Assembly!
+  * FX-1.0/2.0:
+    * Tecnologia relativamente antiga, MAS muito poderosa: [http://casioworld.pagesperso-orange.fr/programmer/index.html lista de software para programar] estas calculadoras
+  * Classpad:
+    * SDK: [http://edu.casio.com/products/sdk/cpsdk.html SDK oficial]
 
-Mas o número de utilizadores de calculadoras CASIO versus o número de utilizadores potenciais do Asstermo é muito pequeno. Neste caso, é a desvantagem de ser-se original :(
+Mas o número de utilizadores de calculadoras CASIO versus o número de utilizadores potenciais do Asstermo é neste momento muito pequeno. Neste caso, é a desvantagem de ser-se _original_... E por _ironia_ do destino, parece que é mais fácil programar para estas calculadoras, visto que a programação pode ser feita directamente em C em vez de Assembly, como acontece com as TI-83/84.
 
-As limitações tecnológicas são também semelhantes ao que se sucede com as [Calha_TI83_84 TI-83/84].
+As limitações tecnológicas são no entanto também semelhantes ao que se sucede com as [Calha_TI83_84 TI-83/84].
 
 
-No entanto, existem pelo menos tabelas de vapor para as CASIO: [http://www.steamtables-pocket-calculators.com Property Libraries for Pocket Calculators]
+Entretanto, existem pelo menos tabelas de vapor para as CASIO: [http://www.steamtables-pocket-calculators.com Property Libraries for Pocket Calculators]
