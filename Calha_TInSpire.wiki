@@ -4,10 +4,12 @@
 
 = Introdução =
 
-Neste momento não existem planos para criar uma variante do Asstermo para as TI-nSpire. Estas calculadoras são na realidade as mais potentes que a TI alguma vez criou até agora, mas ele cometeram um erro crasso do ponto de vista do utilizador: é legalmente impossível de utilizar a calculadora para além das limitações que eles impuseram sobre esta.
+Neste momento não existem planos para criar uma variante do Asstermo para as TI-nSpire. Estas calculadoras são na realidade as mais potentes que a TI alguma vez criou até agora, mas eles cometeram um erro crasso do ponto de vista do utilizador autodidacta: é legalmente impossível de utilizar a calculadora para além das limitações que eles impuseram sobre esta. E não existe SDK para estas: [http://education.ti.com/educationportal/sites/US/productCategory/us_sdk.html página de SDKs da TI]
 
 Ironicamente, esta calculadora é tão _potente_ com o seu [http://en.wikipedia.org/wiki/ARM_architecture ARM] como CPU, que seria possível correr Linux nesta, tornando assim o primeiro PDA a preto e branco que a TI lançava.
 
-Dum ponto de vista menos _legal_ e como demonstração do poder monstruoso destas calculadoras: já existe um [http://omnimaga.org/index.php?topic=1301.0 emulador de GameBoy para as TI-nSpire].
+Dum ponto de vista menos _legal_ e como demonstração do poder monstruoso destas calculadoras: já existe um [http://omnimaga.org/index.php?topic=1301.0 emulador de GameBoy para as TI-nSpire]. Também havia um emulador de TI-89 a ser criado, mas 
 
-De qualquer forma, a TI-nSpire tem um emulador de TI-84 integrado, por isso quando se conseguir ter uma variante para as TI-83/84, então deve ser possível automaticamente ter nas TI-nSpire. Portanto, acompanhem também o que vai [Calha_TI83_84 na calha para as TI-83/84].
+= Possibilidades =
+  * A TI-nSpire (mas não a TI-nSpire CAS) tem um emulador de TI-84 integrado, por isso quando se conseguir ter uma variante para as TI-83/84, então deve ser possível automaticamente ter nas TI-nSpire. Portanto, acompanhem também o que vai [Calha_TI83_84 na calha para as TI-83/84].
+  * Usar o sistema de "documentos e folhas de cálculo" que as nSpire utilizam. Basicamente seria como ter uma ou mais folhas de Excel na calculadora, mas face ao número elevado de tabelas que são precisas, não sei se as nSpire se irão _aguentar nas canetas_...
