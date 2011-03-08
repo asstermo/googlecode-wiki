@@ -3,15 +3,19 @@
 #sidebar BarraLateral
 
 = Introdução =
-Existem planos de criar uma variante do Asstermo para as TI-83/84 (e Plus). No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92 e Voyage 200.
+Existem planos de criar uma variante do Asstermo para as TI-83/84 Plus/SE. No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92 e Voyage 200.
 
 Enquanto não for possível ter o Asstermo nestas calculadoras, usem estas tabelas: [http://www.steamtables-pocket-calculators.com Property Libraries for Pocket Calculators]
 
 = Limites Tecnológicos a ultrapassar =
 
-  * Programa de compressão - solução possível: compilar o [http://www.oberhumer.com/opensource/lzo/ miniLZO] utilizando o [http://www.z88dk.org z88dk]. Para mais info ver [http://forum.ticalcs.net/showthread.php?tid=432&page=3 aqui].
-  * Programa para apresentar caixas de diálogo de jeito, porque as letras "naturais" da calculadora são monstruosas - solução possível: criar uma função/subrotina genérica com base no [http://www.ticalc.org/archives/files/fileinfo/318/31801.html cheetah].
+  * Programa de compressão
+    * Solução possível: compilar o [http://www.oberhumer.com/opensource/lzo/ miniLZO] utilizando o [http://www.z88dk.org z88dk]. Para mais info ver [http://forum.ticalcs.net/showthread.php?tid=432&page=3 aqui].
+    * Acho que vai se ter *esquecer compressão* por completo nas TI-83/84.
+  * Programa para apresentar caixas de diálogo de jeito, porque as letras "naturais" da calculadora são monstruosas
+    * Solução possível: criar uma função/subrotina genérica com base no [http://www.ticalc.org/archives/files/fileinfo/318/31801.html cheetah].
   * Descobrir como armazenar tabelas tão grandes como as do Asstermo, quando o que as TI 83/84 têm são apenas listas muita estranhas.
+    * Pelos vistos a única solução é guardar os dados num ficheiro flash (.8xk). Só assim é que podemos armazenar os dados todos que quisermos. Isto significa que a dita aplicação flash tem de ser um sistema interno de organização de dados.
 
 Muito provavelmente a única solução mais viável será criar um programa mais centrado em assembly do que basic.
 Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar nas TI-nSpire.
@@ -19,6 +23,19 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
 *Se souberem mais detalhes para alguns destes pontos, por favor comentem nesta página wiki que estão a ler!*
 
 = Apontamentos =
+  * As TI-83 originais estão excluídas logo à partida. Só têm 27kB de RAM. Só dá para fazer interpolações.
   * Doors CS é uma referência importante no mundo das TI-83/84. No entanto:
     * apesar de eles terem uma biblioteca para comunicação quase infinita (2 milhões!) entre calculadoras ao mesmo tempo, não aparentam ter ainda um sistema avançado de gestão de ficheiros.
-    * Funciona também na virtualização nas TI-nSpire, o que deverá tornar mais possível ter-se o Asstermo nas nSpire em simultaneo...
+    * Funciona também na virtualização nas TI-nSpire, o que deverá tornar mais possível ter-se o Asstermo nas nSpire em simultâneo...
+  * Armazenar cerca de 180kB em tabelas (a maior são 25.5kB!) só será possível dentro de uma aplicação flash. Se se excluir "combustão", passam a ser cerca de 150Kb. Face a este limite, as calculadoras TI-83 Plus estão no limiar de memória (máximo de 160kB na Flash ROM), o que iria requerer compressão de dados, der por onde der. Só as TI-83 +SE, TI-84 Plus e TI-84 +SE é que estão dentro dos parâmetros operacionais.
+  * Em teoria, para se poder escapar a se ter de escrever todo o código em assembly, pode-se ter uma aplicação em TI-flash com as tabelas todas e com um sistema de procura integrado (o Asstermo para TI-89/92/200 tem a procura feita em C, mas as tabelas podem ser acessíveis directamente). No entanto, quando se compara com o facto que no Asstermo original, em 350kB:
+    * 182kB em 22 tabelas e 2 listas;
+    * 148kB em 70 programas;
+    * 5kB em 21 funções;
+    * 15kB em 4 aplicações em assembly/C.
+  Face a estas características da versão original, é questionável se será exequível nas TI-83/84 ter tanto programa "perdido" na calculadora. Isto implica que muito provavelmente todo o programa tem se ser feito numa só "flash app".
+
+
+= Conclusões =
+  # Só as TI-83 +SE, TI-84 Plus e TI-84 +SE é que estão dentro dos parâmetros operacionais.
+  # Face às necessidades operacionais de uma variante do Asstermo, só será possível se se fizer uma aplicação completa em TI-Flash. Isto implica aprender Z80 Assembly específico para estas calculadoras: [http://education.ti.com/downloads/guidebooks/sdk/83p/sdk83pguide.pdf Manual do SDK para TI-83]
