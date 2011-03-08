@@ -10,7 +10,7 @@ De acordo com uma investigação que fiz há uns anos atrás, as únicas calcula
     * SDKs: [http://sourceforge.net/apps/trac/fxsdk fxSDK] e [http://edu.casio.com/products/sdk/9860sdk.html SDK oficial]
     * grande vantagem: programação em C em vez de Assembly!
   * FX-1.0/2.0:
-    * Tecnologia relativamente antiga, MAS muito poderosa: [http://casioworld.pagesperso-orange.fr/programmer/index.html lista de software para programar] estas calculadoras
+    * Tecnologia relativamente antiga, *mas* muito poderosa: [http://casioworld.pagesperso-orange.fr/programmer/index.html lista de software para programar] estas calculadoras
   * Classpad:
     * SDK: [http://edu.casio.com/products/sdk/cpsdk.html SDK oficial]
 
