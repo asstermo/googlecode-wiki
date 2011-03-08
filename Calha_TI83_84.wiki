@@ -34,6 +34,7 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
     * 5kB em 21 funções;
     * 15kB em 4 aplicações em assembly/C.
   Face a estas características da versão original, é questionável se será exequível nas TI-83/84 ter tanto programa "perdido" na calculadora. Isto implica que muito provavelmente todo o programa tem se ser feito numa só "flash app".
+  * Isto pode ajudar na parte de arrumar os N programas em basic numa só "flash app": [http://www.ticalc.org/archives/files/fileinfo/321/32127.html BasicBuilder 3.0]
 
 
 = Conclusões =
