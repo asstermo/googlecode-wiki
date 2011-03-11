@@ -1,8 +1,12 @@
 <html>
 <head>
+<script src="http://code.google.com/p/wikiwym/source/browse/trunk/lib/GoogleCodeWikiParser.js" type="text/javascript"></script>
 </head>
 <body>
 <p>This is just a test.</p>
-<iframe src="../SobreAsstermo.wiki"></iframe>
+<iframe id="zeframe" src="../SobreAsstermo.wiki"></iframe>
+<script>var g = new GoogleWikiCodeParser();
+var html = g.parse( document.zeframe.document.body.innerHTML );
+document.write(html);</script>
 </body>
 </html>
