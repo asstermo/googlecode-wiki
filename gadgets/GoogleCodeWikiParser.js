@@ -790,6 +790,7 @@ GoogleCodeWikiParser.prototype.createLink = function(where,label) {
   //label = label || where;
   var img, ma;
   var rximg = /(gif|jpe?g|bmp|png|tiff?)$/i;
+  var inTarget = this.options.openURLSInNewWindow ? ' target="_blank"' : '';
 
   if( rximg.test(label) ) {
     img = label;
@@ -805,9 +806,7 @@ GoogleCodeWikiParser.prototype.createLink = function(where,label) {
   }
   label = label || where;
   if(where.indexOf('/')<0 && this.options.wikiBaseURL.length>0) where = this.options.wikiBaseURL + where;
-  return '<a href="'+where+'"'+
-                           this.options.openURLSInNewWindow ? ' target="_blank"' : ''
-                           +'>'+label.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</a>';
+  return '<a href="'+where+'"'+inTarget+'>'+label.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</a>';
 };
 
 /**
