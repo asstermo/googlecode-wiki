@@ -9,13 +9,13 @@
 _appendText=function(text2append){
   var d=document.createElement("div");
   d.innerHTML=text2append;
-  document.appendChild(d);
+  document.body.appendChild(d);
 }
 
 _postwiki=function(data)
 {
-var g = new GoogleWikiCodeParser();
-var html = g.parse( _postwiki );
+var g = new GoogleCodeWikiParser();
+var html = g.parse( data );
 _appendText(_postwiki);
 }
 
