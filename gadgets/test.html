@@ -14,6 +14,27 @@ _appendText=function(text2append){
 
 _postwiki=function(data)
 {
+_appendText(data);
+}
+
+var url="http://code.google.com/p/asstermo/wiki/SobreAsstermo?show=content";
+_appendText(url);
+
+$.ajax({
+  url: url,
+  success: _postwiki
+});
+</script>
+
+<!--<script>
+_appendText=function(text2append){
+  var d=document.createElement("div");
+  d.innerHTML=text2append;
+  document.body.appendChild(d);
+}
+
+_postwiki=function(data)
+{
 var g = new GoogleCodeWikiParser();
 var html = g.parse( data );
 _appendText(html);
@@ -26,6 +47,6 @@ $.ajax({
   url: url,
   success: _postwiki
 });
-</script>
+</script>-->
 </body>
 </html>
