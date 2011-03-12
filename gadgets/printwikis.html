@@ -65,6 +65,10 @@ _postwiki=function(data){
   _nextHash();
 };
 
+_failed=function(){
+  alert('Não foi possível compilar as páginas para impressão.');
+}
+
 _nextHash=function(){
   var hashes=document.location.hash.substr(1);
   if(hashes.length>0) {
@@ -74,7 +78,8 @@ _nextHash=function(){
 
     $.ajax({
       url: url,
-      success: _postwiki
+      success: _postwiki,
+      error: _failed
     });
   }   else   {
     var p=document.getElementsByClassName("processing_data_please_hold");
