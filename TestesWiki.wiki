@@ -1,0 +1,5 @@
+#summary Aqui faço testes ao wiki do google code.
+
+= Gadget =
+
+<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/test.xml" height="900" width="100%" border="1" /> 
