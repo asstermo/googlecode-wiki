@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
   <ModulePrefs title="Mostrar Notícias" />
-  <Content type="url" href="http://wiki.asstermo.googlecode.com/hg/gadgets/gateway.html#Noticias" />
+  <Content type="url" href="http://wiki.asstermo.googlecode.com/hg/gadgets/wikigateway.html#Noticias" />
 </Module>
