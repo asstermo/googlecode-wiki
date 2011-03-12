@@ -41,9 +41,9 @@ _nextHash();
 _nextHash=function()
 {
 var hashes=document.location.hash.substr(1);
-hashes=hashes.split('&');
 if(hashes.length>0)
 {
+  hashes=hashes.split('&');
   var url="http://"+document.location.hostname+"/hg/"+hashes.shift()+".wiki";
   document.location.hash='#'+hashes.join('&');
 
