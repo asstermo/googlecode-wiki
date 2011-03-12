@@ -1,6 +1,5 @@
 #summary Notícias
 #sidebar BarraLateral
-
 = 2011-03-08 =
 Recolha de informações para possíveis variantes do Asstermo foi completada. Conclusões disponíveis aqui:
   * [Calha_TI83_84 Na calha para TI-83/84]
