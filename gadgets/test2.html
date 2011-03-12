@@ -7,14 +7,33 @@
 </head>
 <body>
 <p class="processing_data_please_hold">A recolher dados, por favor aguarde...</p>
+<h1>Índice</h1>
+<ul class="IndexList">
+</ul>
+<br><br><hr><br>
 <script>
+if(!document.getElementsByClassName)
+{
+  document.getElementsByClassName = function(cl) {
+    var retnode = [];
+    var myclass = new RegExp('\\b'+cl+'\\b');
+    var elem = this.getElementsByTagName('*');
+    for (var i = 0; i < elem.length; i++)
+    {
+      var classes = elem[i].className;
+      if (myclass.test(classes)) retnode.push(elem[i]);
+    }
+    return retnode;
+  };
+}
+
 _appendText=function(text2append){
   var d=document.createElement("div");
   d.innerHTML=text2append;
   document.body.appendChild(d);
 }
 
-_getNappendAnchor=function(data){
+_getNappendAnchorNIndex=function(data){
   var title = '';
   var values=/^\s*#summary\s+(.*)/i.exec(data);
 
@@ -22,6 +41,15 @@ _getNappendAnchor=function(data){
   {
     title=values[1];
     _appendText('<h1><a name="'+title+'"></a>'+title+'</h1>');
+
+    var ul=document.getElementsByClassName("IndexList");
+    if(ul.length>0)
+    {
+      ul=ul[0];
+      var li=document.createElement("li");
+      li.innerHTML='<a href="#'+title+'">'+title+'</a>';
+      ul.appendChild(li);
+    }
   }
 }
 
@@ -32,26 +60,36 @@ g.options.disableWarnings=true;
 g.options.wikiBaseURL="http://code.google.com/p/asstermo/wiki/";
 g.options.openURLSInNewWindow=true;
 var html = g.parse( data );
-_getNappendAnchor(data);
-_appendText(html);
+_getNappendAnchorNIndex(data);
+_appendText(html+<br><br><hr><br>);
 
 _nextHash();
 }
 
 _nextHash=function()
 {
-var hashes=document.location.hash.substr(1);
-if(hashes.length>0)
-{
-  hashes=hashes.split('&');
-  var url="http://"+document.location.hostname+"/hg/"+hashes.shift()+".wiki";
-  document.location.hash='#'+hashes.join('&');
+  var hashes=document.location.hash.substr(1);
+  if(hashes.length>0)
+  {
+    hashes=hashes.split('&');
+    var url="http://"+document.location.hostname+"/hg/"+hashes.shift()+".wiki";
+    document.location.hash='#'+hashes.join('&');
 
-  $.ajax({
-    url: url,
-    success: _postwiki
-  });
-}
+    $.ajax({
+      url: url,
+      success: _postwiki
+    });
+  }
+  else
+  {
+    var p=document.getElementsByClassName("processing_data_please_hold");
+    if(p.length>0)
+    {
+      p=p[0];
+
+      document.removeChild(p);
+    }
+  }
 }
 
 _nextHash();
