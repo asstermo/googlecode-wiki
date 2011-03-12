@@ -16,7 +16,10 @@ Este software foi concebido para auxiliar os estudantes com as disciplinas de Te
 <br/>
 
 = Notícias =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/newswidget.xml" height="300" width="100%" border="0" /> 
+<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/newswidget.xml" height="300" width="100%" border="1" /> 
+
+----
+<br/>
 
 = Versões Disponíveis =
 == Asstermo 1.83 para TI-89/92 (Plus) e Voyager 200 ==
@@ -37,13 +40,4 @@ Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manu
 <br/>
 
 = Wiki =
-  * [Noticias Notícias]
-  * [SobreAsstermo Sobre o Asstermo]
-    * [Motivacao Motivação]
-    * [CorreccoesTabelas Correcções às tabelas]
-  * [http://code.google.com/p/asstermo/downloads/list Downloads]
-  * [Manuais Manuais]
-  * [Calha Na calha...]
-    * [Calha_TI83_84 Na calha para TI-83/84]
-    * [Calha_TInSpire Na calha para as TI-nSpire]
-    * [Calha_CASIO Na calha para as calculadoras CASIO]
+<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/linkswidget.xml" height="200" width="100%" border="0" /> 
