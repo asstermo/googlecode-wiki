@@ -1,12 +1,31 @@
 <html>
 <head>
-<script src="http://code.google.com/p/wikiwym/source/browse/trunk/lib/GoogleCodeWikiParser.js" type="text/javascript"></script>
+<script src="GoogleCodeWikiParser.js" type="text/javascript"></script>
+<script src="jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
 <p>This is just a test.</p>
-<iframe id="zeframe" src="../SobreAsstermo.wiki"></iframe>
-<script>var g = new GoogleWikiCodeParser();
-var html = g.parse( document.zeframe.document.body.innerHTML );
-document.write(html);</script>
+<script>
+_appendText=function(text2append){
+  var d=document.createElement("div");
+  d.innerHTML=text2append;
+  document.appendChild(d);
+}
+
+//var g = new GoogleWikiCodeParser();
+//jQuery.ajax("http://"+document.location.hostname+"/hg/SobreAsstermo.wiki")
+//var html = g.parse( htmltext );
+//document.write(html);
+var url="http://"+document.location.hostname+"/hg/SobreAsstermo.wiki";
+
+
+$.ajax({
+  url: url,
+  success: function(data) {
+    $('.result').html(data);
+    alert('Load was performed.');
+  }
+});
+</script>
 </body>
 </html>
