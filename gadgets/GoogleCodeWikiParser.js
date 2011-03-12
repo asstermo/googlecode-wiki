@@ -364,8 +364,7 @@ GoogleCodeWikiParser.prototype.getWarning = function(text) {
 /*
  * overriding option for summary output
  */
-GoogleCodeWikiParser.prototype.showSummary(text)
-{
+GoogleCodeWikiParser.prototype.showSummary = function(text) {
   return this.options.showsummary ? '' : '<p class="summary">'+text+'</p>';
 };
 
