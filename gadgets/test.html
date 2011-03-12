@@ -12,19 +12,19 @@ _appendText=function(text2append){
   document.appendChild(d);
 }
 
-//var g = new GoogleWikiCodeParser();
-//jQuery.ajax("http://"+document.location.hostname+"/hg/SobreAsstermo.wiki")
-//var html = g.parse( htmltext );
-//document.write(html);
-var url="http://"+document.location.hostname+"/hg/SobreAsstermo.wiki";
+_postwiki=function(data)
+{
+var g = new GoogleWikiCodeParser();
+var html = g.parse( _postwiki );
+_appendText(_postwiki);
+}
 
+var url="http://"+document.location.hostname+"/hg/SobreAsstermo.wiki";
+_appendText(url);
 
 $.ajax({
   url: url,
-  success: function(data) {
-    $('.result').html(data);
-    alert('Load was performed.');
-  }
+  success: _postwiki
 });
 </script>
 </body>
