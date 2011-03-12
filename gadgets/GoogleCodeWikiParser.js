@@ -4,11 +4,11 @@
  * @author Stephan Beal
  * @author Fabien M�nager
  * @license MIT License <http://www.opensource.org/licenses/mit-license.php>
- * 
+ *
  * Usage:
  *   var p = new GoogleCodeWikiParser();
  *   print( p.parse( "... GoogleCode Wiki-syntax input ...") );
- * 
+ *
  * Missing features vis-a-vis Google Code Wiki:
  *  - Nested lists.
  *  - Only [Bracketed] WikiWords, not unmarked WikiWords, are marked up.
@@ -55,9 +55,9 @@ function GoogleCodeWikiParser() {
         [/^\s*=\s*([^<>=]+?)\s*=/, ps.headN(1)],
         [/^\s*#summary\s+(.*)$/i, '<p class="summary">$1</p>'],
         [/^\s*#labels\s+(.*)$/i, '<strong>Labels: </strong><span class="labels">$1</span>'],
-        [/^\s*#sidebar.*$/i, function(){ return ps.getWarning("The `#sidebar` directive is not supported by this parser!")}]
+        [/^\s*#sidebar.*$/i, '']
         ],
-        
+
         /**
         * Patterns for block-level elements (lists, tables, code).
         *
@@ -78,7 +78,7 @@ function GoogleCodeWikiParser() {
                 * The regex for the OPENING line of this block type.
                 */
                 rx:/^ONLY_FOR_DOCUMENTATION_PURPOSES$/,
-                
+
                 /**
                 * This is called when rx.test(currentInputLine) matches.
                 * It is then called in a loop as long as it returns >0.
@@ -138,7 +138,7 @@ function GoogleCodeWikiParser() {
 
             code: {
                 rx: /^\s*\{\{\{(.*)/,
-                
+
                 /**
                 * Parses non-inlined {{{ ... }}} blocks.
                 */
@@ -177,7 +177,7 @@ function GoogleCodeWikiParser() {
 
             /**
                 * Parses OL lists.
-                * 
+                *
                 * FIXME: adject list entries of different types at the same list level are not handled properly
                 * (wrong list type on 2nd/subsequent same-level item).
                 */
@@ -235,7 +235,7 @@ function GoogleCodeWikiParser() {
 
             blockquote: {
                 rx: /^\s+(\S.*)/,
-                
+
                 /**
                 * Parses blockquote blocks. Note that there is a syntactic
                 * collision with the OL/UL list types, which also require
@@ -312,8 +312,8 @@ GoogleCodeWikiParser.prototype.headN = function headN(N) {
     return function($0, $1) { return self.headerReplace(n, $1); };
 };
 
-/** 
- * For internal use. 
+/**
+ * For internal use.
  */
 GoogleCodeWikiParser.prototype.tagsFor = {
   '*': 'strong',
@@ -323,8 +323,8 @@ GoogleCodeWikiParser.prototype.tagsFor = {
   ',': 'sub'
 };
 
-/** 
- * Configurable per-instance options. 
+/**
+ * Configurable per-instance options.
  */
 GoogleCodeWikiParser.prototype.options = {
   /**
@@ -343,30 +343,30 @@ GoogleCodeWikiParser.prototype.options = {
 
 /**
  * Returns a visually-distinct HTML SPAN element containing the given text.
- * 
+ *
  * If this.options.disableWarnings is true then this function
  * returns an empty string.
  */
 GoogleCodeWikiParser.prototype.getWarning = function(text) {
-  return this.options.disableWarnings ? 
-           '' : 
+  return this.options.disableWarnings ?
+           '' :
            '<span style="color:red;background-color:yellow;">WIKI PARSE WARNING: '+text+'</span>';
 };
 
-/** 
- * Some elements are easier to handle if we convert them to an 
+/**
+ * Some elements are easier to handle if we convert them to an
  * equivalent form of another element...
- * 
+ *
  * BUG: these break down when they are inside a backtick block :/.
  * But since {{{...}}} and `...` are aliases, we don't expect one
  * to be embedded within the other all that often.
- * 
+ *
  * TODO: move the {{{ }}} handling into the char-by-char parsing bits.
  */
 GoogleCodeWikiParser.prototype.aliases = [
-  /** 
+  /**
    * Converts INLINED {{{...}}} to `...`.
-   * 
+   *
    * Maintenance reminder: this pattern must not be global (//g) due to
    * a bug in 2 out of 5 browsers i tested, which causes matches to
    * be inconsistently overlooked. (My poor, poor Chrome was one of
@@ -377,13 +377,13 @@ GoogleCodeWikiParser.prototype.aliases = [
 
 GoogleCodeWikiParser.prototype.parseAliases = function(snippet) {
   var x, pair, length = this.aliases.length;
-  
+
   // ^^^ reminder: this breaks if the aliased elements are in backticks.
   for( x = 0; x < length; ++x ) {
     pair = this.aliases[x];
-    
+
     // See comments in GoogleCodeWikiParser.prototype.aliases for why we loop this way.
-    while( pair[0].test(snippet) ) { 
+    while( pair[0].test(snippet) ) {
       snippet = snippet.replace( pair[0], pair[1] );
     }
   }
@@ -458,15 +458,15 @@ GoogleCodeWikiParser.prototype.parseLineVerbatim = function(text) {
  *  - inlined markup (bold, emphasis, etc.)
  *  - headers
  *  - HR elements
- *  
+ *
  * Returns the HTML-ized string, or an empty string if !text.
- *  
+ *
  * This can be used to parse snippets of code which one
  * knows will not contain lists, tables, and such.
  */
 GoogleCodeWikiParser.prototype.parseInlined = function(text) {
   text = ''+text;
-  
+
   if( !text || !text.length ) {
     return '';
   }
@@ -477,7 +477,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
       marker, tag,
       skipIfPrevIs = /[a-zA-Z]/,
       out = [];
-  
+
 /*    if( (m = /^(\s+)/.exec(text) ) )
     { // strip leading spaces but keep them for later?
         space = m[1];
@@ -487,32 +487,32 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
   function append(val) {
     out.push(val);
   }
-    
+
   function pushbuf() {
     if( buf.length ) {
       append(buf);
       buf = "";
     }
   }
-  
+
   var headersCount = this.rx.headers.length;
   for( i = 0; i < headersCount; ++i ) {
     x = this.rx.headers[i];
-    
+
     //if( ! x || !x[0] ) continue; // WTF is x[0] EVER undefined!?!?!?
     if( ! x[0].test(text) ) continue;
-    
+
     //alert('typeof text == '+(typeof text));
     var old = text;
     text = text.replace( x[0], x[1] );
-    
+
     // special case for #summary, #labels, #whatever: treat all content as unparseable. (fixes issue #10)
     if( /^#/.test( old ) ) {
       buf += text;
       pushbuf();
       return out.join('');
     }
-    
+
     old = null;
     break;
   }
@@ -526,7 +526,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
       return out.join('');
     }
   }
-  
+
   end = text.length;
   var prevChar;
   for ( ch = 0, i = 0; i < end; ++i ) {
@@ -537,18 +537,18 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
       buf += ch;
       continue;
     }
-    
-    
-    
+
+
+
     // treat all HTML markup as literal - do no parse it.
     else if( '<' === ch ) {
       //allow standalone '<', where next character is not alpha. Transform to &lt;.
-      if( ! /[a-zA-Z\/]/.test(text.charAt(i+1)) ) { 
+      if( ! /[a-zA-Z\/]/.test(text.charAt(i+1)) ) {
         buf += '&lt;';
         pushbuf();
         continue;
       }
-      
+
       buf += ch;
       for( x = i+1; x < end; ++x ) {
         ch = text.charAt(x);
@@ -556,7 +556,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
         buf += ch;
         if( '>' === ch ) break;
       }
-      
+
       if( '>' !== ch ) {
         buf += this.getWarning("unterminated less-than!");
       }
@@ -564,7 +564,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
       i = x;
       continue;
     }
-    
+
     // [WikiWord(\s+description)?], [http://...(\s+description)?]
     else if( '[' === ch ) {
       // do not start markup in the middle of a word
@@ -577,16 +577,16 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
           buf += '[';
           continue;
       }
-      
+
       pushbuf();
-      
+
       for( x = i+1; x < end; ++x ){
         ch = text.charAt(x);
         //print('ch =',ch);
         if( ']' === ch ) break;
         buf += ch;
       }
-      
+
       if( ']' !== ch ) {
         buf += this.getWarning("unterminated '['!");
       }
@@ -597,22 +597,22 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
             : (sp ? sp[0] : 'WIKI_PARSING_ERROR'/*should never happen!*/);
         buf = this.createLink( sp[0], tag );
       }
-      
+
       pushbuf();
       i = x;
       continue;
     }
-    
+
     // !UnlinkedWikiWord or a plain old '!'
     else if( '!' === ch ) {
       marker = i;
       pushbuf();
-      
+
       for( x = i+1; /\w/.test( (ch = text.charAt(x)) ); ) {
         buf += ch;
         ++x;
       }
-      
+
       if( ma = this.rx.wikiWord.exec(buf) ) {
         buf = ma[1]+ch;
         pushbuf();
@@ -625,7 +625,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
       }
       continue;
     }
-    
+
     // *BOLD*, _EMPHASIZE_, ^SUPERSCRIPT^
     else if( ma = /([\*_^])/.exec(ch) ) {
       /* special/corner case: do not start markup in the middle of a word
@@ -663,7 +663,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
       i = x;
       continue;
     }
-    
+
     // ~~strike~~ or ,,subscript,,
     else if( ma = /([~,])/.exec(ch) ) {
       // Reminder to self: we differ from GoCo here: "will~~strike~~ start in the middle of a word?"
@@ -683,7 +683,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
       ch = text.charAt(x);
       tag = this.tagsFor[ma[1]];
       append('<'+tag+'>');
-      
+
       for( ; (x < end) ;) {
         if( ch == ma[1] ) {
           if( text.charAt(x+1) == ma[1] ) {
@@ -694,7 +694,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
         buf += ch;
         ch = text.charAt(++x);
       }
-      
+
       i = x;
       if( ma[1] != ch ) {
         buf = ma[1]+ma[1]+buf; // put the prefix back.
@@ -707,7 +707,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
       append('</'+tag+'>');
       continue;
     }
-    
+
     else {
       buf += ch;
     }
@@ -719,10 +719,10 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
 /**
  * Renders the current state of the table of contents
  * (up to the given maximum header level or some reasonable default).
- * 
+ *
  * The TOC state is accumulated during (and reset by) parse().
- * 
- * Bugs: 
+ *
+ * Bugs:
  *  - The output list is flat. It should be nested, but i've
  *    been awake for 24 hours, hacking on this code for 16, and
  *    and i can't see straight enough to implement a nested-list TOC.
@@ -772,7 +772,7 @@ GoogleCodeWikiParser.prototype.renderTOC = function(maxDepth) {
  * Returns HTML code for a link created from the given arguments:
  *  - where is the URL or WikiWord to link to.
  *  - label is an optional label to use for the link. Default=where.
- *  
+ *
  * If lbl appears to be an image URL then the returned HTML contain
  * an IMG element and possibly a wrapping ANCHOR element.
  */
@@ -780,11 +780,11 @@ GoogleCodeWikiParser.prototype.createLink = function(where,label) {
   //label = label || where;
   var img, ma;
   var rximg = /(gif|jpe?g|bmp|png|tiff?)$/i;
-  
+
   if( rximg.test(label) ) {
     img = label;
   }
-  
+
   if( img ) {
     if( where === label ) {
       return '<img src="'+img+'" />';
@@ -885,14 +885,14 @@ GoogleCodeWikiParser.prototype.parse = function(text) {
       }
       emptyCount = 0;
     }
-    
+
     didMulti = false;
     prevSkipsBR = false;
-    
+
     if( 1 && isblock[i] ) for( k in this.rx.block ) {
       // FIXME: we're duplicating the work we did up above!
       bl = this.rx.block[k];
-      
+
       if( bl.rx.test( ln ) ) {
         didMulti = true;
         prevSkipsBR = true;
@@ -902,7 +902,7 @@ GoogleCodeWikiParser.prototype.parse = function(text) {
           ln = this.lines[++i];
           //print("TRYING",k,"ON LINE:",ln);
         }
-        
+
         //print( k,'ended with rc',rc);
         for( k in res ) {
           if( ! res.hasOwnProperty(k) ) continue; // Protoype-specific kludge. Assholes!!!!
@@ -941,7 +941,7 @@ GoogleCodeWikiParser.prototype.parse = function(text) {
   this.lines = null;
 
   //one last time to check for <wiki:toc>
-  if(1) { 
+  if(1) {
     var rxtoc = /<wiki:toc\s*(max_depth=["']?(\d+)["']?)?[^>]*>([^<]*<\/wiki[^>]+>)?/;
     var ma;
 
