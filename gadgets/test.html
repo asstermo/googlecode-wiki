@@ -16,7 +16,7 @@ _postwiki=function(data)
 {
 var g = new GoogleCodeWikiParser();
 var html = g.parse( data );
-_appendText(_postwiki);
+_appendText(html);
 }
 
 var url="http://"+document.location.hostname+"/hg/SobreAsstermo.wiki";
