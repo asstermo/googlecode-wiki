@@ -13,7 +13,7 @@ _postwiki=function(data)
 var g = new GoogleCodeWikiParser();
 g.options.disableWarnings=true;
 g.options.wikiBaseURL="http://code.google.com/p/asstermo/wiki/";
-g.options.showsummary=false;
+g.options.showsummary=true;
 var html = g.parse( data );
 document.body.innerHTML=html;
 }
