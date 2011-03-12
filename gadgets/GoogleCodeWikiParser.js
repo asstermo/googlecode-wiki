@@ -53,7 +53,7 @@ function GoogleCodeWikiParser() {
         [/^\s*===\s*([^<>=]+?)\s*===/, ps.headN(3)],
         [/^\s*==\s*([^<>=]+?)\s*==/, ps.headN(2)],
         [/^\s*=\s*([^<>=]+?)\s*=/, ps.headN(1)],
-        [/^\s*#summary\s+(.*)$/i, function(){return this.options.showsummary ? '' : '<p class="summary">$1</p>'; }],
+        [/^\s*#summary\s+(.*)$/i, function(){return ps.options.showsummary ? '' : '<p class="summary">$1</p>'; }],
         [/^\s*#labels\s+(.*)$/i, '<strong>Labels: </strong><span class="labels">$1</span>'],
         [/^\s*#sidebar.*$/i, function(){ return ps.getWarning("The `#sidebar` directive is not supported by this parser!")}]
         ],
