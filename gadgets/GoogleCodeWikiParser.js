@@ -55,7 +55,7 @@ function GoogleCodeWikiParser() {
         [/^\s*=\s*([^<>=]+?)\s*=/, ps.headN(1)],
         [/^\s*#summary\s+(.*)$/i, '<p class="summary">$1</p>'],
         [/^\s*#labels\s+(.*)$/i, '<strong>Labels: </strong><span class="labels">$1</span>'],
-        [/^\s*#sidebar.*$/i, '']
+        [/^\s*#sidebar.*$/i, function(){ return ps.getWarning("The `#sidebar` directive is not supported by this parser!")}]
         ],
 
         /**
@@ -338,7 +338,11 @@ GoogleCodeWikiParser.prototype.options = {
   * which should be human-readable. Set it to '\b' or a null/undefined value
   * if you prefer undefined results.
   */
-  outputSeparator:''
+  outputSeparator:'',
+  /**
+   * define were the wiki base url should target to
+   */
+  wikiBaseURL:''
 };
 
 /**
@@ -794,6 +798,7 @@ GoogleCodeWikiParser.prototype.createLink = function(where,label) {
     }
   }
   label = label || where;
+  if(where.indexOf('/')<0 && this.options.wikiBaseURL.length>0) where = this.options.wikiBaseURL + where;
   return '<a href="'+where+'">'+label.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</a>';
 };
 
@@ -969,58 +974,3 @@ GoogleCodeWikiParser.prototype.parse = function(text) {
 GoogleCodeWikiParser.parse = function(text) {
     return (new GoogleCodeWikiParser()).parse(text);
 };
-
-/**
-    Internal testing function. Not for client-side use.
-    It requires a JS shell with a print() function which
-    sends to stdout (or equivalent).
-*/
-GoogleCodeWikiParser.test = function() {
-  var inp = [
-    '=hi, `world`!=',
-    '----',
-    'some <a href="">inlined HTML</a>.',
-    'this should be *bolded* and this _emphasized_.',
-    'and a *_bold emphasized_*.',
-    'and a *_bold emphasized with {{{verbatim in it}}}_*.',
-    '`*` `_` `,,`',
-    'A !UnlinkedWikiWord and a ! by itself and !non-wikid and *{{{!InsideVerbatim}}}*.',
-    'A _[EmphasizedMarkedUpWikiWord]_.',
-    '{{{',
-        '  print("Hi, *must not be bolded!* world!");',
-        '  if( (i < 10) && (i>1) ) ++a;',
-    '}}}',
-    '',
-    '==List 1==',
-    '  # Item 1 *is bolded*.',
-    '  # Item 2 _is emphasized_.',
-    '  # Item 3 has a [WikiWordLink].',
-    '',
-    '==List 2==',
-    '  * Item 1',
-    '  * Item 2',
-    '  * Item 3',
-    '',
-    '|| *header 1* || *header 2* || *header 3* ||',
-        '||cell1,1 || cell2,1 || cell 3,1 ||',
-        '||cell1,2 || cell2,2 || cell 3,2 ||',
-    //'`no closing *backtick*',
-    '==List 3==',
-    'The source code and API documentation for this class is in:',
-    '',
-    '  * [http://code.google.com/p/v8-juice/source/browse/trunk/src/include/v8/juice/ClassWrap.h ClassWrap.h]',
-    '',
-    '~~hi, world!~~',
-    ',,hi, world!,,',
-    //',,hi, world!,', // should have a warning
-    'bye, world!'
-  ];
-  var g = new GoogleCodeWikiParser();
-  var wiki = inp.join('\n');
-  var x = g.parse(wiki);
-  print(x);
-};
-
-if(0) {
-  GoogleCodeWikiParser.test();
-} // end test
