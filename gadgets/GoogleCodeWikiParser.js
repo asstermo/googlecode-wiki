@@ -28,7 +28,7 @@
  *    for backticks, i'm not going to worry about this.
  */
 
-function GoogleCodeWikiParser() {
+function GoogleCodeWikiParser(showsummary) {
   var ps = this;
   this.inTable = 0;
   this.listLevel = 0;
@@ -37,6 +37,8 @@ function GoogleCodeWikiParser() {
   this.hList = [];
   this.liSpaces = [];
   this.liTags = [];
+  this.showsummary = showsummary == undefined ? true : showsummary;
+
     /**
         Various regexes and block-level handlers used by GoogleCodeWikiParser.parse().
 
@@ -53,7 +55,7 @@ function GoogleCodeWikiParser() {
         [/^\s*===\s*([^<>=]+?)\s*===/, ps.headN(3)],
         [/^\s*==\s*([^<>=]+?)\s*==/, ps.headN(2)],
         [/^\s*=\s*([^<>=]+?)\s*=/, ps.headN(1)],
-        [/^\s*#summary\s+(.*)$/i, ps.options.showsummary ? '<p class="summary">$1</p>' : ''],
+        [/^\s*#summary\s+(.*)$/i, ps.showsummary ? '<p class="summary">$1</p>' : ''],
         [/^\s*#labels\s+(.*)$/i, '<strong>Labels: </strong><span class="labels">$1</span>'],
         [/^\s*#sidebar.*$/i, function(){ return ps.getWarning("The `#sidebar` directive is not supported by this parser!")}]
         ],
@@ -343,10 +345,6 @@ GoogleCodeWikiParser.prototype.options = {
    * define were the wiki base url should target to
    */
   wikiBaseURL:'',
-  /*
-   * Whether to show summaries or not
-   */
-  showsummary: true
 };
 
 /**
@@ -879,6 +877,7 @@ GoogleCodeWikiParser.prototype.parse = function(text) {
   var didMulti = false;
   var emptyCount = 0;
   var prevSkipsBR = false;
+  var skippedFirst = this.showsummary;
 
   for( i = 0; i < this.lines.length; ++i ){
     ln = this.lines[i];
@@ -889,8 +888,11 @@ GoogleCodeWikiParser.prototype.parse = function(text) {
     }
 
     if( emptyCount ) {
-      if( ! prevSkipsBR ) {
+      if( ! prevSkipsBR && skippedFirst) {
         out.push('<br><br>');//<span style="color:red">NON_HEADER_BREAK</span>');
+      }
+      else if(! prevSkipsBR) {
+        skippedFirst = true;
       }
       emptyCount = 0;
     }

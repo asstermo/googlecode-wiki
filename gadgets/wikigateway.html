@@ -10,10 +10,9 @@
 <script>
 _postwiki=function(data)
 {
-var g = new GoogleCodeWikiParser();
+var g = new GoogleCodeWikiParser(false);
 g.options.disableWarnings=true;
 g.options.wikiBaseURL="http://code.google.com/p/asstermo/wiki/";
-g.options.showsummary=true;
 var html = g.parse( data );
 document.body.innerHTML=html;
 }
