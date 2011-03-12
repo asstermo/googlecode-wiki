@@ -345,6 +345,10 @@ GoogleCodeWikiParser.prototype.options = {
    * define were the wiki base url should target to
    */
   wikiBaseURL:'',
+  /*
+   * If true, urls are opened in a new window
+   */
+  openURLSInNewWindow: false
 };
 
 /**
@@ -801,7 +805,9 @@ GoogleCodeWikiParser.prototype.createLink = function(where,label) {
   }
   label = label || where;
   if(where.indexOf('/')<0 && this.options.wikiBaseURL.length>0) where = this.options.wikiBaseURL + where;
-  return '<a href="'+where+'">'+label.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</a>';
+  return '<a href="'+where+'"'+
+                           this.options.openURLSInNewWindow ? 'target="_blank"' : ''
+                           +'>'+label.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</a>';
 };
 
 /**
