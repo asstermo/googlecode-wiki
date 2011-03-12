@@ -15,6 +15,9 @@ Este software foi concebido para auxiliar os estudantes com as disciplinas de Te
 ----
 <br/>
 
+= Notícias =
+<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/newswidget.xml" height="300" width="100%" border="0" /> 
+
 = Versões Disponíveis =
 == Asstermo 1.83 para TI-89/92 (Plus) e Voyager 200 ==
 Versão de 10-07-2006, considerada estável. No entanto, não funciona a 100% nas calculadoras com AMS 3.xx. Precisa do “autoalpha off”.
