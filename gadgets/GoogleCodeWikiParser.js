@@ -583,7 +583,7 @@ GoogleCodeWikiParser.prototype.parseInlined = function(text) {
           continue;
       }
       // Only start a wiki link if the next char is alpha
-      else if( ! /[a-zA-Z]/.test(text.charAt(i+1)) ) {
+      else if( ! /[a-zA-Z#]/.test(text.charAt(i+1)) ) {
           buf += '[';
           continue;
       }
