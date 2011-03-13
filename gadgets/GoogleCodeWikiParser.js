@@ -804,6 +804,12 @@ GoogleCodeWikiParser.prototype.createLink = function(where,label) {
       return '<a href="'+where+'">'+'<img src="'+img+'" /></a>';
     }
   }
+  else if(where[0] == '#')
+  {
+    //necessary for local hash links
+    where = '#' + escape(where.substr(1));
+  }
+
   label = label || where;
   if(where.indexOf('/')<0 && this.options.wikiBaseURL.length>0) where = this.options.wikiBaseURL + where;
   return '<a href="'+where+'"'+inTarget+'>'+label.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</a>';
