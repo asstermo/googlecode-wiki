@@ -60,13 +60,13 @@ Nesta opção, ao activar o modo *Tabelas*, eis como fica o menu:
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_10.png]
 
 Eis os ecrãs para cada opção:
-  * *1:Liquido Comprimido*<br><div>
+  * *1:Liquido Comprimido*
 || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_11.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_12.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_13.png] ||
-|| Indica qual a tabela do livro e pergunta para que pressão ver a tabela. || É quase impossível ter a tabela toda num só ecrã, por isso aqui escolhe-se que parte da tabela se quer ver. Reduzir o número de entradas pode ser útil para que os resultados apareçam mais depressa. || Eis um exemplo de apresentação de resultados. A apresentação não é perfeita, mas o objectivo aqui é só para se poder validar e confirmar se os valores _batem certo_. ||</div>
+|| Indica qual a tabela do livro e pergunta para que pressão ver a tabela. || É quase impossível ter a tabela toda num só ecrã, por isso aqui escolhe-se que parte da tabela se quer ver. Reduzir o número de entradas pode ser útil para que os resultados apareçam mais depressa. || Eis um exemplo de apresentação de resultados. A apresentação não é perfeita, mas o objectivo aqui é só para se poder validar e confirmar se os valores _batem certo_. ||
 
-  * *2:Liquido/Vapor Sat* – aqui as tabelas são muito mais complexas.<br><div>
+  * *2:Liquido/Vapor Sat* – aqui as tabelas são muito mais complexas.
 || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_14.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_15.png] ||
-|| Não esquecer escolher ou a pressão ou a temperatura e a partir de que valor listar, correspondentemente à opção. || Em ambos os ecrãs é possível listar v, u, h e s. ||</div>
+|| Não esquecer escolher ou a pressão ou a temperatura e a partir de que valor listar, correspondentemente à opção. || Em ambos os ecrãs é possível listar v, u, h e s. ||
 
   * *3:Vapor Sobreaquecid* – nãoi tem imagens porque o aspecto quase é idêntico ao da opção *1:Liquido Comprimido*.
 
