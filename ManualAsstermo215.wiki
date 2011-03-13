@@ -30,7 +30,7 @@ A copy of the license is included in the section entitled "GNU Free Documentatio
     * [ManualAsstermo215_Ar Opção 9: Tabela do ar]
     * [ManualAsstermo215_Combustao Opção A: Assistente de Combustão]
   * [ManualAsstermo215_Adenda Adendas]
-    * [ManualAsstermo215_Adenda#Notas_finais Notas finais]
+    * [ManualAsstermo215Adenda#Notas_finais Notas finais]
     * [ManualAsstermo215_Adenda#Motivação Motivação]
     * [ManualAsstermo215_Adenda#Necessidades_deste_programa Necessidades deste programa]
     * [ManualAsstermo215_Adenda#Historial_de_desenvolvimento Historial de desenvolvimento]
