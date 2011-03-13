@@ -7,11 +7,15 @@
 </head>
 <body>
 <p class="processing_data_please_hold">A recolher dados, por favor aguarde...</p>
+<div class="IndexMasterDiv">
 <h1>Índice</h1>
 <ul class="IndexList">
 </ul>
 <br><br><hr><br>
+</div>
 <script>
+_op_showIndex=true;
+
 if(!document.getElementsByClassName)
 {
   document.getElementsByClassName = function(cl) {
@@ -93,6 +97,35 @@ _nextHash=function(){
   }
 };
 
+checkForOptions=function(){
+  if(document.location.href.indexOf('?'))
+  {
+    var sl = document.location.href.length;
+    sl = document.location.hash.length>1 ? document.location.href.indexOf('#') : sl;
+    var opstr = document.location.href.substr(0,sl);
+    sl = document.location.href.indexOf('?');
+    opstr = opstr.substr(sl+1);
+    var opts = opstr.split('&');
+    for(var j=0; j<opts.length; j++)
+    {
+      if(opts[j].length>0)
+      {
+        eval(opts[j]);
+      }
+    }
+  }
+};
+
+stripTitle=function(){
+    var imd=document.getElementsByClassName("IndexMasterDiv");
+    if(imd.length>0)
+    {
+      imd[0].parentNode.removeChild(imd[0]);
+    }
+};
+
+checkForOptions();
+if(!_op_showIndex) stripTitle();
 _nextHash();
 </script>
 </body>
