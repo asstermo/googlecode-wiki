@@ -790,7 +790,7 @@ GoogleCodeWikiParser.prototype.createLink = function(where,label) {
   //label = label || where;
   var img, ma;
   var rximg = /(gif|jpe?g|bmp|png|tiff?)$/i;
-  var inTarget = this.options.openURLSInNewWindow ? ' target="_blank"' : '';
+  var inTarget = this.options.openURLSInNewWindow && where[0] != '#' ? ' target="_blank"' : '';
 
   if( rximg.test(label) ) {
     img = label;
