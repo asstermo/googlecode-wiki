@@ -21,7 +21,6 @@ A copy of the license is included in the section entitled "GNU Free Documentatio
   * [GFDL13 GNU Free Documentation License v1.3]
   * [ManualAsstermo215_Intro Nota Introdutória]
   * [ManualAsstermo215_Instalar Instruções de instalação]
-    * [ManualAsstermo215_Instalar#Instruções_de_transferência/cópia_para_outra_calculadora Instruções de transferência/cópia para outra calculadora]
   * [ManualAsstermo215_Utilizacao Instruções de utilização do ASSTERMO]
     * [ManualAsstermo215_Agua Opção 1: Água]
     * [ManualAsstermo215_OutrosFluidos Opções 2 a 5: Tabelas...]
