@@ -5,12 +5,11 @@
     * [CorreccoesTabelas Correcções às tabelas]
   * [Downloads Versões disponíveis]
   * [Manuais Manuais]
-    * [ManualAsstermo215 Manual online para o Asstermo 2.15]
-      ([http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html#ManualAsstermo215&GFDL13&ManualAsstermo215Intro&ManualAsstermo215Instalar&ManualAsstermo215Utilizacao&ManualAsstermo215Agua&ManualAsstermo215OutrosFluidos&ManualAsstermo215MassasMolares&ManualAsstermo215CalorEspecifico&ManualAsstermo215Psicrometria&ManualAsstermo215Ar&ManualAsstermo215Combustao&ManualAsstermo215Adenda imprimir], [http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html#ManualAsstermo215&ManualAsstermo215Intro&ManualAsstermo215Instalar&ManualAsstermo215Utilizacao&ManualAsstermo215Agua&ManualAsstermo215OutrosFluidos&ManualAsstermo215MassasMolares&ManualAsstermo215CalorEspecifico&ManualAsstermo215Psicrometria&ManualAsstermo215Ar&ManualAsstermo215Combustao imprimir resumido])
+    * [ManualAsstermo215 Manual online para o Asstermo 2.15]<br>([http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html#ManualAsstermo215&GFDL13&ManualAsstermo215Intro&ManualAsstermo215Instalar&ManualAsstermo215Utilizacao&ManualAsstermo215Agua&ManualAsstermo215OutrosFluidos&ManualAsstermo215MassasMolares&ManualAsstermo215CalorEspecifico&ManualAsstermo215Psicrometria&ManualAsstermo215Ar&ManualAsstermo215Combustao&ManualAsstermo215Adenda imprimir], [http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html#ManualAsstermo215&ManualAsstermo215Intro&ManualAsstermo215Instalar&ManualAsstermo215Utilizacao&ManualAsstermo215Agua&ManualAsstermo215OutrosFluidos&ManualAsstermo215MassasMolares&ManualAsstermo215CalorEspecifico&ManualAsstermo215Psicrometria&ManualAsstermo215Ar&ManualAsstermo215Combustao imprimir resumido])
       * [GFDL13 GNU Free Documentation License v1.3]
       * [ManualAsstermo215Intro Nota Introdutória]
       * [ManualAsstermo215Instalar Instruções de instalação]
-        * [ManualAsstermo215Instalar#Instrucoes_de_transferência/cópia_para_outra_calculadora Instruções de transferência/cópia para outra calculadora]
+        * [ManualAsstermo215Instalar#Instrucoes_de_transferencia/copia_para_outra_calculadora Instruções de transferência/cópia para outra calculadora]
       * [ManualAsstermo215Utilizacao Instruções de utilização do ASSTERMO]
         * [ManualAsstermo215Agua Opção 1: Água]
         * [ManualAsstermo215OutrosFluidos Opções 2 a 5: Tabelas...]
@@ -21,7 +20,7 @@
         * [ManualAsstermo215Combustao Opção A: Assistente de Combustão]
       * [ManualAsstermo215Adenda Adendas]
         * [ManualAsstermo215Adenda#Notas_finais Notas finais]
-        * [ManualAsstermo215Adenda#Motivação Motivação]
+        * [ManualAsstermo215Adenda#Motivacao Motivação]
         * [ManualAsstermo215Adenda#Necessidades_deste_programa Necessidades deste programa]
         * [ManualAsstermo215Adenda#Historial_de_desenvolvimento Historial de desenvolvimento]
         * [ManualAsstermo215Adenda#Agradecimentos Agradecimentos]
