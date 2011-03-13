@@ -5,7 +5,7 @@
 
 Corra o programa *ASSTERMO\ASSTERMO()*. Na figura seguinte é possível ver as seguintes hipóteses disponíveis:
 
-[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Utilizacao_01.png]
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Utilizacao_01.png]
 
   * 1-5 dá acesso às tabelas correspondentes
   * 6 dá acesso às fórmulas químicas, massas molares e R's das substâncias listadas na tabela A-1.
@@ -19,10 +19,10 @@ Corra o programa *ASSTERMO\ASSTERMO()*. Na figura seguinte é possível ver as s
 *NOTA*: em relação ao antigo *Auto Alpha Off*, este já não estará na versão actual do Asstermo. O motivo pelo qual foi removido: o software que era utilizado podia _brecar_ a calculadora, quando utilizado nos novos modelos. Felizmente (e de que eu saiba), os _AMS_ *2.08*/*3.08* já têm uma opção directamente nas caixas de diálogo de ter o _alpha on_ ou _off_... funcionalidade esta apenas disponível a partir do Asstermo 1.90.
 
 Nas seguintes secções serão descritas cada uma das opções deste menu:
-  * [ManualAsstermo215_Agua Opção 1: Água]
-  * [ManualAsstermo215_OutrosFluidos Opções 2 a 5: Tabelas...]
-  * [ManualAsstermo215_MassasMolares Opção 6: Massas Molares+R's]
-  * [ManualAsstermo215_CalorEspecifico Opção 7: Calor Específico]
-  * [ManualAsstermo215_Psicrometria Opção 8: Psicrometria]
-  * [ManualAsstermo215_Ar Opção 9: Tabela do ar]
-  * [ManualAsstermo215_Combustao Opção A: Assistente de Combustão]
+  * [ManualAsstermo215Agua Opção 1: Água]
+  * [ManualAsstermo215OutrosFluidos Opções 2 a 5: Tabelas...]
+  * [ManualAsstermo215MassasMolares Opção 6: Massas Molares+R's]
+  * [ManualAsstermo215CalorEspecifico Opção 7: Calor Específico]
+  * [ManualAsstermo215Psicrometria Opção 8: Psicrometria]
+  * [ManualAsstermo215Ar Opção 9: Tabela do ar]
+  * [ManualAsstermo215Combustao Opção A: Assistente de Combustão]

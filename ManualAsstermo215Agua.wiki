@@ -5,7 +5,7 @@
 
 Na figura seguinte estão as opções disponíveis para a água:
 
-[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_01.png]
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_01.png]
 
   * [#1:Proc._Por_P_e/ou_T 1:Proc. Por P e/ou T] – permite obter os valores a partir da pressão ou da temperatura, para líquido comprimido, líquido-vapor saturado e vapor sobreaquecido.
   * [#2:Proc._Por_h_e_P 2:Proc. Por h e P] – permite obter os valores a partir da entalpia e da pressão, para líquido comprimido, líquido-vapor saturado e vapor sobreaquecido.
@@ -24,7 +24,7 @@ Na figura seguinte estão as opções disponíveis para a água:
 == 1:Proc. Por P e/ou T ==
 O menu seguinte é apresentado:
 
-[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_02.png]
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_02.png]
 
   # Permite acede aos valores/tabelas de *Líquido Comprimido*.
   # Permite acede aos valores/tabelas de *Líquido/Vapor Saturado*.
@@ -38,34 +38,34 @@ O menu seguinte é apresentado:
 
 === 1:Liquido Comprimido ===
 A seguir é possível ver o que se sucede ao aceder a esta opção e o resultado após escolher os valores. Não esquecer que se pode escolher a unidade da pressão! Quanto à temperatura... se se souber como converter para Celsius, é só indicar a conta na entrada da temperatura.
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_03.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_04.png] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_03.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_04.png] ||
 || Exemplo: 300-273.15, para converter de Kelvin para Celsius || Os valores definidos como *undef* significam que não existem nas tabelas. *NOTA*: a pressão mínima que está na tabela A-5 é de 25 bar. ||
 
 <br>
 === 2:Liquido/Vapor Sat ===
 Eis o que se vê para esta opção:
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_05.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_06.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_07.png] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_05.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_06.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_07.png] ||
 || Não esquecer definir valores/opções adequado/as para cada campo. || Esta imagem é um exemplo das propriedades que o Asstermo apresenta. || Exemplo: um aviso aparece ao lado do valor do título, alertando para o facto de que o valor não está dentro do intervalo permitido para o título. ||
 
 <br>
 === 3:Vapor Sobreaquecid ===
 Para esta opção:
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_08.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_09.png] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_08.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_09.png] ||
 || Um exemplo aleatório. E cuidado com as unidades escolhidas e ao inserir valores... || Caso contrário isto é um exemplo do que pode acontecer. ||
 
 <br>
 === 4:Modo(T\V): Tabelas ===
 Nesta opção, ao activar o modo *Tabelas*, eis como fica o menu:
 
-[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_10.png]
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_10.png]
 
 Eis os ecrãs para cada opção:
   * *1:Liquido Comprimido*
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_11.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_12.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_13.png] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_11.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_12.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_13.png] ||
 || Indica qual a tabela do livro e pergunta para que pressão ver a tabela. || É quase impossível ter a tabela toda num só ecrã, por isso aqui escolhe-se que parte da tabela se quer ver. Reduzir o número de entradas pode ser útil para que os resultados apareçam mais depressa. || Eis um exemplo de apresentação de resultados. A apresentação não é perfeita, mas o objectivo aqui é só para se poder validar e confirmar se os valores _batem certo_. ||
 
   * *2:Liquido/Vapor Sat* – aqui as tabelas são muito mais complexas.
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_14.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Agua_15.png] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_14.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_15.png] ||
 || Não esquecer escolher ou a pressão ou a temperatura e a partir de que valor listar, correspondentemente à opção. || Em ambos os ecrãs é possível listar v, u, h e s. ||
 
   * *3:Vapor Sobreaquecid* – nãoi tem imagens porque o aspecto quase é idêntico ao da opção *1:Liquido Comprimido*.

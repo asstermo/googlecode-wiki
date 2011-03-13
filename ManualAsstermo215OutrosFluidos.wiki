@@ -1,0 +1,6 @@
+#summary Opções 2 a 5: Tabelas...
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+Para a Amónia, o Refrigerante 22, o Refrigerante 134a e o Propano, é análogo à [ManualAsstermo215Agua Água].
