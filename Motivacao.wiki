@@ -18,3 +18,6 @@ Ass.: Bruno M. S. Santos, 12/09/2004
 Como facilmente se pode observar, o nome Asstermo surgiu do nome "Assistente de Termodinâmica". No entanto, em inglês pode existir uma interpretação secundária. No entanto, visto que este não é o primeiro nem último nome _infeliz_ no mundo, eis a [http://en.wikipedia.org/wiki/Ass lista no wikipédia].
 
 O objectivo máximo do nome era para que o programa fosse o primeiro ou dos primeiros na lista de pastas nas calculadores, evitando assim longo tempos de procura pela dita pasta e ficheiro de arranque.
+
+A fonética do Asstermo é *A.S.S.Termo*, como alegoria aos navios de guerra dos EUA [http://en.wikipedia.org/wiki/United_States_Ship USS].
+Outra alegoria de menor grau será ao [http://en.wikipedia.org/wiki/KISS_principle princípio KISS]: _Keep it simple, stupid_.

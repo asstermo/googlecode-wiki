@@ -24,6 +24,7 @@
         * [ManualAsstermo215Adenda#Necessidades_deste_programa Necessidades deste programa]
         * [ManualAsstermo215Adenda#Historial_de_desenvolvimento Historial de desenvolvimento]
         * [ManualAsstermo215Adenda#Agradecimentos Agradecimentos]
+  * [DesenvolvimentoSoftware Desenvolvimento do Software Asstermo]
   * [Calha Na calha...]
     * [Calha_TI83_84 Na calha para TI-83/84]
     * [Calha_TInSpire Na calha para as TI-nSpire]
