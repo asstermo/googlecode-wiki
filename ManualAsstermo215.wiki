@@ -1,0 +1,38 @@
+#summary Manual do Assistente de Termodinâmica 2.15
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+<h1>Assistente de Termodinâmica v2.15</h1>
+Copyright (c) 2004-2011 Bruno M. S. Santos
+
+Permissão cedida para copiar, distribuir e/ou modificar este documento dentro dos termos da licença "GNU Free Documentation License", versão 1.3 ou qualquer versão posterior publicada pela Free Software Foundation; sem Secções Invariantes, sem Textos de Capa frontal ou traseira.
+
+Uma cópia da licença está incluída na secção entitulada "GNU Free Documentation License".
+----
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+
+A copy of the license is included in the section entitled "GNU Free Documentation License".
+
+----
+<br>
+<h1>Índice</h1>
+
+  * [GFDL13 GNU Free Documentation License v1.3]
+  * [ManualAsstermo215_Intro Nota Introdutória]
+  * [ManualAsstermo215_Instalar Instruções de instalação]
+    * [ManualAsstermo215_Instalar#Instruções%20de%20transferência/cópia%20para%20outra%20calculadora Instruções de transferência/cópia para outra calculadora]
+  * [ManualAsstermo215_Utilizacao Instruções de utilização do ASSTERMO]
+    * [ManualAsstermo215_Agua Opção 1: Água]
+    * [ManualAsstermo215_OutrosFluidos Opções 2 a 5: Tabelas...]
+    * [ManualAsstermo215_MassasMolares Opção 6: Massas Molares+R's]
+    * [ManualAsstermo215_CalorEspecifico Opção 7: Calor Específico]
+    * [ManualAsstermo215_Psicrometria Opção 8: Psicrometria]
+    * [ManualAsstermo215_Ar Opção 9: Tabela do ar]
+    * [ManualAsstermo215_Combustao Opção A: Assistente de Combustão]
+  * [ManualAsstermo215_Adenda Adendas]
+    * [ManualAsstermo215_Adenda#Notas%20finais Notas finais]
+    * [ManualAsstermo215_Adenda#Motivação Motivação]
+    * [ManualAsstermo215_Adenda#Necessidades%20deste%20programa Necessidades deste programa]
+    * [ManualAsstermo215_Adenda#Historial%20de%20desenvolvimento Historial de desenvolvimento]
+    * [ManualAsstermo215_Adenda#Agradecimentos Agradecimentos]

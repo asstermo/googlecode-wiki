@@ -1,0 +1,29 @@
+#summary Instruções de Instalação
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+= Instruções de Instalação =
+Se fez o download deste programa da página [http://asstermo.no.sapo.pt asstermo.no.sapo.pt] ou [http://code.google.com/p/asstermo/ asstermo no code.google] e transferiu para a calculadora, trate de executar os seguintes passos:
+  # Arquivar os ficheiros todos na calculadora. Para tal:
+    # *2nd* + *–* para aceder ao _Var-Link_, vá até à pasta *ASSTERMO* e carregue no *F4* quando a selecção estiver sobre o nome da pasta *ASSTERMO*;
+    # faça *UNLOCK* (carregue nas teclas *F1* e depois *7*).
+    # A seguir *ARQUIVE* (carregue nas teclas *F1* e depois *8*).
+  Com os _AMS_ e _TI Connect_ mais recentes, talvez este passo não seja necessário. Sei que com o [http://lpg.ticalc.org/prj_tilp/ TiLP2] não é necessário! Caso a transferência pare a meio, verifique se a calculadora não está a perguntar qualquer coisa sobre _garbage collection_; carregue enter na calculadora para continuar.
+  # Corra o programa *ASSTERMO\ZCOMPILE()* - ainda no _Var-Link_, carregue no *Z* e deve calhar mesmo em cima do *ZCOMPILE*; carregue em _Enter_ e depois no *)* e *Enter* de novo. Aguarde enquanto ele compila todos os programas e funções, por forma a todo o projecto correr em velocidade optimizada!
+  # Já tá pronto a correr! *ASSTERMO\ASSTERMO()* para correr o programa!
+
+= Instruções de transferência/cópia para outra calculadora =
+Existem duas soluções:
+  # Utilizar o *F3:Link\Send* que está no _Var-Link_;
+  # Utilizar o programa *ASSTERMO\ZCOPIAR()*.
+
+A primeira está explicada no manual da calculadora e após a cópia feita, seguir os passos descritos acima [#Instruções%20de%20instalação Instruções de instalação]. A segunda tive deu um trabalho razoável a criar, para tornar o processo mais automatizado.
+
+Como utilizar o *ZCOPIAR*: Execute o programa, indo ao _Var-Link_, de seguida carregue em *Z* três vezes e deve estar lá; carregue em *Enter* e depois *)* e *Enter* de novo!
+A seguinte imagem aparece:
+http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Instalar_01.png
+A seguir... basta seguir as instruções que estão lá escritas!
+
+O resto do programa de transferência é o mais interactivo possível, não necessitando assim de manual... assim esperamos.
+Em caso de erro... o mais simples é *ESC* para cancelar e arrancar com os programas de novo!

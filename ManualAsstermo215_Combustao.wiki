@@ -1,0 +1,6 @@
+#summary Opção A: Assistente de Combustão
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+(Por transcrever...)

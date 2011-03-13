@@ -2,10 +2,16 @@
 #labels Manuais
 #sidebar BarraLateral
 = Manuais disponíveis em formato PDF =
+Estas versões são _monolíticas_ e só são lançadas quando uma nova versão do Asstermo é lançada. Erros ortográficos e de sintaxe são altamente prováveis, visto que estes manuais não são devidamente revistos.
 
   * [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO.pdf Manual para o Asstermo 1.83]
   * [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.00.pdf Manual para o Asstermo 2.00]
   * [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.15.pdf Manual para o Asstermo 2.15]
 
 = Manuais em formato wiki =
-(ainda por transcrever...)
+Estas versões do manuais podem estar em completa metamorfose, visto que os utilizadores também podem comentar sobre as funcionalidades descritas e gralhas econtradas em cada capítulo. Assim o manual de cada versão pode ir evoluindo.
+
+  * [ManualAsstermo215 Manual online para o Asstermo 2.15] - Opções de impressão:
+    * [http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html#ManualAsstermo215&GFDL13&ManualAsstermo215_Intro&ManualAsstermo215_Instalar&ManualAsstermo215_Utilizacao&ManualAsstermo215_Agua&ManualAsstermo215_OutrosFluidos&ManualAsstermo215_MassasMolares&ManualAsstermo215_CalorEspecifico&ManualAsstermo215_Psicrometria&ManualAsstermo215_Ar&ManualAsstermo215_Combustao&ManualAsstermo215_Adenda imprimir tudo]
+    * [http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html#ManualAsstermo215&ManualAsstermo215_Intro&ManualAsstermo215_Instalar&ManualAsstermo215_Utilizacao&ManualAsstermo215_Agua&ManualAsstermo215_OutrosFluidos&ManualAsstermo215_MassasMolares&ManualAsstermo215_CalorEspecifico&ManualAsstermo215_Psicrometria&ManualAsstermo215_Ar&ManualAsstermo215_Combustao imprimir só o essential]
+
