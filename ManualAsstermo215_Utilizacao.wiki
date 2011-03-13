@@ -5,7 +5,7 @@
 
 Corra o programa *ASSTERMO\ASSTERMO()*. Na figura seguinte é possível ver as seguintes hipóteses disponíveis:
 
-http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Utilizacao_01.png
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Utilizacao_01.png]
 
   * 1-5 dá acesso às tabelas correspondentes
   * 6 dá acesso às fórmulas químicas, massas molares e R's das substâncias listadas na tabela A-1.
