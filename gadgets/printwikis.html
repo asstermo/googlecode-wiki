@@ -98,7 +98,7 @@ _nextHash=function(){
 };
 
 checkForOptions=function(){
-  if(document.location.href.indexOf('?'))
+  if(document.location.href.indexOf('?')>0)
   {
     var sl = document.location.href.length;
     sl = document.location.hash.length>1 ? document.location.href.indexOf('#') : sl;
@@ -110,7 +110,7 @@ checkForOptions=function(){
     {
       if(opts[j].length>0)
       {
-        eval(opts[j]);
+        eval(opts[j]+'');
       }
     }
   }
