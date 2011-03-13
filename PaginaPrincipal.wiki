@@ -12,20 +12,17 @@ Este software foi concebido para auxiliar os estudantes com as disciplinas de Te
 <br/>
 *NOTE to english readers*: This software is currently *not* available in English.
 
-----
 <br/>
 
 = Notícias =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/newswidget.xml" height="300" width="100%" border="1" /> 
+<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/newswidget.xml" height="300" width="100%" border="1" />
 
-----
 <br/>
 
 = Versões Disponíveis =
 <wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/versionswidget.xml" height="300" width="100%" border="1" />
 
-----
 <br/>
 
 = Wiki =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/linkswidget.xml" height="200" width="100%" border="0" /> 
+<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/linkswidget.xml" height="300" width="100%" border="1" />

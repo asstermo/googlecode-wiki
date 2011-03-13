@@ -5,6 +5,9 @@
 
 Este programa foi concebido para correr nas *TI-89*, *TI-92+* (não sei se corre nas de primeira geração), *Voyage 200* e *TI-89 Titanium*.
 O Advanced Mathematics Software (AMS) instalado deverá ser pelo menos o *2.08* nas *TI-89* e *TI-92*; nas *Voyage 200* e *TI-89 Titanium* pelo menos AMS 3.08.
-As figuras mostradas foram obtidas de uma TI-92P emulada. É de notar que este programa só se trata de um _Assistente_, *não é um faz tudo*. Só obtém os valores das tabelas e interpola os que faltarem; extrapolação não é permitida na maioria dos casos. As tabelas que o Asstermo utiliza foram extraídas do livro "Fundamentals of Engineering Thermodynamics", 4ª edição.
+
+As figuras mostradas neste manual foram obtidas de uma TI-92P emulada. É de notar que este programa só se trata de um _Assistente_, *não é um faz tudo*. Só obtém os valores das tabelas e interpola os que faltarem; extrapolação não é permitida na maioria dos casos. As tabelas que o Asstermo utiliza foram extraídas do livro "Fundamentals of Engineering Thermodynamics", 4ª edição.
+
 Acho que mais vale ler/ver este breve manual de uma ponta à outra para ficar a saber mais ou menos como é que este programa funciona. É de notar que os 120 ficheiros que compõem este programa deverão estar na pasta ASSTERMO. O programa todo ocupa sensivelmente 152kB de memória flash, e requer entre 10 a 100kB para funcionar, consoante as funcionalidades que executar. Aconselho também a terem a calculadora por perto com o programa instalado para começar a treinar.
+
 *Aviso*: quando a calculadora mostra o “BUSY” é porque está a pensar, o pode demorar entre 2 a 10 segundos. Portanto, quando parece que a calculadora está a demorar muito tempo, é para _estarem atentos_ ao facto que pode levar tempo a procurar, reunir e a calcular a informação pedida, mas também pode acontecer que quando se pensa que ela está a trabalhar, na verdade está mas é à espera de um *Enter*!

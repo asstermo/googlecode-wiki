@@ -4,6 +4,7 @@
 <wiki:toc max_depth="3" />
 
 Corra o programa *ASSTERMO\ASSTERMO()*. Na figura seguinte é possível ver as seguintes hipóteses disponíveis:
+
 http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215_Utilizacao_01.png
 
   * 1-5 dá acesso às tabelas correspondentes
