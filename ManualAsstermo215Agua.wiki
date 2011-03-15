@@ -93,7 +93,7 @@ Análogo ao [#2:Proc._Por_h_e_P procurar por h e p], mas com *s* e *p* (entropia
 == 4:Proc. s e P(L.Sat) ==
 Permite obter a entalpia “final”, de uma evolução a entropia constante, sabendo a entalpia, volume específico e a pressão iniciais; claro que também é preciso a pressão final.
 || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_18.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_19.png] ||
-||  || Como se pode observar, a fórmula matemática é [http://chart.apis.google.com/chart?chf=bg,s,ffffff&cht=tx&chl=h_i%2Bv*(p_f-p_i)%2Bh_f]. ||
+||  || Como se pode observar, a fórmula matemática é <img src="http://chart.apis.google.com/chart?chf=bg,s,ffffff&cht=tx&chl=h_i%2Bv*(p_f-p_i)%2Bh_f"/>. ||
 
 <br>
 ----
