@@ -10,10 +10,8 @@
  <link type="text/css" rel="stylesheet" href="d_ie.css" >
 <![endif]-->
 </head>
-<body>
+<body id="wikicontent">
 <p>A recolher dados, por favor aguarde...</p>
-<div id="wikicontent">
-</div>
 <script>
 _postwiki=function(data)
 {
@@ -22,7 +20,7 @@ g.options.disableWarnings=true;
 g.options.wikiBaseURL="http://code.google.com/p/asstermo/wiki/";
 g.options.openURLSInNewWindow=true;
 var html = g.parse( data );
-document.body.firstChild.nextSibling.innerHTML=html;
+document.body.innerHTML=html;
 }
 
 var url="http://"+document.location.hostname+"/hg/"+document.location.hash.substr(1)+".wiki";
