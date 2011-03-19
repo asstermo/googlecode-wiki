@@ -3,4 +3,10 @@
 #sidebar BarraLateral
 <wiki:toc max_depth="3" />
 
-(Por transcrever...)
+Nesta opção é apresentada a fórmula química, a massa molare e o R mássico de várias substâncias catalogadas na tabela A-1. O R mássico é calculado da seguinte forma:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/R_8314_M.png] ||
+|| M - Massa molar; R - R mássico; 8.314 é a constante dos gases perfeitos. ||
+
+Eis os ecrãs correspondentes a “Massas Molares+R’s”:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215MassasMolares_01.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215MassasMolares_02.png] ||
+|| Daqui pode-se escolher uma das várias substÂncias disponíveis. || Deste ecrã pode-se continuar a procurar as outras substâncias disponíveis. ||
