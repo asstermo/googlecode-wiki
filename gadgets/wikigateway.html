@@ -15,6 +15,7 @@ var g = new GoogleCodeWikiParser(false);
 g.options.disableWarnings=true;
 g.options.wikiBaseURL="http://code.google.com/p/asstermo/wiki/";
 g.options.openURLSInNewWindow=true;
+data=data.replace( /\n/g, "\r\n" );
 var html = g.parse( data );
 document.body.innerHTML=html;
 }
