@@ -4,7 +4,7 @@
 <wiki:toc max_depth="3" />
 
 = Notas finais =
-= Motivação =
+= Motivacao =
 = Necessidades deste programa =
 = Historial de desenvolvimento =
 = Agradecimentos =
