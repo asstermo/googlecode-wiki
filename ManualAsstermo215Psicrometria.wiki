@@ -122,9 +122,14 @@ Os seguintes dois ecrãs mostram um exemplo de como adicionar um ponto, a partir
 *NOTA IMPORTANTE*: Como os pontos ficam armazenados pela definição de temperatura e massa específica, é possível alterar a _pressão do sistema_ sem perda de caracterização ([#1:Pressao(bar):x.xxx 1:Pressão(bar):x.xxx]), *mas somente* se os pontos todos foram adicionados com o par temperatura e massa específica! Caso contrário terão de alterar os pontos já adicionados, para corrigir os valores respectivos!
 
 <br>
-|| == 2:Alterar pontos == || == 3:Remover pontos == ||
-|| Escolhe-se o ponto pelo nome o ponto que se pretende alterar. || Escolhe-se também pelo o nome que se pretende remover. Notar que os diálogos são diferentes qb para minimizar confusões. ||
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_20.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_21.png] ||
+== 2:Alterar pontos ==
+|| Escolhe-se o ponto pelo nome o ponto que se pretende alterar. ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_20.png] ||
+
+<br>
+== 3:Remover pontos ==
+|| Escolhe-se também pelo o nome que se pretende remover. Notar que os diálogos são diferentes qb para minimizar confusões. ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_21.png] ||
 
 <br>
 == 4:Intersectar rectas ==
