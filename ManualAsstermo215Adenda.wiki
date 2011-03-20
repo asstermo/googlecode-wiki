@@ -64,25 +64,25 @@ Na seguinte tabela está a lista de ficheiros na calculadora necessários que es
 = Historial de desenvolvimento =
 == Datas ==
 Data de projecto (+-1.00): Agosto-Setembro de 2004
-
+<br>
 Data de 1.07: Novembro de 2004
-
+<br>
 Data de 1.10: Dezembro de 2004
-
+<br>
 Data de 1.34, 1.36 e 1.48: Julho de 2005
-
+<br>
 Data de 1.80: Agosto de 2005
-
+<br>
 Data de 1.81: Dezembro de 2005
-
+<br>
 Data de 1.83: Julho de 2006
-
+<br>
 Data de 1.90, 1.94 e 2.00: Maio de 2009
-
+<br>
 Data de 2.15: Junho de 2009
-
+<br>
 Horas de trabalho (estimativa total): entre 205 a 220 horas
-
+<br>
 Autor: Bruno M. S. Santos - [http://code.google.com/u/wyldckat/]
 
 <br>
