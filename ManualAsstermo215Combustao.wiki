@@ -77,8 +77,8 @@ Esta opção permite mudar entre os modos *Valores* e *Tabelas*. O que for apres
 <br>
 = 5:Solver Quimico =
 Como o nome dá a entender, trata da parte de química de combustão. É um assistente simples, adaptado específicamente *apenas* para combustão (involvendo apenas os elementos mais comuns em combustão), ou seja, não lida com todos os elementos da tabela periódica, só com os elementos mais utilizados e sem minúsculas:
-  * Não permitido: Cr, Cl, Ar.
-  * Permitido: C, O, N, H.
+  * Não permitido: *Cr*, *Cl*, *Ar*.
+  * Permitido: *C*, *O*, *N*, *H*.
 O menu seguinte é mostrado:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_15.png]
@@ -94,7 +94,7 @@ Cada opção do menu tem uma sub-secção dedicada:
   * [#8:Fazer_umas_contas 8:Fazer umas contas] e [#9:Interpolacoes 9:Interpolações] são os já conhecidos, que _andam por aqui_ porque nunca se sabe quando poderão vir a serem necessários.
 
 <br>
-== 1:Equacao: R0 P0 ==
+== 1:Equacao: !R0 !P0 ==
 Este é o Assistente de Química para Combustão. O seguinte menu é mostrado:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_16.png]
@@ -209,15 +209,96 @@ Já foi descrito antes no capítulo de [ManualAsstermo215Agua Água], secção [
 
 <br>
 == 2:Calc.Entalpias Tot ==
+Esta opção trata de calcular as entalpias totais, com base nas equações químicas bem definidas... a caixa seguinte é a primeira a ser mostrada:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_32.png]
+
+Um vez escolhido quais (lados: Ambos, Reagentes ou Produtos) a calcular, a seguinte caixa é mostrada (neste exemplo é para ambos os lados):
+|| || Caso *ESC* seja escolhido na imagem ao lado, então o diálogo abaixo é mostrado: ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_33.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_34.png] ||
+|| Aqui escolhe-se a temperatura geral dos reagentes. Se se quiser uma específica para um deles, carrega-se no ESC, caso contrário, no OK vai tudo pela mesma temperatura. || Como se pode observar, tem-se de definir uma temperatura para cada molécula.  ||
+
+Uma vez escolhidas as temperaturas, o programa trata de calcular as entalpias:
+|| Se uma das moléculas não tiver as entalpias _sensíveis_ em tabela, tal informação é indicada, como a imagem seguinte demonstra para este exemplo: || Esta imagem é mostrada enquanto está a calcular: ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_35.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_36.png] ||
+
+Uma vez calculadas as entalpias, são mostradas as seguintes caixas de diálogo:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_37.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_38.png] ||
+|| Onde se se carregar no OK, mostra o diálogo à direita. || Esta caixa acima não seria mostrada se se tivesse carregado no ESC, passando logo para a fase seguinte. ||
+
+A próxima fase é tratar dos produtos:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_39.png]
+
+O procedimento é idêntico ao dos reagentes, como descrito acima, como se pode observar (ver imagens na mesma ordem que se lê):
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_40.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_41.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_42.png] ||
+|| || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_43.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_44.png] ||
+
+Após as entalpias dos Produtos estarem calculadas, vem a seguinte pergunta:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_45.png]
+
+OK grava a informação para futuras utilizações. ESC ignora a informação gerada!
 
 <br>
 == 3:Calc.Temp.Intermed ==
+Continuando o exemplo da secção [#2:Calc.Entalpias_Tot 2:Calc.Entalpias Tot]: as entalpias totais não são iguais e a dos produtos é fixa. Aí é que pode ajudar esta opção [#3:Calc.Temp.Intermed 3:Calc.Temp.Intermed]. Assumindo que o problema a resolver é encontrar a temperatura dos reagentes, recorre-se à opção [#2:Calc.Entalpias_Tot 2:Calc.Entalpias Tot] novamente, calcula-se mais uma vez a parte dos reagentes para outra temperatura e grava-se a informação, como demonstrado a seguir:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_46.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_47.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_48.png] ||
+|| Calcular só o lado dos reagentes. || Escolher uma temperatura mais baixa (ou alta, dependendo do caso). || Obtém-se os primeiros resultados gerais. *OK* para continuar. ||
+
+
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_49.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_50.png] ||
+|| São mostradas as entalpias por molécula. || *OK* para gravar os resultados. ||
+
+Uma vez isto feito, vai-se à opção [#3:Calc.Temp.Intermed 3:Calc.Temp.Intermed]. O seguinte processo se decorrerá:
+|| É mostrada uma caixa de diálogo a explicar o procedimento: || É mostrada uma caixa a seguir a avisar a fase em curso. || Depois escolhe-se a 2 opção do *H,,reag,,*: ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_51.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_52.png] ||  [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_53.png] ||
+
+
+|| É mostrada a informação relativa à escolha, que é apresentada nas 2 imagens seguintes. *OK* nesta: || *OK* ou *ESC* nesta para continuar. ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_54.png]<br>*NOTA*: erro na imagem, deve mostrar *Hreag(kJ/kmol)* || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_55.png] ||
+
+
+|| A seguinte imagem permite indicar que o que foi escolhido é o que ser quer como informação relativa à primeira temperatura: || OK para indicar que sim. || Logo se é avisado que se vai passar para a segunda fase. Escolhe-se de seguida a 3ª opção do *Hreag*, como na imagem abaixo: ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_56.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_57.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_58.png] ||
+
+
+|| A imagem seguinte é mostrada, a indicar a informação relevante. *ESC* salta a outra informação || Aqui a seguir (imagem abaixo) *OK* para seguir em frente. ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_59.png]<br>*NOTA*: erro na imagem, deve mostrar *Hreag(kJ/kmol)* || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_60.png] ||
+
+
+|| A caixa de diálogo abaixo é mostrada de seguida, pedindo se é para calcular a temperatura intermédia com base nos reagentes ou nos produtos. Ou seja, os produtos devem dar entalpia igual aos reagentes (opção *Produtos*) ou vice versa (*Reagentes*)? || A imagem seguinte mostra a caixa consecutiva: ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_61.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_62.png]<br>*NOTA*: erro na imagem, deve mostrar *H(kJ/kmol)* ||
+|| || Aqui pede-se a que entalpia é que a dos Reagentes ou os Produtos tem de ser igual a. Aqui pode-se inserir o valor “à pata” (insere-se o valor e OK) ou ir buscar da mesma forma que a restante informação (ESC, independente do valor). ||
+
+
+|| Neste exemplo, *ESC* leva ao seguinte: || Aqui (imagem abaixo) escolhe-se a 2 opção do *Hprod*. Parece que isto poderá ser um mau exemplo, face aos valores em questão, _mas que se lixe_ que é só um exemplo :) ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_63.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_64.png] ||
+
+
+|| A sequência de teclas a seguir é: *OK*, *OK*, *ESC* e chega-se à seguinte caixa mais uma vez: || Uma vez OK, resulta no seguinte resultado: ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_65.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_66.png] ||
+
+Como se pode observar... _*QUENTE*_... mas é um mau exemplo! E esta temperatura não vem nas tabelas!!!
+
+Bem, exemplo completo. O passo seguinte seria ir calcular as entalpias dos reagentes com esta temperatura e compara os resultados... e voltar a achar outra se fosse possível... mas este exemplo tinha os dias contados desde o início ;)
 
 <br>
-== 4:Ver_EntalpListadas ==
+== 4:Ver EntalpListadas ==
+Basicamente, este processo foi o que foi utilizado 3 vezes no exemplo anterior! A imagem seguinte é mostrada:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_67.png]
+
+Pode-se obter a informação que se pretende visualizar a partir de 4 vias possíveis, o que convém escolher uma apenas. E também dá uma forma de acesso rápido à informação, ie, às entalpias totais de cada cálculo. Uma vez escolhida uma das 4 opções e se se pretender ver *Reagentes*/*Produtos* ou *Ambos*, carrega-se no *OK* e vê-se a informação correspondente.
+
+Por exemplo, Reagentes, opção 2 e ver Reagentes resulta nas seguintes duas imagens:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_68.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_69.png] ||
+
+Uma vez vista a informação, chega-se à caixa inicial para se poder ver outras informações. *ESC* volta ao menu do Solver Químico!
 
 <br>
 == 5:Apagar Entalpias ==
+Aqui não há _grande ciência_. O interface é semelhante ao da opção [#4:Ver_EntalpListadas 4:Ver EntalpListadas], mas desta vez é para remover resultados.
 
 <br>
 == 6:SolverQ: Para tras ==
