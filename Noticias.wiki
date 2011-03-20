@@ -1,5 +1,18 @@
 #summary Notícias
 #sidebar BarraLateral
+= 2011-03-20 =
+Finalmente já há a primeira versão do manual do Asstermo 2.15 em versão wiki. Para ir já lá ver, clicar aqui: [ManualAsstermo215 Manual online para o Asstermo 2.15]
+
+Vantagens da versão wiki:
+  * O manual foi revisto durante o processo de transcrição, apesar que ainda devem haver várias _gralhas_.
+  * Vocês, os utilizadores, podem deixar comentários nas páginas/capítulo do manual em versão wiki, podendo assim ajudar o melhoramento do manual online!
+  * Manutenção do manual fica mais simplificada.
+
+Desvantagens da versão wiki:
+  * Não fica num formato tão compacto como o da versão PDF.
+
+*NOTA*: existem dois links na barra lateral que permitem gerar uma versão pronta para imprimir deste manual em versão wiki.
+
 = 2011-03-08 =
 Recolha de informações para possíveis variantes do Asstermo foi completada. Conclusões disponíveis aqui:
   * [Calha_TI83_84 Na calha para TI-83/84]
