@@ -14,7 +14,7 @@ Cada uma destas opções tem uma secção dedicada:
   * [#4:Modo(T\V):Valores 4:Modo(T\V):Valores] – muda entre modos de visualização de tabelas: “Valores” procura e obtém os valores da tabela, e “Tabela” dá acesso à tabela.
   * [#5:Solver_Quimico 5:Solver Químico] – Solver Químico dá acesso a outra parte da combustão: _Construção_ da Equação Química e cálculos _estequiométricos_ e acerto de contas; e cálculo das entalpias molares e totais dos Reagentes e dos Produtos! Este último permite fazer iteração manual!
   * [#6:ASSComb:_Sair 6:ASSComb: Sair] – Sair deste Assistente, nomeadamente o de Combustão!
-  * [#7:Fazer_umas_contas 7:Fazer umas contas] e [#8:Interpolacoes 8:Interpolações] são já “velhos” conhecidos...
+  * [#7:Fazer_umas_contas 7:Fazer umas contas] e [#8:Interpolacoes 8:Interpolações] são já _velhos conhecidos_...
 
 <br>
 = 1:Prop. Gases Ideais =
@@ -76,14 +76,175 @@ Esta opção permite mudar entre os modos *Valores* e *Tabelas*. O que for apres
 
 <br>
 = 5:Solver Quimico =
+Como o nome dá a entender, trata da parte de química de combustão. É um assistente simples, adaptado específicamente *apenas* para combustão (involvendo apenas os elementos mais comuns em combustão), ou seja, não lida com todos os elementos da tabela periódica, só com os elementos mais utilizados e sem minúsculas:
+  * Não permitido: Cr, Cl, Ar.
+  * Permitido: C, O, N, H.
+O menu seguinte é mostrado:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_15.png]
+
+Cada opção do menu tem uma sub-secção dedicada:
+  * [#1:Equacao:_R0_P0 1:Equacao: R0 P0] – 0 reagentes e 0 produtos estão na equação. Dá acesso ao editor e solver de fórmulas (equilibra as equações químicas);
+  * [#2:Calc.Entalpias_Tot 2:Calc.Entalpias Tot] – calcula as entalpias dos reagentes e/ou produtos, das moléculas (kJ/kmol) e de totais (kJ).
+  * [#3:Calc.Temp.Intermed 3:Calc.Temp.Intermed] – significa "Calcular a temperatura intermédia", ou seja, interpolar a temperatura onde deverá estar o equíbrio químico.
+  * [#4:Ver_EntalpListadas 4:Ver EntalpListadas] – Permite aceder à informação gravada das entalpias já calculadas. Útil para auxiliar nas iterações manuais!
+  * [#5:Apagar_Entalpias 5:Apagar Entalpias] – Apaga todas as entalpias calculadas. Uma a uma dava muito trabalho, visto que há muita informação para ver!!!
+  * [#6:SolverQ:_Para_tras 6:SolverQ: Para trás] – voltar ao menu anterior.
+  * [7:AssCombustao:_Sair 7:AssCombustao: Sair] – Sair do Assistente de Combustão.
+  * [#8:Fazer_umas_contas 8:Fazer umas contas] e [#9:Interpolacoes 9:Interpolações] são os já conhecidos, que _andam por aqui_ porque nunca se sabe quando poderão vir a serem necessários.
+
+<br>
+== 1:Equacao: R0 P0 ==
+Este é o Assistente de Química para Combustão. O seguinte menu é mostrado:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_16.png]
+
+Cada opção do menu tem uma sub-secção dedicada, apesar que algumas são aglomeradas por serem muito semelhantes:
+  * [#1:Adic.Reagentes:_0 1:Adic.Reagentes: 0] – Permite adicionar moléculas ao lado dos reagentes;
+  * [#2:Adic.Produtos:_0 2:Adic.Produtos: 0] – Permite adicionar moléculas ao lado dos produtos;
+  * [#3:Alterar_Reagentes 3:Alterar Reagentes] e [#5:Alterar_Produtos 5:Alterar Produtos] – Permitem alterar as características das moléculas inseridas em cada um dos lados da equação;
+  * [#4:Remover_Reagentes 4:Remover Reagentes] e [#6:Remover_Produtos 6:Remover Produtos] – Permitem remover moléculas de cada lado.
+  * [#7:Ver_Equacoes 7:Ver Equações] – Ver se está tudo como está na folha que está à vossa frente;
+  * [#8:Solve_Incognitas 8:Solve Incognitas] – Resolver as incógnitas das equações.
+  * [#9:Apagar_Equacoes 9:Apagar Equações] – Apagar cada lado da equação por completo.
+  * [#A:Equacao_Quim:_Sair A:Equacao Quim: Sair] – Sair do editor de equações/fórmulas químicas.
+  * [#B:Fazer_umas_contas B:Fazer umas contas] – já o habitualmente conhecido...
+
+<br>
+=== 1:Adic.Reagentes: 0 ===
+=== 2:Adic.Produtos: 0 ===
+Ao adicionar novos reagentes ou produtos, o seguinte processo tem que ocorrer:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_17.png]
+
+  # Escolhe-se uma molécula (em *Moléculas:*), ou insere-se uma (em *Fórmula Quim.:*, mas deixa-se em vazio se se quiser que seja da lista), e indica-se o número de moles ou partes desta molécula. Este número pode ser:
+    * ou um valor (exemplos: *2*, *3.5*, *5/2*);
+    * ou uma variável (de preferência um só caracter e minúsculo. exemplo: *a*, *b*, *c*);
+    * ou ainda uma pequena função: *(1+z)*, *3.76`*`z*, *a+b*.
+    * Se se deixar em vazio, assume que é *1* - ou pelo menos era suposto, e acho que acontece na TI-89, mas parece-me que na TI-92P assume que é um espaço, em vez de vazio, logo dá problemas... Por isso o melhor é indicar se é 1 ou não!!
+  # Se a molécula for da lista, uma vez carregado no OK, leva um pouco a tratar de inserir a informação na *equação* (gravar a informação). Uma vez inserido, volta a mostrar a caixa de diálogo, por forma a inserir outra molécula. ESC para sair e voltar ao menu anterior.
+  # Se a molécula não for da lista, é pedida a entalpia de formação desta molécula, com indicada na imagem abaixo:
+
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_18.png] ||
+||Aqui, se se carregar no *ESC* sem introduzir um valor, vai assumir que "" é o valor introduzido... por isso cuidado com os dedos! No entanto, no cálculo das entalpias não há grande problema (acho eu), ou seja, não as calcula bem... azar!||
+
+*NOTA*: não é possível adicionar equações/moléculas com parenteses. O programa vai fazer algo não antevisto com essa informação! Para adicionar o ar (*O,,2,, + 3.76N,,2,,*) tem que ser adicionado por partes, *O,,2,,* e *3.76N,,2,,*, uma molécula de cada vez.
+*NOTA 2*: nos casos em que seja preciso obter os valores de x e y em C,,x,,H,,y,,, basta primeiro adicionar primeiro xC e yH, fazer *solve*, e depois re-inserir a molécula como um todo, com os valores calculados!
+
+<br>
+=== 3:Alterar Reagentes ===
+=== 5:Alterar Produtos ===
+Na parte de Alterar Reagentes e Produtos, a caixa de diálogo seguinte é mostrada:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_19.png]
+
+Onde se escolhe a molécula a editar, carrega-se OK e o seguinte diálogo aparece:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_20.png]
+
+Pode-se redefinir ou até ver a quantidade de moléculas que lá existe! Notar que pode ser mais uma vez um caracter ou algo do género.
+
+No caso de ser uma molécula dada pelo utilizador, pode-se também a seguir voltar a alterar a entalpia de formação da molécula (kJ/kmol)!
+
+De seguida, volta à caixa de diálogo de selecção de moléculas, onde se pode escolher outra e carregar OK, ou ESC para voltar ao menu anterior.
+
+<br>
+=== 4:Remover Reagentes ===
+=== 6:Remover Produtos ===
+Remover Reagentes e Produtos, mostra também a caixa de selecção e pergunta se quer mesmo apagar, como mostrada na imagem seguinte:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_21.png]
+
+Uma vez OK ou ESC, volta a mostrar a caixa de selecção.
+
+<br>
+=== 7:Ver Equacoes ===
+Ver Equações dá acesso à seguinte caixa de selecção:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_22.png]
+
+Onde:
+  * *Ver equações* permite escolher se se quer ver um dos lados só ou ambos da equação.
+  * *Ver também...* permite escolher se se quer ver as equações com as incógnitas definidas (e valores para as que não têm incógnitas) ou se se quer ver com os valores calculados com o Solve (mostra as variáveis quando ainda não foi calculado!).
+
+|| Em seguida ao OK é mostrada uma caixa de diálogo semelhante à seguinte: || Se não houver produtos ou reagentes, uma caixa como a seguinte é mostrada: ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_23.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_24.png] ||
+|| Onde é mostrada em cada linha a quantidade e a molécula por ordem de inserção! || ||
+
+<br>
+=== 8:Solve Incognitas ===
+O Solve Incógnitas trata de resolver a equação, quando esta não está toda resolvida. O seguinte exemplo demonstra a equação existente:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_25.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_26.png] ||
+|| Estes são os reagentes. || Estes são os produtos. ||
+
+Em seguida, é mostrada a seguinte imagem:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_27.png] ||
+|| Como se pode observar, há um momento de preparação das equações. Isto pode demorar um pouco... ||
+
+A caixa de diálogo a seguir (imagem abaixo), permite escolher uma variável que estará em excesso (situação de *n* equações, *n+1* incógnitas), para que possa ser indicado ao _solver_ como resolver em função dessa variável. Útil para o excesso de ar *z*, por exemplo!
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_28.png] ||
+|| Basta escrever a letra da variável, como por exemplo: *z* ||
+
+Se ficar em vazio, o programa lida com o assunto com se houve *n* equações - *n* incógnitas e trabalhará com o que o _solve_ da calculadora fornecer!
+
+Continuando o exemplo, uma vez resolvido o problema, volta ao menu das equações e por detrás está a dizer para ir ver as equações. Os produtos calculados resultou no seguinte, ver imagem abaixo:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_29.png]
+
+E prontos, este exemplo já está demonstrado!
+
+<br>
+=== 9:Apagar Equacoes ===
+Se pretender apagar as equações, as seguintes 2 caixas serão mostradas (uma de cada vez):
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_30.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_31.png] ||
+|| Primeiro pergunta sobre os reagentes. || Depois sobre os produtos. ||
+
+<br>
+=== A:Equacao Quim: Sair ===
+Esta opção fará sair do Assistente de Química para Combustão e voltará ao Assistente de Combustão, nomeadamente para o menu principal do [#5:Solver_Quimico 5:Solver Químico].
+
+<br>
+=== B:Fazer umas contas ===
+Já foi descrito antes no capítulo de [ManualAsstermo215Agua Água], secção [ManualAsstermo215Agua#9:Fazer_umas_contas 9:Fazer umas contas].
+
+<br>
+== 2:Calc.Entalpias Tot ==
+
+<br>
+== 3:Calc.Temp.Intermed ==
+
+<br>
+== 4:Ver_EntalpListadas ==
+
+<br>
+== 5:Apagar Entalpias ==
+
+<br>
+== 6:SolverQ: Para tras ==
+Regressa ao menu anterior, nomeadamente o menu principal do [#5:Solver_Quimico 5:Solver Químico].
+
+<br>
+== 7:AssCombustao: Sair ==
+Permite sair do Assistente de Combustão.
+
+<br>
+== 8:Fazer umas contas ==
+Já foi descrito antes no capítulo de [ManualAsstermo215Agua Água], secção [ManualAsstermo215Agua#9:Fazer_umas_contas 9:Fazer umas contas].
+
+<br>
+== 9:Interpolacoes ==
+Já foi descrito antes no capítulo de [ManualAsstermo215Agua Água], secção [ManualAsstermo215Agua#A:Interpolacoes A:Interpolações].
 
 <br>
 = 6:ASSComb: Sair =
+Permite sair do Assistente de Combustão.
 
 <br>
 = 7:Fazer umas contas =
+Já foi descrito antes no capítulo de [ManualAsstermo215Agua Água], secção [ManualAsstermo215Agua#9:Fazer_umas_contas 9:Fazer umas contas].
 
 <br>
 = 8:Interpolacoes =
+Já foi descrito antes no capítulo de [ManualAsstermo215Agua Água], secção [ManualAsstermo215Agua#A:Interpolacoes A:Interpolações].
 
 
