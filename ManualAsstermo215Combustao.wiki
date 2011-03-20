@@ -71,7 +71,7 @@ Escolha a *Fórmula* pela qual quer procurar (não deu para apresentar toda a f�
 
 Em modo *Tabelas* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) mostra o seguinte:
 || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_14.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_15.png] ||
-|| Aqui escolhe-se também a fórmula, por qual temperatura começar e quantas entradas mostrar. Neste, ao contrário das outras tabelas, permite ver 2x2 colunas ao mesmo tempo, logo permite até 16 entradas! || O {{{||}}} é o _separador central_ das 2x2 colunas. Notar que no título mostra a fórmula completa! ||
+|| Aqui escolhe-se também a fórmula, por qual temperatura começar e quantas entradas mostrar. Neste, ao contrário das outras tabelas, permite ver 2x2 colunas ao mesmo tempo, logo permite até 16 entradas! || O [http://wiki.asstermo.googlecode.com/hg/img215/2verticalbars.png] é o _separador central_ das 2x2 colunas. Notar que no título mostra a fórmula completa! ||
 
 <br>
 = 4:Modo(T\V):Valores =
