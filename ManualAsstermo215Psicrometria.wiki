@@ -20,7 +20,7 @@ Cada opção tem uma secção dedicada neste capítulo:
   * [#6:Obter_p_vapor_(pv) 6:Obter p vapor (pv)]
   * [#7:Calculo_de_massas 7:Cálculo de massas]
   * [#8:Diag_Psicrometrico 8:Diag Psicrométrico]
-  * [#9:Psicrometria: Sair]
+  * [#9:Psicrometria:_Sair 9:Psicrometria: Sair]
   * [#A:Fazer_uma_contas A:Fazer uma contas]
 
 <br>
@@ -47,7 +47,7 @@ Quanto às opções seguintes:
 
 <br>
 = 3:Obter HR =
-Este é o sub-menu atingido a partir da 3ª opção do menu de psicrometria:
+Este é o sub-menu acedido a partir da 3ª opção do menu de psicrometria:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_07.png]
 
@@ -62,13 +62,13 @@ Quanto às opções seguintes:
 
 <br>
 = 4:Obter h com T e w =
-Este é o menu atingido por aceder à opção 4 do menu de psicrometria:
+Este é o diálogo apresentado por aceder à opção 4 do menu de psicrometria:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_11.png]
 
 <br>
 = 5:Obter p T ou T p =
-Este é o menu atingido por aceder à opção 5 do menu de psicrometria:
+Este é o menu apresentado por aceder à opção 5 do menu de psicrometria:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_12.png]
 
@@ -122,14 +122,9 @@ Os seguintes dois ecrãs mostram um exemplo de como adicionar um ponto, a partir
 *NOTA IMPORTANTE*: Como os pontos ficam armazenados pela definição de temperatura e massa específica, é possível alterar a _pressão do sistema_ sem perda de caracterização ([#1:Pressao(bar):x.xxx 1:Pressão(bar):x.xxx]), *mas somente* se os pontos todos foram adicionados com o par temperatura e massa específica! Caso contrário terão de alterar os pontos já adicionados, para corrigir os valores respectivos!
 
 <br>
-== 2:Alterar pontos ==
-|| Escolhe-se o ponto pelo nome o ponto que se pretende alterar. ||
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_20.png] ||
-
-<br>
-== 3:Remover pontos ==
-|| Escolhe-se também pelo o nome que se pretende remover. Notar que os diálogos são diferentes qb para minimizar confusões. ||
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_21.png] ||
+|| == 2:Alterar pontos == || == 3:Remover pontos == ||
+|| Escolhe-se o ponto pelo nome o ponto que se pretende alterar. || Escolhe-se também pelo o nome que se pretende remover. Notar que os diálogos são diferentes qb para minimizar confusões. ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_20.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_21.png] ||
 
 <br>
 == 4:Intersectar rectas ==
