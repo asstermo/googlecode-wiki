@@ -94,7 +94,7 @@ Cada opção do menu tem uma sub-secção dedicada:
   * [#8:Fazer_umas_contas 8:Fazer umas contas] e [#9:Interpolacoes 9:Interpolações] são os já conhecidos, que _andam por aqui_ porque nunca se sabe quando poderão vir a serem necessários.
 
 <br>
-== 1:Equacao: R0 P0 ==
+== 1:Equacao: `R0` `P0` ==
 Este é o Assistente de Química para Combustão. O seguinte menu é mostrado:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_16.png]
@@ -321,5 +321,3 @@ Já foi descrito antes no capítulo de [ManualAsstermo215Agua Água], secção [
 <br>
 = 8:Interpolacoes =
 Já foi descrito antes no capítulo de [ManualAsstermo215Agua Água], secção [ManualAsstermo215Agua#A:Interpolacoes A:Interpolações].
-
-
