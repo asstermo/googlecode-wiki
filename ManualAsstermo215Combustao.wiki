@@ -3,4 +3,41 @@
 #sidebar BarraLateral
 <wiki:toc max_depth="3" />
 
-(Por transcrever...)
+Este assistente vem completar a parte que faltava para a parte de Combustão. O menu seguinte é o primeiro a ser apresentado:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_01.png]
+
+Cada uma destas opções tem uma secção dedicada:
+  * [#1:Prop._Gases_Ideais 1:Prop. Gases Ideais] – acesso à tabela das propriedades (T em K; h, u e s,,0,,, em kJ/kmol) dos gases ideais CO,,2,,, CO, H,,2,,O, N,,2,, e O,,2,,.
+  * [#2:Prop._TermoQuim. 2:Prop. TermoQuim.] – acesso à tabela das propriedades termoquímicas (h,,0,,^f^, gibbs, HHV, LHV...) de várias moléculas, a 298K e 1bar.
+  * [#3:Log10(K) 3:Log10(K)] – acesso à tabela com os valores de Log,,10,,(K) para várias equações e várias temperaturas.
+  * [#4:Modo(T\V):Valores 4:Modo(T\V):Valores] – muda entre modos de visualização de tabelas: “Valores” procura e obtém os valores da tabela, e “Tabela” dá acesso à tabela.
+  * [#5:Solver_Quimico 5:Solver Químico] – Solver Químico dá acesso a outra parte da combustão: _Construção_ da Equação Química e cálculos _estequiométricos_ e acerto de contas; e cálculo das entalpias molares e totais dos Reagentes e dos Produtos! Este último permite fazer iteração manual!
+  * [#6:ASSComb:_Sair 6:ASSComb: Sair] – Sair deste Assistente, nomeadamente o de Combustão!
+  * [#7:Fazer_umas_contas 7:Fazer umas contas] e [#8:Interpolacoes 8:Interpolações] são já “velhos” conhecidos...
+
+<br>
+= 1:Prop. Gases Ideais =
+
+<br>
+= 2:Prop. TermoQuim. =
+
+<br>
+= 3:Log10(K) =
+
+<br>
+= 4:Modo(T\V):Valores =
+
+<br>
+= 5:Solver Quimico =
+
+<br>
+= 6:ASSComb: Sair =
+
+<br>
+= 7:Fazer umas contas =
+
+<br>
+= 8:Interpolacoes =
+
+
