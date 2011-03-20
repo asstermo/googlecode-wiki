@@ -9,7 +9,7 @@ Este assistente vem completar a parte que faltava para a parte de Combustão. O 
 
 Cada uma destas opções tem uma secção dedicada:
   * [#1:Prop._Gases_Ideais 1:Prop. Gases Ideais] – acesso à tabela das propriedades (T em K; h, u e s,,0,,, em kJ/kmol) dos gases ideais CO,,2,,, CO, H,,2,,O, N,,2,, e O,,2,,.
-  * [#2:Prop._TermoQuim. 2:Prop. TermoQuim.] – acesso à tabela das propriedades termoquímicas (h,,0,,^f^, gibbs, HHV, LHV...) de várias moléculas, a 298K e 1bar.
+  * [#2:Prop._TermoQuim. 2:Prop. TermoQuim.] – acesso à tabela das propriedades termoquímicas (h^0^,,f,,, gibbs, HHV, LHV...) de várias moléculas, a 298K e 1bar.
   * [#3:Log10(K) 3:Log10(K)] – acesso à tabela com os valores de Log,,10,,(K) para várias equações e várias temperaturas.
   * [#4:Modo(T\V):Valores 4:Modo(T\V):Valores] – muda entre modos de visualização de tabelas: “Valores” procura e obtém os valores da tabela, e “Tabela” dá acesso à tabela.
   * [#5:Solver_Quimico 5:Solver Químico] – Solver Químico dá acesso a outra parte da combustão: _Construção_ da Equação Química e cálculos _estequiométricos_ e acerto de contas; e cálculo das entalpias molares e totais dos Reagentes e dos Produtos! Este último permite fazer iteração manual!
@@ -29,7 +29,7 @@ Basicamente, Escolhe-se:
 
 Obtém-se por exemplo:
 || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_03.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_04.png] ||
-|| Este ecrã indica que está em cálculos... || E este mostra os resultados encontrados!<br>*h0f* é a entalpia de formação.<br>*h(298K ref)* é o valor da entalpia total da molécula, com a referência da temperatura em 298K! ||
+|| Este ecrã indica que está em cálculos... || E este mostra os resultados encontrados!<br>*h0f* é a entalpia de formação.<br>*h(298K ref)* é o valor da entalpia total da molécula, com a referência da temperatura em 298K: h,,298K ref,, = h^0^,,f,, + h,,298K,, ||
 
 Em modo *Tabelas* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) mostra o seguinte:
 
@@ -71,7 +71,7 @@ Escolha a *Fórmula* pela qual quer procurar (não deu para apresentar toda a f�
 
 Em modo *Tabelas* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) mostra o seguinte:
 || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_14.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_15.png] ||
-|| Aqui escolhe-se também a fórmula, por qual temperatura começar e quantas entradas mostrar. Neste, ao contrário das outras tabelas, permite ver 2x2 colunas ao mesmo tempo, logo permite até 16 entradas! || O *`||`* é o _separador central_ das 2x2 colunas. Notar que no título mostra a fórmula completa! ||
+|| Aqui escolhe-se também a fórmula, por qual temperatura começar e quantas entradas mostrar. Neste, ao contrário das outras tabelas, permite ver 2x2 colunas ao mesmo tempo, logo permite até 16 entradas! || O `||` é o _separador central_ das 2x2 colunas. Notar que no título mostra a fórmula completa! ||
 
 <br>
 = 4:Modo(T\V):Valores =
