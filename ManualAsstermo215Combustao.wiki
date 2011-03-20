@@ -33,17 +33,14 @@ Obtém-se por exemplo:
 
 Em modo *Tabelas* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) mostra o seguinte:
 
-[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_05.png]
-
-Obtém-se por exemplo:
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_06.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_07.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_08.png] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_05.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_06.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_07.png] ||
 || Indica que está a preparar a caixa de diálogo de controlo do acesso à tabela. || Neste escolhe-se o gás, a temperatura onde começa a listar e quantas entradas listar. Quantas menos listar, mais rápido o acesso! As temperaturas que se podem escolher são de intervalos de 6 em 6 (por exemplo:300,360,420, em vez de 300,310,320...410,420), por forma ao programa correr mais depressa. || Uma vez escolhido, mostra o seguinte a imagem acima. Notar o título minúsculo da caixa de diálogo... mostra o gás escolhido e a entalpia de formação! ||
 
 <br>
 = 2:Prop. TermoQuim. =
 Este só tem um modo de selecção e apresentação dos resultados:
 
-[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_09.png]
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_08.png]
 
   * *Qual lista?* – se é para obter a listagem de resultados da opção *Nomes* ou *Fórmulas*.
   * *Nomes:* – escolha um dos nomes listados e carregue OK, se na *Qual lista?* tiver escolhido *Nome*.
@@ -51,7 +48,7 @@ Este só tem um modo de selecção e apresentação dos resultados:
 
 De seguida é mostrado a seguinte imagem:
 
-[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_10.png]
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_09.png]
 
 As seis primeiras linhas são as propriedades do que foi escolhido! Notar o título que indica o nome e a molécula escolhidos!
 
@@ -63,14 +60,14 @@ ESC sai deste acesso, OK continua a procurar!
 = 3:Log10(K) =
 Em modo *Valores* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) é mostrado o seguinte:
 
-[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_11.png]
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_10.png]
 
 Escolha a *Fórmula* pela qual quer procurar (não deu para apresentar toda a fórmula neste diálogo), por qual propriedade pretende procurar (Temperatura, Log,,10,,(K) ou K) e escolher o valor para essa propriedade. Após o *OK*, é mostrado o seguinte:
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_12.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_13.png] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_11.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_12.png] ||
 || Este ecrã indica que está em cálculos... || Uma vez encontrado, aqui mostra os valores encontrados. ||
 
 Em modo *Tabelas* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) mostra o seguinte:
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_14.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_15.png] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_13.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_14.png] ||
 || Aqui escolhe-se também a fórmula, por qual temperatura começar e quantas entradas mostrar. Neste, ao contrário das outras tabelas, permite ver 2x2 colunas ao mesmo tempo, logo permite até 16 entradas! || O [http://wiki.asstermo.googlecode.com/hg/img215/2verticalbars.png] é o _separador central_ das 2x2 colunas. Notar que no título mostra a fórmula completa! ||
 
 <br>
