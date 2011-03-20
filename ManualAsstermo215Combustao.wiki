@@ -18,15 +18,64 @@ Cada uma destas opções tem uma secção dedicada:
 
 <br>
 = 1:Prop. Gases Ideais =
+Em modo *Valores* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) é mostrado o seguinte:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_02.png]
+
+Basicamente, Escolhe-se:
+  * o Gás? (CO,,2,,,CO,H,,2,,O,O,,2,,,N,,2,,)
+  * Qual a propriedade? (T(K), h, u ou s^0^)
+  * e o Valor correspondente à propriedade escolhida!
+
+Obtém-se por exemplo:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_03.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_04.png] ||
+|| Este ecrã indica que está em cálculos... || E este mostra os resultados encontrados!<br>*h0f* é a entalpia de formação.<br>*h(298K ref)* é o valor da entalpia total da molécula, com a referência da temperatura em 298K! ||
+
+Em modo *Tabelas* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) mostra o seguinte:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_05.png]
+
+Obtém-se por exemplo:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_06.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_07.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_08.png] ||
+|| Indica que está a preparar a caixa de diálogo de controlo do acesso à tabela. || Neste escolhe-se o gás, a temperatura onde começa a listar e quantas entradas listar. Quantas menos listar, mais rápido o acesso! As temperaturas que se podem escolher são de intervalos de 6 em 6 (por exemplo:300,360,420, em vez de 300,310,320...410,420), por forma ao programa correr mais depressa. || Uma vez escolhido, mostra o seguinte a imagem acima. Notar o título minúsculo da caixa de diálogo... mostra o gás escolhido e a entalpia de formação! ||
 
 <br>
 = 2:Prop. TermoQuim. =
+Este só tem um modo de selecção e apresentação dos resultados:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_09.png]
+
+  * *Qual lista?* – se é para obter a listagem de resultados da opção *Nomes* ou *Fórmulas*.
+  * *Nomes:* – escolha um dos nomes listados e carregue OK, se na *Qual lista?* tiver escolhido *Nome*.
+  * *Fórmulas:* – escolha uma das fórmulas (moléculas) listadas e carregue OK, se na *Qual lista?* tiver escolhido *Fórmula*.
+
+De seguida é mostrado a seguinte imagem:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_10.png]
+
+As seis primeiras linhas são as propriedades do que foi escolhido! Notar o título que indica o nome e a molécula escolhidos!
+
+Permite ainda continuar a procurar valores, como se pode reparar nas três opções da caixa de diálogo anterior!
+
+ESC sai deste acesso, OK continua a procurar!
 
 <br>
 = 3:Log10(K) =
+Em modo *Valores* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) é mostrado o seguinte:
+
+[http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_11.png]
+
+Escolha a *Fórmula* pela qual quer procurar (não deu para apresentar toda a fórmula neste diálogo), por qual propriedade pretende procurar (Temperatura, Log,,10,,(K) ou K) e escolher o valor para essa propriedade. Após o *OK*, é mostrado o seguinte:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_12.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_13.png] ||
+|| Este ecrã indica que está em cálculos... || Uma vez encontrado, aqui mostra os valores encontrados. ||
+
+Em modo *Tabelas* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) mostra o seguinte:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_14.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_15.png] ||
+|| Aqui escolhe-se também a fórmula, por qual temperatura começar e quantas entradas mostrar. Neste, ao contrário das outras tabelas, permite ver 2x2 colunas ao mesmo tempo, logo permite até 16 entradas! || O *`||`* é o _separador central_ das 2x2 colunas. Notar que no título mostra a fórmula completa! ||
 
 <br>
 = 4:Modo(T\V):Valores =
+Esta opção permite mudar entre os modos *Valores* e *Tabelas*. O que for apresentado _neste momento_ no menu é o que está seleccionado _actualmente_.
 
 <br>
 = 5:Solver Quimico =
