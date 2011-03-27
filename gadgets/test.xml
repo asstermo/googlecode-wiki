@@ -3,5 +3,25 @@
   <ModulePrefs title="Teste..." height="100">
     <Require feature="dynamic-height"/>
   </ModulePrefs>
-  <Content type="url" href="http://wiki.asstermo.googlecode.com/hg/gadgets/test.html#BarraLateral" />
+  <Content type="html">
+  <![CDATA[
+<p>This is just a test.</p>
+
+<script>
+_appendText=function(text2append){
+  var d=document.createElement("div");
+  d.innerHTML=text2append;
+  document.body.appendChild(d);
+}
+
+var url="http://"+document.location.hostname+"/hg/SobreAsstermo.wiki";
+_appendText(url);
+
+alert(window.location);
+gadgets.window.adjustHeight();
+
+</script>
+
+  ]]>
+  </Content>
 </Module>
