@@ -1,4 +1,5 @@
 #summary Links para a barra lateral
+#labels Featured
   * [Noticias Notícias]
   * [SobreAsstermo Sobre o Asstermo]
     * [Motivacao Motivação]
