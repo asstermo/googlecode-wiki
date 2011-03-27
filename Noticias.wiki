@@ -1,4 +1,5 @@
 #summary Notícias
+#labels Featured
 #sidebar BarraLateral
 = 2011-03-20 =
 Finalmente já há a primeira versão do manual do Asstermo 2.15 em versão wiki. Para ir já lá ver, clicar aqui: [ManualAsstermo215 Manual online para o Asstermo 2.15]
