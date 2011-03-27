@@ -46,6 +46,11 @@ _appendText(html);
 var url="http://"+document.location.hostname+"/hg/SobreAsstermo.wiki";
 _appendText(url);
 
+_appendText(parent.location);
+_appendText(parent.parent.location);
+_appendText(parent.parent.parent.location);
+
+
 $.ajax({
   url: url,
   success: _postwiki
