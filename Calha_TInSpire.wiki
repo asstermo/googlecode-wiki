@@ -8,8 +8,21 @@ Neste momento não existem planos para criar uma variante do Asstermo para as TI
 
 Ironicamente, esta calculadora é tão _potente_ com o seu [http://en.wikipedia.org/wiki/ARM_architecture ARM] como CPU, que seria possível correr Linux nesta, tornando assim o primeiro PDA a preto e branco que a TI lançava.
 
-Dum ponto de vista menos _legal_ e como demonstração do poder monstruoso destas calculadoras: já existe um [http://omnimaga.org/index.php?topic=1301.0 emulador de GameBoy para as TI-nSpire]. Também havia um emulador de TI-89 a ser criado, mas 
+Dum ponto de vista menos _legal_ e como demonstração do poder monstruoso destas calculadoras: já existe um [http://omnimaga.org/index.php?topic=1301.0 emulador de GameBoy para as TI-nSpire]. Também havia um emulador de TI-89 a ser criado, mas houve uns _problemas existencialistas com o espaço-tempo cyberespacial_.... e perdeu-se o código :(
+
+Nome planeado para a variante de Asstermo para TI-nSpire: Asstermo-ARM
 
 = Possibilidades =
   * A TI-nSpire (mas não a TI-nSpire CAS) tem um emulador de TI-84 integrado, por isso quando se conseguir ter uma variante para as TI-83/84, então deve ser possível automaticamente ter nas TI-nSpire. Portanto, acompanhem também o que vai [Calha_TI83_84 na calha para as TI-83/84].
   * Usar o sistema de "documentos e folhas de cálculo" que as nSpire utilizam. Basicamente seria como ter uma ou mais folhas de Excel na calculadora, mas face ao número elevado de tabelas que são precisas, não sei se as nSpire se irão _aguentar nas canetas_...
+  * A mais provável será recorrer ao Ndless: [http://hackspire.unsads.com/wiki/index.php/Main_Page Ndless wiki]
+
+= Limites Tecnológicos a ultrapassar =
+Assumindo que se irá na via de recorrer ao Ndless, eis o que ainda não se conhece:
+  # Interface gráfico, nomeadamente caixas de diálogo e popup menus de navegação. O TI-Basic que está na TI-nSpire é supostamente muito parecido com o do 68k, por isso se calhar até se pode utilizar as mesmas funções via chamadas em C.
+  # Armazenamento e acesso às tabelas. Isto é crítico e é algo que é fácil nas TI-68k, visto que são literalmente tratadas como ficheiros; para o acesso rápido, tive de criar a função de acesso a estas tabelas/matrizes, para que fosse mais rápido o acesso. Não sei como será na TI-nSpire.
+  # Compressão de dados, quer de programas como tabelas. Para a TI-nSpire *isto não é necessário*, visto que nesta abunda RAM e Flash-ROM!!
+
+= Apontamentos =
+  * GUI ainda parece estar muito atrasado. De momento ainda só há uma "message box": [http://hackspire.unsads.com/wiki/index.php/Libndls#UI Libndls UI]. Falta a "Popup" e a caixa de diálogo mais genérica, à lá TI-68k.
+  * O Ndless ainda está longe de estar completo, portanto ainda falta muita coisa crucial à criação de uma variante do Asstermo para TI-nSpire.

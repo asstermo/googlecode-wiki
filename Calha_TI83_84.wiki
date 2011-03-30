@@ -7,6 +7,8 @@ Existem planos de criar uma variante do Asstermo para as TI-83/84 Plus/SE. No en
 
 Enquanto não for possível ter o Asstermo nestas calculadoras, usem estas tabelas: [http://www.steamtables-pocket-calculators.com Property Libraries for Pocket Calculators]
 
+Nome planeado para a variante de Asstermo para TI-nSpire: Asstermo-Z80
+
 = Limites Tecnológicos a ultrapassar =
 
   * Programa de compressão
