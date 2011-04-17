@@ -1,26 +1,30 @@
 #summary Apontamentos sobre o que falta fazer para a versão do Asstermo para TI-83/84
 #labels TI-83,TI-84
 #sidebar BarraLateral
+<wiki:toc max_depth="3" />
 
 = Introdução =
-Existem planos de criar uma variante do Asstermo para as TI-83/84 Plus/SE. No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92 e Voyage 200.
+Existem planos de criar uma variante do Asstermo para as TI-83/84 Plus/SE. No entanto, há alguns limites tecnológicos que ainda têm de ser ultrapassados para se conseguir atingir uma qualidade semelhante à obtida com o Asstermo original para TI-89/92/200.
 
 Enquanto não for possível ter o Asstermo nestas calculadoras, usem estas tabelas: [http://www.steamtables-pocket-calculators.com Property Libraries for Pocket Calculators]
 
 Nome planeado para a variante de Asstermo para TI-nSpire: Asstermo-Z80
+
+No entanto, para evitar problemas com _trademarks_, irá se chamar somente *Asstermo-Z*.
 
 = Limites Tecnológicos a ultrapassar =
 
   * Programa de compressão
     * Solução possível: compilar o [http://www.oberhumer.com/opensource/lzo/ miniLZO] utilizando o [http://www.z88dk.org z88dk]. Para mais info ver [http://forum.ticalcs.net/showthread.php?tid=432&page=3 aqui].
     * Acho que vai se ter *esquecer compressão* por completo nas TI-83/84.
+    * Aparenta haver um algoritmo muito bom no [http://www.ticalc.org/archives/files/fileinfo/321/32127.html BasicBuilder], mas novamente poderá não ser possível usar, devido às dimensões das tabelas.
   * Programa para apresentar caixas de diálogo de jeito, porque as letras "naturais" da calculadora são monstruosas
     * Solução possível: criar uma função/subrotina genérica com base no [http://www.ticalc.org/archives/files/fileinfo/318/31801.html cheetah].
   * Descobrir como armazenar tabelas tão grandes como as do Asstermo, quando o que as TI 83/84 têm são apenas listas muita estranhas.
     * Pelos vistos a única solução é guardar os dados num ficheiro flash (.8xk). Só assim é que podemos armazenar os dados todos que quisermos. Isto significa que a dita aplicação flash tem de ser um sistema interno de organização de dados.
 
 Muito provavelmente a única solução mais viável será criar um programa mais centrado em assembly do que basic.
-Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar nas TI-nSpire.
+Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar nas TI-nSpire (sem CAS e com o teclado TI-84).
 
 *Se souberem mais detalhes para alguns destes pontos, por favor comentem nesta página wiki que estão a ler!*
 
@@ -45,4 +49,5 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
 = Conclusões =
   # Só as TI-83 +SE, TI-84 Plus e TI-84 +SE é que estão dentro dos parâmetros operacionais.
   # Face às necessidades operacionais de uma variante do Asstermo, só será possível se se fizer uma aplicação completa em TI-Flash. Isto implica aprender Z80 Assembly específico para estas calculadoras: [http://education.ti.com/downloads/guidebooks/sdk/83p/sdk83pguide.pdf Manual do SDK para TI-83]
-  # O BasicBuilder pode ajudar a reduzir as lacunas criadas ao se usar somente Assembly. Deverá permitir que mais facilmente se consiga criar uma aplicação flash super poderosa, em que parte do código seja escrito em Basic e o que faltar seja em Assembly. Algumas arestas potencialmente também poderão ser colmatadas ao usar o z88dk.
+  # O BasicBuilder pode ajudar a reduzir as lacunas criadas ao se usar somente Assembly. Deverá permitir que mais facilmente se consiga criar uma aplicação flash _super poderosa_, em que parte do código seja escrito em Basic e o que faltar seja em Assembly. Algumas arestas potencialmente também poderão ser colmatadas ao usar o z88dk.
+  # Esta variante será a que apresenta um maior desafio, quando comparada à versão original e às variantes Asstermo-D e Asstermo-N.

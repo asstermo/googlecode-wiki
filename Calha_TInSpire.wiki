@@ -1,10 +1,11 @@
 #summary Na Calha para as TI-nSpire
 #labels TI-nSpire
 #sidebar BarraLateral
+<wiki:toc max_depth="3" />
 
 = Introdução =
 
-Neste momento não existem planos para criar uma variante do Asstermo para as TI-nSpire. Estas calculadoras são na realidade as mais potentes que a TI alguma vez criou até agora, mas eles cometeram um erro crasso do ponto de vista do utilizador autodidacta: é legalmente impossível de utilizar a calculadora para além das limitações que eles impuseram sobre esta. E não existe SDK para estas: [http://education.ti.com/educationportal/sites/US/productCategory/us_sdk.html página de SDKs da TI]
+Neste momento *existem* planos para criar uma variante do Asstermo para as TI-nSpire. Estas calculadoras são na realidade as mais potentes que a TI alguma vez criou até agora, mas eles cometeram um erro crasso do ponto de vista do utilizador autodidacta: é _legalmente_ impossível de utilizar a calculadora para além das limitações que eles impuseram sobre esta. E não existe SDK para estas: [http://education.ti.com/educationportal/sites/US/productCategory/us_sdk.html página de SDKs da TI]
 
 Ironicamente, esta calculadora é tão _potente_ com o seu [http://en.wikipedia.org/wiki/ARM_architecture ARM] como CPU, que seria possível correr Linux nesta, tornando assim o primeiro PDA a preto e branco que a TI lançava.
 
@@ -12,17 +13,48 @@ Dum ponto de vista menos _legal_ e como demonstração do poder monstruoso desta
 
 Nome planeado para a variante de Asstermo para TI-nSpire: Asstermo-ARM
 
-= Possibilidades =
+No entanto, devido às limitações e possibilidades, estão delineadas duas variantes do Asstermo-ARM, nomeadamente:
+  * [#Asstermo-D Asstermo-D-ARM] - Será baseado em formato _Document_ das nSpire. Não terá interface próprio, será somente um sistema de semi-formulários em folhas de cálculo.
+  * [#Asstermo-N Asstermo-N-ARM] - Espectável de ser o mais poderoso Asstermo de sempre, mas está dependente da evolução do [http://hackspire.unsads.com/wiki/index.php/Main_Page Ndless].
+Devido a ser possível criar estas duas variantes, o "-ARM" não será usado para evitar problemas com _trademarks_.
+
+= Possibilidades existentes =
   * A TI-nSpire (mas não a TI-nSpire CAS) tem um emulador de TI-84 integrado, por isso quando se conseguir ter uma variante para as TI-83/84, então deve ser possível automaticamente ter nas TI-nSpire. Portanto, acompanhem também o que vai [Calha_TI83_84 na calha para as TI-83/84].
   * Usar o sistema de "documentos e folhas de cálculo" que as nSpire utilizam. Basicamente seria como ter uma ou mais folhas de Excel na calculadora, mas face ao número elevado de tabelas que são precisas, não sei se as nSpire se irão _aguentar nas canetas_...
-  * A mais provável será recorrer ao Ndless: [http://hackspire.unsads.com/wiki/index.php/Main_Page Ndless wiki]
+  * Recorrer ao Ndless para todo ou a maioria do sistema: [http://hackspire.unsads.com/wiki/index.php/Main_Page Ndless wiki]
 
-= Limites Tecnológicos a ultrapassar =
-Assumindo que se irá na via de recorrer ao Ndless, eis o que ainda não se conhece:
-  # Interface gráfico, nomeadamente caixas de diálogo e popup menus de navegação. O TI-Basic que está na TI-nSpire é supostamente muito parecido com o do 68k, por isso se calhar até se pode utilizar as mesmas funções via chamadas em C.
-  # Armazenamento e acesso às tabelas. Isto é crítico e é algo que é fácil nas TI-68k, visto que são literalmente tratadas como ficheiros; para o acesso rápido, tive de criar a função de acesso a estas tabelas/matrizes, para que fosse mais rápido o acesso. Não sei como será na TI-nSpire.
+
+= Asstermo-D =
+Esta variante *D* indica a designação de variante basiada em _Document_ das nSpire. Nesse documento irá ficar todo o _ecossistema_ do Asstermo-D e folhas de cálculo que estarão associadas a cada secção de cálculo. (Internamente o *D* também significa _Duuuuuhhh_, por causa de se ter de recorrer a formulários graças ao people da TI que decidiu que GUI em Basic são maus...)
+
+Esta versão ainda só está em fase de concepção. Há uma pessoa que se chegou à frente e se voluntariou para ajudar a desenvolver esta versão, como também a baseada em Ndless. Neste momento ficará anónima por motivos de privacidade, mas quando oficialmente se juntar ao projecto, será aqui indicado.
+
+A vantagem desta versão é que deverá ser a mais rápida criação de uma variante do Asstermo original, porque as TI-nSpire utilizam TI-Basic quase idêntico ao das calculadoras TI-89/92/200. Isto significa que rapidamente se irá transferir as tabelas para a nSpire e uma boa parte do código pode ser aproveitado.
+
+Nota mental: apesar de limitado, existe a possibilidade de usar *message boxes* para os avisos de utilização indevida!
+
+== Etapas ==
+|| *Etapa* || *Estado actual* ||
+|| Criação do repositório de desenvolvimento de código para o Asstermo-D. Acho que basta chamar-se "D". || por fazer ||
+|| Transferir as tabelas todas para o novo _Document_ do Asstermo-D. || por fazer ||
+|| Recuperar código em Basic de procura e interpolação do Asstermo original, antes deste ter passado a adoptar o TIGCC. || por fazer ||
+|| Criação do formulário e respectiva interacção com este, mas para já só para a Água. || por fazer ||
+|| Criação dos formulários e respectivas interacções com estes, para as tabelas restantes que são semelhantes às da Água, nomeadamente:<br>- Amónia<br>- Refrigerante 22<br>- Refrigerante 134a<br>- Propano || por fazer ||
+|| Adicionar Psicrometria, excepto o Diagrama Psicrométrico Numérico. || por fazer ||
+|| Adicionar Combustão, mas só parte de tabelas e contas essenciais. || por fazer ||
+|| Adicionar Diagrama Psicrométrico Numérico. || por fazer ||
+|| Adicionar Assistente de Solver Químico e finalizar a combustão. || por fazer ||
+
+
+= Asstermo-N =
+Esta variante *N* poderá vir a ser mais poderosa que a versão original do Asstermo, mas está muito dependente do estado de evolução do [http://hackspire.unsads.com/wiki/index.php/Main_Page Ndless].
+
+== Limites Tecnológicos a ultrapassar ==
+Via [http://hackspire.unsads.com/wiki/index.php/Main_Page Ndless], eis o que ainda não se conhece:
+  # Interface gráfico, nomeadamente caixas de diálogo e popup menus de navegação. As funções de diálogo e menus das TI-89/92/200 não existem nas TI-nSpire, por escolha de design dos gajos da TI. Isto significa que têm de ser criados ainda interfaces gráficos modulares, para que o utilizador possa interagir com o Asstermo-N.
+  # Armazenamento e acesso às tabelas. Isto é crítico e é algo que é _fácil_ nas TI-68k, visto que são literalmente tratadas como ficheiros; para o acesso rápido, tive de criar a função de acesso a estas tabelas/matrizes, para que fosse mais rápido o acesso. Não sei como será na TI-nSpire.
   # Compressão de dados, quer de programas como tabelas. Para a TI-nSpire *isto não é necessário*, visto que nesta abunda RAM e Flash-ROM!!
 
-= Apontamentos =
+== Apontamentos ==
   * GUI ainda parece estar muito atrasado. De momento ainda só há uma "message box": [http://hackspire.unsads.com/wiki/index.php/Libndls#UI Libndls UI]. Falta a "Popup" e a caixa de diálogo mais genérica, à lá TI-68k.
   * O Ndless ainda está longe de estar completo, portanto ainda falta muita coisa crucial à criação de uma variante do Asstermo para TI-nSpire.

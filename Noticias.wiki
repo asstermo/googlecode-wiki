@@ -1,5 +1,11 @@
 #summary Notícias
 #sidebar BarraLateral
+= 2011-04-17 =
+Actualizações várias sobre as variantes:
+  * [Calha_TInSpire Na calha para as TI-nSpire] - Versão Asstermo-D está agora em fase de concepção!
+  * [Calha_TI83_84 Na calha para TI-83/84] - algumas notas.
+  * [Calha_CASIO Na calha para as calculadoras CASIO] - designações das variantes já estão mais ou menos definidas.
+
 = 2011-03-20 =
 Finalmente já há a primeira versão do manual do Asstermo 2.15 em versão wiki. Para ir já lá ver, clicar aqui: [ManualAsstermo215 Manual online para o Asstermo 2.15]
 

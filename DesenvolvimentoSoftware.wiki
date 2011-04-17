@@ -18,8 +18,8 @@ Eis o que interessa para o desenvolvimento de software em TI-Basic 68k:
     * [http://notepad-plus-plus.org Notepad++] - para edição em texto livre dos programas maiores e mais complexos, e posterior processamento automático para enviar para o software da calculadora.
     * [http://education.ti.com/calculators/downloads/US/Software/Search/Results?cp=7 TI-Graph Link] - para editar os programas em TI-Basic, como também para _sacar_ os símbolos especiais das TI-68k.
   * Também úteis, mas não são 100% necessários:
-    * [http://education.ti.com/calculators/downloads/US/Software/Detail?id=183&ref=%2fcalculators%2fdownloads%2fUS%2fSoftware%2fSearch%2fResults%3fcp%3d7 TI-Connect] - para transferir as coisas em grupos de e para a calculadora, apesar que o TI-Graph Link faz o serviço. Mas pode ser essencial para as cacluladoras mais recentes.
-    * [http://lpg.ticalc.org/prj_tilp/ TiLP2] - Porque o TI-Connect é muitas vezes _completamente inútil_, nada como tecnologia opensource para salvar o dia!
+    * [http://education.ti.com/calculators/downloads/US/Software/Detail?id=183&ref=%2fcalculators%2fdownloads%2fUS%2fSoftware%2fSearch%2fResults%3fcp%3d7 TI-Connect] - para transferir as coisas em grupos de e para a calculadora, apesar que o TI-Graph Link faz o serviço. Mas pode ser essencial para as calculadoras mais recentes.
+    * [http://lpg.ticalc.org/prj_tilp/ TiLP2] - Porque o TI-Connect é muitas vezes _completamente inútil_, portanto nada como a tecnologia _opensource_ para salvar o dia!
   * Onde está o código:
     * O código pronto a copiar para a calculadora encontra-se na pasta "codigo_em_TI89".
     * Na pasta "codigo_em_texto" está o código em TI-Basic dos programas e funções maiores do Asstermo, mas em formato de texto. Aqui pode-se deixar comentários e espaços e programar relativamente com liberdade. Isto quando comparando com o *TI-Graph Link*, que restringe o campo de visão ao mesmo campo que na calculadora.

@@ -18,5 +18,11 @@ Mas o número de utilizadores de calculadoras CASIO versus o número de utilizad
 
 As limitações tecnológicas são no entanto também semelhantes ao que se sucede com as [Calha_TI83_84 TI-83/84].
 
+Nomes planeados para as variantes de Asstermo para estas calculadoras:
+  * 9860G e companhia: Asstermo-G
+  * FX-1.0/2.0: Asstermo-F ou Asstermo-FX
+  * Classpad: Asstermo-C ou Asstermo-CP
+
 
 Entretanto, existem pelo menos tabelas de vapor para as CASIO: [http://www.steamtables-pocket-calculators.com Property Libraries for Pocket Calculators]
+

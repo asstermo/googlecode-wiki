@@ -3,7 +3,7 @@
 <wiki:toc max_depth="3" />
 
 = Asstermo 1.83 para TI-89/92 (Plus) e Voyager 200 =
-Versão de 10-07-2006, considerada estável. No entanto, não funciona a 100% nas calculadoras com AMS 3.xx. Precisa do “autoalpha off”.
+Versão de 10-07-2006, considerada estável. No entanto, não funciona a 100% nas calculadoras com AMS 3.xx. Precisa do “autoalpha off”. Ou seja: *NÃO USEM* ESTA VERSÃO NAS *TI-89 TITANIUM*!!
 
 Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.1.83.zip asstermo.1.83.zip]
 
