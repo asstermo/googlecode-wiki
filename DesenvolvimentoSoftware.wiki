@@ -33,6 +33,8 @@ Motorola 68k é o processador das calculadoras TI-89/92 e Voyage 200. Todas part
   * [#Software_para_TI-Basic_68k Software para TI-Basic 68k]
   * [#Desenvolvimento_de_codigo_do_TI-Basic_68k Desenvolvimento de código do TI-Basic 68k]
 
+Este capítulo refere-se maioritariamente ao código do Asstermo original, mas algumas instruções podem também servir para as variantes do Asstermo.
+
 == Software para TI-Basic 68k ==
 Eis o que interessa para o desenvolvimento de software em TI-Basic 68k:
   * Requer pelo menos dois softwares:
@@ -43,16 +45,28 @@ Eis o que interessa para o desenvolvimento de software em TI-Basic 68k:
     * [http://lpg.ticalc.org/prj_tilp/ TiLP2] - Porque o TI-Connect é muitas vezes _completamente inútil_, portanto nada como a tecnologia _opensource_ para salvar o dia!
 
 == Desenvolvimento de codigo do TI-Basic 68k ==
-  * Onde está o código:
-    * O código pronto a copiar para a calculadora encontra-se na pasta "codigo_em_TI89".
-    * Na pasta "codigo_em_texto" está o código em TI-Basic dos programas e funções maiores do Asstermo, mas em formato de texto. Aqui pode-se deixar comentários e espaços e programar relativamente com liberdade. Isto quando comparando com o *TI-Graph Link*, que restringe o campo de visão ao mesmo campo que na calculadora.
+Esta secção divide-se nas seguintes subsecções:
+  * [#Como esta o codigo do Asstermo distribuido Como está o código do Asstermo distribuído]
+  * [#Instrucoes_de_desenvolvimento_do_codigo_do_Asstermo Instruções de desenvolvimento do código do Asstermo]
+  * [#Preparacoes_finais_do_codigo_para_testes_e_posterior_distribucao Preparações finais do código para testes e posterior distribuição]
+
+=== Como esta o codigo do Asstermo distribuido ===
+O código pronto a copiar para a calculadora encontra-se na pasta `codigo_em_TI89`. Este tem de ser estritamente editado com o *TI-Graph Link*.
+
+Na pasta `codigo_em_texto` está o código em TI-Basic dos programas e funções do Asstermo, mas em formato de texto. Aqui pode-se deixar comentários e espaços e programar com mais liberdade. Isto quando comparado com o *TI-Graph Link*, que restringe o campo de visão ao mesmo campo que na calculadora. Para passar do texto livre para os ficheiros ".89p" ou ".89f", é necessário as etapas descritas na sub-secção seguinte: [#Instrucoes_de_desenvolvimento_do_codigo_do_Asstermo Instruções de desenvolvimento do código do Asstermo]
+
+=== Instrucoes de desenvolvimento do codigo do Asstermo ===
+    * Os símbolos `>= != <=` entre outros, deverão ser copiados do catálogo disponível no TI-Graph Link, visto que os usados por esta não são os tradicionais em ASCII. Basicamente basta abrir um programa, função ou ficheiro de texto no TI-Graph Link e depois no catálogo fazer duplo clique no símbolo desejado.
+
+=== Preparacoes finais do codigo para testes e posterior distribuicao ==
 
 = Desenvolvimento de programas e funcoes em C com o TIGCC =
-  * Requer o [http://tigcc.ticalc.org/ TIGCC] para compilar para a calculadora.
-  * O código encontra-se na pasta "codigo_em_C".
+Este capítulo só se aplica ao código do Asstermo original. Aqui não tem muito que saber: é só aprender C e ir à página do [http://tigcc.ticalc.org/ TIGCC] e aprender a usá-lo. Outros pontos importantes:
+  * O código em C requer o [http://tigcc.ticalc.org/ TIGCC] para compilar para a calculadora. Qualquer outro compilador muito possivelmente não irá funcionar.
+  * O código encontra-se na pasta `codigo_em_C`.
   * Só existem dois programas em C:
-    * combof.c - tem várias funções que o Asstermo precisa para atingir uma performance óptima.
-    * garbage.c - serve simplesmente para chamar a função de sistema da calculadora de _garbage collect_, i.e. de arrumar/desfragmentar a memória.
+    * `combof.c` - tem várias funções que o Asstermo precisa para atingir uma performance óptima.
+    * `garbage.c` - serve simplesmente para chamar a função de sistema da calculadora de _garbage collect_, i.e. de arrumar/desfragmentar a memória.
   * Aqui já não deve ser preciso fazer mais nada, excepto talvez tentar melhorar ainda mais a performance do Asstermo.
 
 = Desenvolvimento dos programas e funcoes em TI-Basic nSpire =
