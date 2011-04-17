@@ -5,14 +5,35 @@
 
 *NOTA*: Neste momento este artigo ainda é só um esboço e espaço de apontamentos.
 
-= Acesso ao código =
-  * [http://code.google.com/p/asstermo/source/checkout Instruções automáticas do google code] - É neste repositório que está o código todo do Asstermo.
-  * Sistema de gestão de software Mercurial é relativamente simples de se usar. O mais simpels ainda em Windows é usar o [http://tortoisehg.bitbucket.org/ TortoiseHG]. [http://tortoisehg.bitbucket.org/manual/2.0/quick.html Tutorial rápido de utilização do TortoiseHG].
+= Introducao =
+Todo o sistema de gestão de código neste projecto está gerido pelo sistema Mercurial. Este sistema de gestão de código Mercurial é relativamente simples de se usar. O mais simples ainda em Windows é usar o [http://tortoisehg.bitbucket.org/ TortoiseHG]. [http://tortoisehg.bitbucket.org/manual/2.0/quick.html Tutorial rápido de utilização do TortoiseHG]. Portanto, antes de começar a lidar com o código do Asstermo, primeiro convém que primeiro comecem a aprender a lidar com o Mercurial.
+
+Este texto divide-se nos seguintes capítulos:
+  * [#Acesso_ao_codigo Acesso ao codigo] - onde estão descritos os acessos aos códigos fonte.
+  * [#Desenvolvimento_dos_programas_e_funcoes_em_TI-Basic_68k Desenvolvimento dos programas e funções em TI-Basic 68k] - onde estão as instruções de desenvolvimento do código do *Asstermo* que está em TI-Basic 68k.
+  * [#Desenvolvimento_de_programas_e_funcoes_em_C_com_o_TIGCC Desenvolvimento de programas e funções em C com o TIGCC] - onde estão descritas as instruções de desenvolvimento de código do *Asstermo* que está em C que é compilado com o TIGCC.
+  * [#Desenvolvimento_dos_programas_e_funcoes_em_TI-Basic_para_TI-nSpire Desenvolvimento dos programas e funcoes em TI-Basic para TI-nSpire] - onde estão descritas as instruções de desenvolvimento do código para o *Asstermo-D*.
+  * [#Desenvolvimento_dos_programas_e_funcoes_em_C_com_o_Ndless_para_TI-nSpire Desenvolvimento dos programas e funcoes em C com o Ndless para TI-nSpire] - onde estão descritas as instruções de desenvolvimento do código para o *Asstermo-N*.
+
+= Acesso ao codigo =
+Para aceder ao código, basta seguir as instruções indicadas em cada página de _checkout_. No entanto, para submeter alterações ao código, só há duas formas:
+  * Ou usa-se a funcionalidade de clonagem, que está também descrita na página de _checkout_.
+  * Ou é preciso permissões do gestor deste projecto, para ter acesso directo aos repositórios do código. para este, contactar um dos contactos presentes na [http://code.google.com/p/asstermo/ página principal].
+
+Repositórios disponíveis:
+  * [http://code.google.com/p/asstermo/source/checkout Checkout do código original com respectivas instruções] - É neste repositório que está o código todo do Asstermo original.
+  * [http://code.google.com/p/asstermo/source/checkout?repo=d Checkout do código do Asstermo-D] - É neste repositório que está o código todo do Asstermo-D.
+  * [http://code.google.com/p/asstermo/source/checkout?repo=experiments Checkout do código de experiências] - Neste repositório estão códigos experimentais, que testam funcionalidades que se pretende adicionar ao Asstermo e suas variantes.
+  * [http://code.google.com/p/asstermo/source/checkout?repo=documentation Repositório dos documentos e manuais] - É neste repositório que estão os ficheiros de documentação e dos manuais.
+  * [http://code.google.com/p/asstermo/source/checkout?repo=wiki Repositório da wiki] - É neste repositório que estão os ficheiros da wiki deste projecto.
   * Para os mais avançados, o repositório das tabelas de origem utilizadas pelo Asstermo é [http://code.google.com/p/asstermo/source/checkout?repo=tabelas este].
 
-= Desenvolvimento dos programas e funções em TI-Basic 68k =
-Motorola 68k é o processador das calculadoras TI-89/92 e Voyage 200. Todas partilham a mesma arquitectura, daí a alcunha de TI-Basic 68k.
+= Desenvolvimento dos programas e funcoes em TI-Basic 68k =
+Motorola 68k é o processador das calculadoras TI-89/92 e Voyage 200. Todas partilham a mesma arquitectura, daí a alcunha de TI-Basic 68k. Este capítulo divide-se nas seguintes secções:
+  * [#Software_para_TI-Basic_68k Software para TI-Basic 68k]
+  * [#Desenvolvimento_de_codigo_do_TI-Basic_68k Desenvolvimento de código do TI-Basic 68k]
 
+== Software para TI-Basic 68k ==
 Eis o que interessa para o desenvolvimento de software em TI-Basic 68k:
   * Requer pelo menos dois softwares:
     * [http://notepad-plus-plus.org Notepad++] - para edição em texto livre dos programas maiores e mais complexos, e posterior processamento automático para enviar para o software da calculadora.
@@ -20,14 +41,28 @@ Eis o que interessa para o desenvolvimento de software em TI-Basic 68k:
   * Também úteis, mas não são 100% necessários:
     * [http://education.ti.com/calculators/downloads/US/Software/Detail?id=183&ref=%2fcalculators%2fdownloads%2fUS%2fSoftware%2fSearch%2fResults%3fcp%3d7 TI-Connect] - para transferir as coisas em grupos de e para a calculadora, apesar que o TI-Graph Link faz o serviço. Mas pode ser essencial para as calculadoras mais recentes.
     * [http://lpg.ticalc.org/prj_tilp/ TiLP2] - Porque o TI-Connect é muitas vezes _completamente inútil_, portanto nada como a tecnologia _opensource_ para salvar o dia!
+
+== Desenvolvimento de codigo do TI-Basic 68k ==
   * Onde está o código:
     * O código pronto a copiar para a calculadora encontra-se na pasta "codigo_em_TI89".
     * Na pasta "codigo_em_texto" está o código em TI-Basic dos programas e funções maiores do Asstermo, mas em formato de texto. Aqui pode-se deixar comentários e espaços e programar relativamente com liberdade. Isto quando comparando com o *TI-Graph Link*, que restringe o campo de visão ao mesmo campo que na calculadora.
 
-= Desenvolvimento de programas e funções em C =
+= Desenvolvimento de programas e funcoes em C com o TIGCC =
   * Requer o [http://tigcc.ticalc.org/ TIGCC] para compilar para a calculadora.
   * O código encontra-se na pasta "codigo_em_C".
   * Só existem dois programas em C:
     * combof.c - tem várias funções que o Asstermo precisa para atingir uma performance óptima.
     * garbage.c - serve simplesmente para chamar a função de sistema da calculadora de _garbage collect_, i.e. de arrumar/desfragmentar a memória.
   * Aqui já não deve ser preciso fazer mais nada, excepto talvez tentar melhorar ainda mais a performance do Asstermo.
+
+= Desenvolvimento dos programas e funcoes em TI-Basic nSpire =
+A maioria do código da versão Asstermo-D foi copiada directamente do código em TI-Basic do Asstermo original. Isto só foi possível porque o TI-Basic das TI-nSpire foi herdado do TI-Basic 68k. O desenvolvimento do código é muito semelhante ao descrito na secção [#Desenvolvimento_de_codigo_do_TI-Basic_68k Desenvolvimento de código do TI-Basic 68k], mas com uma particular adição: ao passar do texto para o software da calculadora, as linhas têm de ser colapsadas com o símbolo de dois pontos `:`.
+
+*NOTA*: Ainda está por escrever o resto...
+
+= Desenvolvimento dos programas e funcoes em C com o Ndless para TI-nSpire =
+*NOTA*: Este capítulo ainda não está devidamente documentado porque o desenvolvimento com Ndless ainda não é possível, por este (Ndless) ainda não ter funções importantes de interface gráfico e porque muitos dos acessos às funções de acesso às da nSpire ainda não estão devidamente documentados.
+
+Para mais informações sobre o estado actual do Asstermo-N: [Calha_TInSpire#Asstermo-N Na calha para as TI-nSpire]
+
+Para mais informações sobre o Ndless: [http://hackspire.unsads.com/wiki/index.php/Main_Page Ndless wiki]
