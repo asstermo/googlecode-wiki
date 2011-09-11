@@ -35,6 +35,7 @@ Nota mental: apesar de limitado, existe a possibilidade de usar *message boxes* 
 
 == Etapas ==
 || *Etapa* || *Estado actual* ||
+|| Transcever o código do Asstermo-K para ficheiros de texto. || Done. Ver [http://code.google.com/p/asstermo/source/browse/codigo_em_texto_puro aqui]. ||
 || Criação do repositório de desenvolvimento de código para o Asstermo-D. Acho que basta chamar-se "D". || por fazer ||
 || Transferir as tabelas todas para o novo _Document_ do Asstermo-D. || por fazer ||
 || Recuperar código em Basic de procura e interpolação do Asstermo original, antes deste ter passado a adoptar o TIGCC. || por fazer ||
