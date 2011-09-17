@@ -3,7 +3,8 @@
 = 2011-09-17 =
 Boas novas:
   * O projecto Assistente de Termodinâmica agora também está no Twitter: [http://twitter.com/asstermo @asstermo]
-  * O projecto Asstermo-D já foi iniciado: [Calha_TInSpire Na calha para as TI-nSpire]
+  * O projecto Asstermo-D já foi iniciado: [Calha_TInSpire Na calha para as TI-nSpire]. Mas a primeira versão _utilizável_ vai demorar a chegar...
+  * Finalmente implementei os gadgets que desenvolvi no projecto [http://code.google.com/p/wikignpi/ wikignpi].
 
 = 2011-04-17 =
 Actualizações várias sobre as variantes:

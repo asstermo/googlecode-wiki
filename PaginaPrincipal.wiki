@@ -15,14 +15,17 @@ Este software foi concebido para auxiliar os estudantes com as disciplinas de Te
 <br/>
 
 = Notícias =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/newswidget.xml" height="300" width="100%" border="1" />
+<wiki:gadget url="http://wiki.wikignpi.googlecode.com/hg/gadgets/wikigateway.xml" height="300" width="100%" border="1" up_projectname="wikignpi" up_subversion="hg" up_wikiname="Noticias" up_autoresize="true" up_wikiBaseURL="http://code.google.com/p/asstermo/wiki/" up_openURLSInNewWindow="true" up_cachedTime="3600" up_plugins="presummarize?message=%22Premir%20aqui%20para%20ver%20todas%20as%20notícias%22&numH12=[4,0]"/>
 
 <br/>
 
 = Versões Disponíveis =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/versionswidget.xml" height="300" width="100%" border="1" />
+<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/wikigateway.xml" height="300" width="500" border="1" up_projectname="wikignpi" up_subversion="hg" up_wikiname="Downloads" up_autoresize="true" up_wikiBaseURL="http://code.google.com/p/asstermo/wiki/" up_openURLSInNewWindow="true" />
 
 <br/>
 
 = Wiki =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/linkswidget.xml" height="300" width="100%" border="1" />
+<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/wikigateway.xml" height="60" width="500" border="1" up_projectname="asstermo" up_subversion="hg" up_wikiname="BarraLateral" up_autoresize="true" up_wikiBaseURL="http://code.google.com/p/asstermo/wiki/" up_openURLSInNewWindow="true" />
+
+<br/>
+Sistema de wiki-dentro-de-wiki: [http://code.google.com/p/wikignpi/ wikignpi]
