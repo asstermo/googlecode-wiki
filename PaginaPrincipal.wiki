@@ -28,4 +28,4 @@ Este software foi concebido para auxiliar os estudantes com as disciplinas de Te
 <wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/wikigateway.xml" height="60" width="100%" border="0" up_projectname="asstermo" up_subversion="hg" up_wikiname="BarraLateral" up_autoresize="true" up_wikiBaseURL="http://code.google.com/p/asstermo/wiki/" up_openURLSInNewWindow="true" />
 
 <br/>
-Sistema de wiki-dentro-de-wiki: [http://code.google.com/p/asstermo/ asstermo]
+Sistema de wiki-dentro-de-wiki: [http://code.google.com/p/wikignpi/ wikignpi]
