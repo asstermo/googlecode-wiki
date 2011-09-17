@@ -6,6 +6,7 @@
 = Introducao =
 Todo o sistema de gestão de código neste projecto está gerido pelo sistema Mercurial. Este sistema de gestão de código Mercurial é relativamente simples de se usar. O mais simples ainda em Windows é usar o [http://tortoisehg.bitbucket.org/ TortoiseHG]. [http://tortoisehg.bitbucket.org/manual/2.0/quick.html Tutorial rápido de utilização do TortoiseHG]. Portanto, antes de começar a lidar com o código do Asstermo, primeiro convém que primeiro comecem a aprender a lidar com o Mercurial.
 
+<br>
 = Acesso ao codigo =
 Para aceder ao código, basta seguir as instruções indicadas em cada página de _checkout_. No entanto, para submeter alterações ao código, só há duas formas _directas_:
   * Ou usa-se a funcionalidade de clonagem, que está também descrita na página de _checkout_.
@@ -19,6 +20,7 @@ Repositórios disponíveis:
   * [http://code.google.com/p/asstermo/source/checkout?repo=wiki Repositório da wiki] - É neste repositório que estão os ficheiros da wiki deste projecto.
   * Para os mais avançados, o repositório das tabelas de origem utilizadas pelo Asstermo é [http://code.google.com/p/asstermo/source/checkout?repo=tabelas este].
 
+<br>
 = Variantes do Asstermo =
 Quanto ao ambiente de desenvolvimento e como desenvolver para cada variante, ver a página correspondente:
   * [DesenvolvimentoAsstermoK Asstermo K] - esta é a versão original.

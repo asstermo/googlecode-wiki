@@ -12,9 +12,11 @@ Este texto divide-se nos seguintes capítulos:
   * [#Acesso_ao_codigo Acesso ao codigo] - onde estão descritos os acessos aos códigos fonte.
   * [#Desenvolvimento_dos_programas_e_funcoes_em_TI-Basic_para_TI-nSpire Desenvolvimento dos programas e funcoes em TI-Basic para TI-nSpire] - onde estão descritas as instruções de desenvolvimento do código para o *Asstermo-D*.
 
+<br>
 = Acesso ao codigo =
 Ver secção [DesenvolvimentoSoftware#Acesso_ao_codigo Acesso ao código] na página _parente_.
 
+<br>
 = Desenvolvimento dos programas e funcoes em TI-Basic nSpire =
 A maioria do código da versão Asstermo-D foi copiada directamente do código em TI-Basic do Asstermo original. Isto só foi possível porque o TI-Basic das TI-nSpire foi herdado do TI-Basic 68k. O desenvolvimento do código é muito semelhante ao descrito na secção [DesenvolvimentoAsstermoK#Desenvolvimento_de_codigo_do_TI-Basic_68k Desenvolvimento de código do TI-Basic 68k] da página [DesenvolvimentoAsstermoK Desenvolvimento do Software Asstermo-K], mas com uma particular adição: ao passar do texto para o software da calculadora, as linhas têm de ser colapsadas com o símbolo de dois pontos `:`.
 
