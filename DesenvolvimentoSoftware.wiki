@@ -21,7 +21,6 @@ Repositórios disponíveis:
 
 = Variantes do Asstermo =
 Quanto ao ambiente de desenvolvimento e como desenvolver para cada variante, ver a página correspondente:
-  * [Asstermo K] - esta é a versão original.
-  * [Asstermo D] - esta é a variante Document para TI-nSpire.
-  * [Asstermo N] - esta é a variante Ndless para TI-nSpire.
-
+  * [DesenvolvimentoAsstermoK Asstermo K] - esta é a versão original.
+  * [DesenvolvimentoAsstermoD Asstermo D] - esta é a variante `Document` para TI-nSpire.
+  * [DesenvolvimentoAsstermoN Asstermo N] - esta é a variante `Ndless` para TI-nSpire.
