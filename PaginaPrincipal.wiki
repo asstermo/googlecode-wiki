@@ -4,7 +4,7 @@
 
 Redes sociais:
 
-<a href="http://twitter.com/asstermo"><img src="http://wiki.asstermo.googlecode.com/hg/images/twitter.png" width="50"/></a>
+<a href="http://twitter.com/asstermo"><img src="http://wiki.asstermo.googlecode.com/hg/images/twitter.png" width="100" alt="Assistente de Termodinâmica no Twitter"/></a>
 
 = Introdução =
 O Asstermo (Assistente de Termodinâmica) foi concebido para as calculadoras gráficas *TI-89 (Titanium)*, *TI-92 (Plus)* e *Voyage 200*. O software em si é gratuito,  mas aconselha-se que na sua utilização (e consequente validação) das tabelas se tenha o livro "Fundamentals of Engineering Thermodynamics, by Michael J. Moran and Howard N. Shapiro".
