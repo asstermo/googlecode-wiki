@@ -1,5 +1,5 @@
 #summary Aqui está o desenvolvimento da página principal
-<h1>Bem vindo à página do Assistente de Termodinâmica <a href="http://twitter.com/asstermo"><img src="http://wiki.asstermo.googlecode.com/hg/images/twitter.png" width="80" alt="Assistente de Termodinâmica no Twitter"/></a></h1>
+<h1>Bem vindo à página do Assistente de Termodinâmica <a href="http://twitter.com/asstermo"><img src="http://wiki.asstermo.googlecode.com/hg/images/twitter.png" width="80" alt="Assistente de Termodinâmica no Twitter" title="Assistente de Termodinâmica no Twitter"/></a></h1>
 <wiki:toc max_depth="3" />
 
 = Introdução =
