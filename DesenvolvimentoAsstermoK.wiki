@@ -1,0 +1,59 @@
+#summary Desenvolvimento do Software Asstermo-K (o original)
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+*NOTA*: Neste momento este artigo ainda é só um esboço e espaço de apontamentos.
+
+= Introducao =
+Todo o sistema de gestão de código neste projecto está gerido pelo sistema Mercurial; ver a página [DesenvolvimentoSoftware Desenvolvimento do Software Asstermo] para mais informações sobre este sistema.
+
+Este texto divide-se nos seguintes capítulos:
+  * [#Acesso_ao_codigo Acesso ao codigo] - onde estão descritos os acessos aos códigos fonte.
+  * [#Desenvolvimento_dos_programas_e_funcoes_em_TI-Basic_68k Desenvolvimento dos programas e funções em TI-Basic 68k] - onde estão as instruções de desenvolvimento do código do *Asstermo* que está em TI-Basic 68k.
+  * [#Desenvolvimento_de_programas_e_funcoes_em_C_com_o_TIGCC Desenvolvimento de programas e funções em C com o TIGCC] - onde estão descritas as instruções de desenvolvimento de código do *Asstermo* que está em C que é compilado com o TIGCC.
+
+= Acesso ao codigo =
+Ver secção [DesenvolvimentoSoftware#Acesso_ao_codigo Acesso ao código] na página _parente_.
+
+= Desenvolvimento dos programas e funcoes em TI-Basic 68k =
+Motorola 68k é o processador das calculadoras TI-89/92 e Voyage 200. Todas partilham a mesma arquitectura, daí a alcunha de TI-Basic 68k. Este capítulo divide-se nas seguintes secções:
+  * [#Software_para_TI-Basic_68k Software para TI-Basic 68k]
+  * [#Desenvolvimento_de_codigo_do_TI-Basic_68k Desenvolvimento de código do TI-Basic 68k]
+
+Este capítulo refere-se maioritariamente ao código do Asstermo original, mas algumas instruções podem também servir para as variantes do Asstermo.
+
+== Software para TI-Basic 68k ==
+Eis o que interessa para o desenvolvimento de software em TI-Basic 68k:
+  * Requer pelo menos dois softwares:
+    * [http://www.activestate.com/komodo-edit Komodo Edit] - para edição em texto livre dos programas maiores e mais complexos, e posterior processamento automático para enviar para o software da calculadora.
+    * [http://education.ti.com/calculators/downloads/US/Software/Search/Results?cp=7 TI-Graph Link] - para editar os programas em TI-Basic, como também para _sacar_ os símbolos especiais das TI-68k.
+  * Também úteis, mas não são 100% necessários:
+    * [http://education.ti.com/calculators/downloads/US/Software/Detail?id=183&ref=%2fcalculators%2fdownloads%2fUS%2fSoftware%2fSearch%2fResults%3fcp%3d7 TI-Connect] - para transferir as coisas em grupos de e para a calculadora, apesar que o TI-Graph Link faz o serviço. Mas pode ser essencial para as calculadoras mais recentes.
+    * [http://lpg.ticalc.org/prj_tilp/ TiLP2] - Porque o TI-Connect é muitas vezes _completamente inútil_, portanto nada como a tecnologia _opensource_ para salvar o dia!
+
+== Desenvolvimento de codigo do TI-Basic 68k ==
+Esta secção divide-se nas seguintes subsecções:
+  * [#Como esta o codigo do Asstermo distribuido Como está o código do Asstermo distribuído]
+  * [#Instrucoes_de_desenvolvimento_do_codigo_do_Asstermo Instruções de desenvolvimento do código do Asstermo]
+  * [#Preparacoes_finais_do_codigo_para_testes_e_posterior_distribucao Preparações finais do código para testes e posterior distribuição]
+
+=== Como esta o codigo do Asstermo distribuido ===
+O código pronto a copiar para a calculadora encontra-se na pasta `codigo_em_TI89`. Este tem de ser estritamente editado com o *TI-Graph Link*.
+
+Na pasta `codigo_em_texto` está o código em TI-Basic dos programas e funções do Asstermo, mas em formato de texto. Aqui pode-se deixar comentários e espaços e programar com mais liberdade. Isto quando comparado com o *TI-Graph Link*, que restringe o campo de visão ao mesmo campo que na calculadora. Para passar do texto livre para os ficheiros ".89p" ou ".89f", é necessário as etapas descritas na sub-secção seguinte: [#Instrucoes_de_desenvolvimento_do_codigo_do_Asstermo Instruções de desenvolvimento do código do Asstermo]
+
+=== Instrucoes de desenvolvimento do codigo do Asstermo ===
+    * Os símbolos `>= != <=` entre outros, deverão ser copiados do catálogo disponível no TI-Graph Link, visto que os usados por esta não são os tradicionais em ASCII. Basicamente basta abrir um programa, função ou ficheiro de texto no TI-Graph Link e depois no catálogo fazer duplo clique no símbolo desejado.
+
+=== Preparacoes finais do codigo para testes e posterior distribuicao ==
+
+= Desenvolvimento de programas e funcoes em C com o TIGCC =
+Este capítulo só se aplica ao código do Asstermo original. Aqui não tem muito que saber: é só aprender C e ir à página do [http://tigcc.ticalc.org/ TIGCC] e aprender a usá-lo. Outros pontos importantes:
+  * O código em C requer o [http://tigcc.ticalc.org/ TIGCC] para compilar para a calculadora. Qualquer outro compilador muito possivelmente não irá funcionar.
+  * O código encontra-se na pasta `codigo_em_C`.
+  * Só existem dois programas em C:
+    * `combof.c` - tem várias funções que o Asstermo precisa para atingir uma performance óptima.
+    * `garbage.c` - serve simplesmente para chamar a função de sistema da calculadora de _garbage collect_, i.e. de arrumar/desfragmentar a memória.
+  * Aqui já não deve ser preciso fazer mais nada, excepto talvez tentar melhorar ainda mais a performance do Asstermo.
+

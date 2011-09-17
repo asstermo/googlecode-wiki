@@ -1,0 +1,19 @@
+#summary Desenvolvimento do Software Asstermo-N
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+*NOTA*: Neste momento este artigo ainda é só um esboço e espaço de apontamentos.
+
+= Introducao =
+Todo o sistema de gestão de código neste projecto está gerido pelo sistema Mercurial; ver a página [DesenvolvimentoSoftware Desenvolvimento do Software Asstermo] para mais informações sobre este sistema.
+
+= Acesso ao codigo =
+Ainda não há código disponível, porque este projecto ainda não ser iniciado. Para mais informações, ver a página [Calha_TInSpire#Asstermo-N Na calha para o Asstermo-N].
+
+= Desenvolvimento dos programas e funcoes em C com o Ndless para TI-nSpire =
+*NOTA*: Este capítulo ainda não está devidamente documentado porque o desenvolvimento com Ndless ainda não é possível, por este (Ndless) ainda não ter funções importantes de interface gráfico e porque muitos dos acessos às funções de acesso às da nSpire ainda não estão devidamente documentados.
+
+Para mais informações sobre o estado actual do Asstermo-N: [Calha_TInSpire#Asstermo-N Na calha para o Asstermo-N].
+
+Para mais informações sobre o Ndless: [http://hackspire.unsads.com/wiki/index.php/Main_Page Ndless wiki]
