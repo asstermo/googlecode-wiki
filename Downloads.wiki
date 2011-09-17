@@ -9,20 +9,19 @@ Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15
 
 Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.15.pdf asstermo.2.15.pdf]
 
-Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relatar os problemas: [http://code.google.com/p/asstermo/issues/list Issues].
+Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relatar os problemas: [http://code.google.com/p/asstermo/issues/list Issues/Problemas].
 
 <br>
 = Asstermo 1.83 para TI-89/92 (Plus) e Voyager 200 =
-Versão de 10-07-2006, considerada estável. No entanto, não funciona a 100% nas calculadoras com AMS 3.xx. Precisa do “autoalpha off”.
-Ou seja: *NÃO USEM* ESTA VERSÃO NAS *TI-89 TITANIUM*!!
+Versão de 10-07-2006, considerada estável, mas já muito antiga. Precisa do “autoalpha off” para desligar o modo _alfa_ automaticamente nas caixas de diálogo.
+Não funciona com AMS 3.XX, ou seja: *NÃO USEM* ESTA VERSÃO NAS *TI-89 TITANIUM*!!
 
 Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.1.83.zip asstermo.1.83.zip]
 
 Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO.pdf asstermo.1.83.pdf]
 
-Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relatar os problemas: [http://code.google.com/p/asstermo/issues/list Issues].
-
+Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relatar os problemas: [http://code.google.com/p/asstermo/issues/list Issues/Problemas].
 
 <br>
 = Todos downloads =
-A lista completa de ficheiros para download está disponível [http://code.google.com/p/asstermo/downloads/list aqui].
+A lista completa de ficheiros (incluindo os antigos) para download está disponível [http://code.google.com/p/asstermo/downloads/list?can=1 aqui].
