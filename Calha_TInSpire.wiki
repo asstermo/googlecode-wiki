@@ -37,7 +37,7 @@ Nota mental: apesar de limitado, existe a possibilidade de usar *message boxes* 
 || *Etapa* || *Estado actual* ||
 || Transcrever o código do Asstermo-K para ficheiros de texto. || Completo. Ver [http://code.google.com/p/asstermo/source/browse/codigo_em_texto_puro aqui]. ||
 || Criação do repositório de desenvolvimento de código para o Asstermo-D. Acho que basta chamar-se "D". || Completo. Ver [http://code.google.com/p/asstermo/source/browse/?repo=d aqui]. ||
-|| Transferir as tabelas todas para o novo _Document_ do Asstermo-D. || por fazer ||
+|| Transferir as tabelas todas para o novo _Document_ do Asstermo-D. || Completo! ||
 || Recuperar código em Basic de procura e interpolação do Asstermo original, antes deste ter passado a adoptar o TIGCC. || por fazer ||
 || Criação do formulário e respectiva interacção com este, mas para já só para a Água. || por fazer ||
 || Criação dos formulários e respectivas interacções com estes, para as tabelas restantes que são semelhantes às da Água, nomeadamente:<br>- Amónia<br>- Refrigerante 22<br>- Refrigerante 134a<br>- Propano || por fazer ||
