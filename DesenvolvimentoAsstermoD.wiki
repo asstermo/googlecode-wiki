@@ -20,4 +20,13 @@ Ver secção [DesenvolvimentoSoftware#Acesso_ao_codigo Acesso ao código] na pá
 = Desenvolvimento dos programas e funcoes em TI-Basic nSpire =
 A maioria do código da versão Asstermo-D foi copiada directamente do código em TI-Basic do Asstermo original. Isto só foi possível porque o TI-Basic das TI-nSpire foi herdado do TI-Basic 68k. O desenvolvimento do código é muito semelhante ao descrito na secção [DesenvolvimentoAsstermoK#Desenvolvimento_de_codigo_do_TI-Basic_68k Desenvolvimento de código do TI-Basic 68k] da página [DesenvolvimentoAsstermoK Desenvolvimento do Software Asstermo-K], mas com uma particular adição: ao passar do texto para o software da calculadora, as linhas têm de ser colapsadas com o símbolo de dois pontos `:`.
 
-*NOTA*: Ainda está por escrever o resto...
+<br>
+== Software para TI-Basic/nSpire ==
+Eis o que interessa para o desenvolvimento de software em TI-Basic para as TI-nSpire:
+  * Requer pelo menos dois softwares:
+    * [http://www.activestate.com/komodo-edit Komodo Edit] - para edição em texto livre dos programas maiores e mais complexos, e posterior processamento automático para enviar para o software da calculadora.
+    * [http://education.ti.com/educationportal/sites/US/productDetail/us_nspire_software.html TI-Nspire™ Student Software] - para editar e manipular os programas em TI-Basic, em modo directo no software. Eles têm três modalidades: _trial_ 30 dias, anualidade por ~30 USD e licença perpétua por 120 USD. Enquanto os emuladores gratuitos de TI-nSpire não estiverem mais poderosos, vai ser complicado desenvolver software para estas calculadoras.<br>Nota: o objectivo para já é desenvolver apenas para as nSpire sem CAS, mas para a parte de combustão, CAS pode vir a dar jeito.
+
+<br>
+= Transferência de tabelas =
+Como se pode observar no ficheiro [http://code.google.com/p/asstermo/source/browse/tabelas/tabelas.txt?repo=d tabelas.txt], estas tiveram de ser transformadas por completo em código, para que mais facilmente se possa copiar do formato texto e colar directamente na linha de comandos no _TI Student Software_.

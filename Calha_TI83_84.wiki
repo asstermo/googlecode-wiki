@@ -28,6 +28,7 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
 
 *Se souberem mais detalhes para alguns destes pontos, por favor comentem nesta página wiki que estão a ler!*
 
+<br>
 = Apontamentos =
   * As TI-83 originais estão excluídas logo à partida. Só têm 27kB de RAM. Só dá para fazer interpolações.
   * Doors CS é uma referência importante no mundo das TI-83/84. No entanto:
@@ -46,6 +47,7 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
     * [http://sourceforge.net/projects/basicbuilder/ Código fonte]
 
 
+<br>
 = Conclusões =
   # Só as TI-83 +SE, TI-84 Plus e TI-84 +SE é que estão dentro dos parâmetros operacionais.
   # Face às necessidades operacionais de uma variante do Asstermo, só será possível se se fizer uma aplicação completa em TI-Flash. Isto implica aprender Z80 Assembly específico para estas calculadoras: [http://education.ti.com/downloads/guidebooks/sdk/83p/sdk83pguide.pdf Manual do SDK para TI-83]
