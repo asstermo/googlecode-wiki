@@ -2,7 +2,7 @@
 #sidebar BarraLateral
 <wiki:toc max_depth="3" />
 
-= Asstermo 2.15 para TI-89/92 (inclusive Titanium/Plus), Voyager 200 =
+= Asstermo 2.15 para TI-89/92 (inclusive Titanium/Plus), Voyage 200 =
 Versão de 13/14-05-2009, agora considerada estável, visto que não têm havido relatos de problemas. Compatível com AMS 2.08 ou 3.08 e superiores.
 
 Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15.zip asstermo.2.15.zip]
@@ -12,7 +12,7 @@ Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manu
 Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relatar os problemas: [http://code.google.com/p/asstermo/issues/list Issues/Problemas].
 
 <br>
-= Asstermo 1.83 para TI-89/92 (Plus) e Voyager 200 =
+= Asstermo 1.83 para TI-89/92 (Plus) e Voyage 200 =
 Versão de 10-07-2006, considerada estável, mas já muito antiga. Precisa do “autoalpha off” para desligar o modo _alfa_ automaticamente nas caixas de diálogo.
 Não funciona com AMS 3.XX, ou seja: *NÃO USEM* ESTA VERSÃO NAS *TI-89 TITANIUM*!!
 
