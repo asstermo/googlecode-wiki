@@ -30,3 +30,14 @@ Eis o que interessa para o desenvolvimento de software em TI-Basic para as TI-nS
 <br>
 = Transferência de tabelas =
 Como se pode observar no ficheiro [http://code.google.com/p/asstermo/source/browse/tabelas/tabelas.txt?repo=d tabelas.txt], estas tiveram de ser transformadas por completo em código, para que mais facilmente se possa copiar do formato texto e colar directamente na linha de comandos no _TI Student Software_.
+
+<br>
+= Apontamentos sobre o código =
+  * No documento *AsstermoDLib* está todo o código em TI-Basic e todas as tabelas.
+  * No documento *Asstermo-Dd* está o interface baseado em _Notes_ da TI-nSpire.
+  * Todas as tabelas no *AsstermoDLib* devem estar definidas como `Define LibPub tabh2oa5=tabh2oa5`, para facilitar a programação.
+  * O seguinte comando deve ser efectuado em cada problema do *Asstermo-Dd* e na calculadora do *AsstermoDLib* sempre que houver uma actualização (função/programa/tabela novo(a)):
+{{{
+  DelVar asstermod.:libShortcut("asstermodlib","asstermod")
+}}}
+  * Quando se refer no código a uma função ou tabela da biblioteca *AsstermoDLib* deve-se usar o prefixo `asstermod.` incluíndo o ponto final. Desta forma podemos facilmente mudar o nome da biblioteca, mas manter o prefixo/atalho.
