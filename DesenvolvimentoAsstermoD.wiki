@@ -34,6 +34,8 @@ Como se pode observar no ficheiro [http://code.google.com/p/asstermo/source/brow
 <br>
 = Apontamentos sobre o código =
   * O código em formato de texto está na pasta `codigo_texto_basic`. Acessível online a partir daqui: [http://code.google.com/p/asstermo/source/browse/?repo=d#hg%2Fcodigo_texto_basic codigo_texto_basic]
+    * O código de referência inicial está aqui: [http://code.google.com/p/asstermo/source/browse/?repo=d#hg%2Fcodigo_do_asstermo_k%2FAsstermo_1.48]
+    * O código para se seguir depois da água e/ou refrigerantes estarem transcritos: [http://code.google.com/p/asstermo/source/browse/?repo=d#hg%2Fcodigo_do_asstermo_k]
   * No documento *AsstermoDLib* está todo o código em TI-Basic e todas as tabelas.
   * No documento *Asstermo-Dd* está o interface baseado em _Notes_ da TI-nSpire.
   * Todas as tabelas no *AsstermoDLib* devem estar definidas como `Define LibPub tabh2oa5=tabh2oa5`, para facilitar a programação.
