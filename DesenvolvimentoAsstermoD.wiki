@@ -41,3 +41,4 @@ Como se pode observar no ficheiro [http://code.google.com/p/asstermo/source/brow
   DelVar asstermod.:libShortcut("asstermodlib","asstermod")
 }}}
   * Quando se refer no código a uma função ou tabela da biblioteca *AsstermoDLib* deve-se usar o prefixo `asstermod.` incluíndo o ponto final. Desta forma podemos facilmente mudar o nome da biblioteca, mas manter o prefixo/atalho.
+  * Usar a macro `extract2nspire` para copiar o código em `*.txt` para o TI Student Software.<br>Nota: a macro tem de ser criada manualmente e o código copiado do ficheiro respectivo da pasta `ferramentas`.<br>Nota 2: a dita macro remove comentários do código antes de copiar, por isso ter cuidado com o Undo excessivo que a macro poderá efectuar.
