@@ -3,7 +3,7 @@
 = 2012-03-17 =
 Lançamento do Asstermo-D para TI-nSpire, versão 0.10, com as tabelas de água tão operacionais como no Asstermo(-K).
   * Etapas cumpridas: [Calha_TInSpire Na calha para as TI-nSpire]
-  * Download... em preparação...
+  * Download... em preparação... deverá ser lançado amanhã. Quem quiser testar antes do lançamento: [http://code.google.com/p/asstermo/source/browse/?repo=d#hg%2Fficheiros_TNS ficheiros_TNS@asstermo.d]
 
 = 2011-09-17 =
 Boas novas:
