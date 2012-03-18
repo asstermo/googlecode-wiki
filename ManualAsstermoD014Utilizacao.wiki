@@ -7,8 +7,12 @@ Neste momento, o Asstermo-D está a ser desenvolvimento em formato de _Document 
 
 Portanto, o Asstermo-D actual divide-se em vários ficheiros/documentos:
   * `Asstermo-D-Agua` - onde está a interface de cálculo das tabelas para a água.
+  * `Asstermo-D-Amonia` - onde está a interface de cálculo das tabelas para a amónia.
+  * `Asstermo-D-R22` - onde está a interface de cálculo das tabelas para o Refrigerante 22.
+  * `Asstermo-D-R134a` - onde está a interface de cálculo das tabelas para o Refrigerante 134a.
+  * `Asstermo-D-Propano` - onde está a interface de cálculo das tabelas para o Propano.
   * `AsstermoDLib` - onde estão as tabelas completas em formato de matrizes e as funções/programas do núcleo do Asstermo-D.
 
 Nos seguintes capítulos serão descritos cada um dos documentos interactivos:
-* [ManualAsstermoD010Agua Asstermo-D-Agua]
-
+  * [ManualAsstermoD010Agua Asstermo-D-Agua]
+  * O interface dos refrigerantes é em tudo semelhante ao da água, mas com a excepção que não há tabelas para líquido comprimido.

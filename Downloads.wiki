@@ -12,16 +12,17 @@ Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manu
 Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relatar os problemas: [http://code.google.com/p/asstermo/issues/list Issues/Problemas].
 
 <br>
-= Asstermo 1.83 para TI-89/92 (Plus) e Voyage 200 =
-Versão de 10-07-2006, considerada estável, mas já muito antiga. Precisa do “autoalpha off” para desligar o modo _alfa_ automaticamente nas caixas de diálogo.
-Não funciona com AMS 3.XX, ou seja: *NÃO USEM* ESTA VERSÃO NAS *TI-89 TITANIUM*!!
+= Asstermo-D 0.14 para TI-nSpire =
+Versão de 18-03-2012, considerada experimental. Requer AMS 3.XX em qualquer modelo de TI-nSpire, com e sem CAS.
 
-Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.1.83.zip asstermo.1.83.zip]
+Download: [http://code.google.com/p/asstermo/downloads/detail?name=Asstermo-D-v0.14.zip Asstermo-D-v0.14.zip]
 
-Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO.pdf asstermo.1.83.pdf]
+Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=Asstermo-D-v0.14.pdf Asstermo-D-v0.14.pdf]
 
 Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relatar os problemas: [http://code.google.com/p/asstermo/issues/list Issues/Problemas].
 
 <br>
 = Todos downloads =
 A lista completa de ficheiros (incluindo os antigos) para download está disponível [http://code.google.com/p/asstermo/downloads/list?can=1 aqui].
+
+A lista descritiva de downloads antigos está aqui: [DownloadsAntigos Versões Antigas]

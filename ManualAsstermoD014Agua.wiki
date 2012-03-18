@@ -5,7 +5,7 @@
 
 Abra o documento `Asstermo-D-Agua`. Deverá aparecer o seguinte ecrã:
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image001.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image001.jpg]
 
 Neste documento estão representados os seguintes _Problems_:
   * [#1_-_Asstermo-D-Agua 1 - Asstermo-D-Agua] - Este é o primeiro problema, onde alguma documentação e utilitários estão colocados.
@@ -26,7 +26,7 @@ Aí é apresentado uma breve descrição do Asstermo-D e o Índice dos _Problems
 = 1.2 =
 *Interpolações* - A página apresentada é a seguinte:
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image002.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image002.jpg]
 
 Detalhes:
   * A azul são os campos editáveis.
@@ -48,9 +48,9 @@ Exemplos na TI-89:
 
 <br>
 = 1.3 =
-Aqui está a indicação da versão do Asstermo-D que está a ser utilizado:
+Aqui está a indicação da versão do Asstermo-D que está a ser utilizado (a imagem está desactualizada):
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image003.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image003.jpg]
 
 <br>
 = 2 - Proc. por p e/ou T =
@@ -66,34 +66,34 @@ Nas seguintes secções 2.1 a 2.4 está uma apresentação de cada página.
 
 = 2.1 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image004.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image004.jpg]
 
 = 2.2 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image005.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image005.jpg]
 
 = 2.3 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image006.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image006.jpg]
 
 = 2.4 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image007.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image007.jpg]
 
 <br>
 = 3 - Proc. por h e p =
 
 = 3.1 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image008.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image008.jpg]
 
 = 3.2 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image009.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image009.jpg]
 
 = 3.3 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image010.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image010.jpg]
 
 <br>
 = 4 - Proc. por s e p =
@@ -101,51 +101,48 @@ Nas seguintes secções 2.1 a 2.4 está uma apresentação de cada página.
 = 4.1 =
 Esta página é diferente das outras pelo simples motivo porque aqui é onde é calculada a evolução em líquido comprimido pelo cálculo do trabalho.
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image011.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image011.jpg]
 
 = 4.2 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image012.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image012.jpg]
 
 = 4.3 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image014.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image014.jpg]
 
 = 4.4 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image015.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image015.jpg]
 
 <br>
 = 5 - Proc. por v e p =
 
 = 5.1 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image016.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image016.jpg]
 
 = 5.2 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image017.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image017.jpg]
 
 = 5.3 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image018.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image018.jpg]
 
 <br>
 = 6 - Proc. por u e p =
 
 = 6.1 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image019.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image019.jpg]
 
 = 6.2 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image020.jpg]
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image020.jpg]
 
 = 6.3 =
 
-[http://wiki.asstermo.googlecode.com/hg/imgD010/Image021.jpg]
-
-= 6.4 =
-Ignorar esta página. Neste momento está apenas presente para auxiliar o desenvolvimento do Asstermo-D.
+[http://wiki.asstermo.googlecode.com/hg/imgD014/Image021.jpg]
 
 <br>
