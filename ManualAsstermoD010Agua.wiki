@@ -37,13 +37,13 @@ A funcionalidade aqui é idêntica à do Asstermo-K (o original para TI-89):
 *Detalhe importante*: por exemplo, para *X1*, *X2* e *x* (ver imagens que se seguem), pode-se escolher *{1,5}*, *{2,6}* e *{3,7}*, respectivamente, retorna *{6,6}*. Basicamente, pode-se escolher listas de valores, retornando assim uma lista de valores. Útil para obter uma interpolação de vários valores, como por exemplo, obter uma linha inteira de valores interpolados para uma temperatura intermédia.
 
 Exemplos na TI-89:
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_22.jpg] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_23.jpg] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_22.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_23.png] ||
 || Exemplo simples... || ... dá um resultado simples! ||
 
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_24.jpg] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_25.jpg] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_24.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_25.png] ||
 || Um exemplo mais complexo, como sugerido antes no *Detalhe importante* || Obtém-se uma interpolação da mesma posição para vários valores! ||
 
-|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_26.jpg] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_27.jpg] ||
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_26.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_27.png] ||
 || Um exemplo prático. || Este é um exemplo do que o Asstermo permite fazer muito mais rapidamente. ||
 
 <br>
