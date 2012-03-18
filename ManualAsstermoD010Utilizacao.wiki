@@ -1,0 +1,14 @@
+#summary Instruções de utilização do ASSTERMO-D
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+Neste momento, o Asstermo-D está a ser desenvolvimento em formato de _Document Notes_ das TI-nSpire, porque este é o formato mais expedito de lançar o Asstermo para as TI-nSpire. Este formato permite utilizar notas interactivas, onde as caixas _Math Box_ permitem ter código de definição de variáveis e consequente apresentação de resultados de funções.
+
+Portanto, o Asstermo-D actual divide-se em vários ficheiros/documentos:
+  * `Asstermo-D-Agua` - onde está a interface de cálculo das tabelas para a água.
+  * `AsstermoDLib` - onde estão as tabelas completas em formato de matrizes e as funções/programas do núcleo do Asstermo-D.
+
+Nos seguintes capítulos serão descritos cada um dos documentos interactivos:
+* [ManualAsstermoD010Agua Asstermo-D-Agua]
+

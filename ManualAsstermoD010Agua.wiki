@@ -1,0 +1,151 @@
+#summary Asstermo-D-Agua
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+Abra o documento `Asstermo-D-Agua`. Deverá aparecer o seguinte ecrã:
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image001.png]
+
+Neste documento estão representados os seguintes _Problems_:
+  * [#1_-_Asstermo-D-Agua 1 - Asstermo-D-Agua] - Este é o primeiro problema, onde alguma documentação e utilitários estão colocados.
+  * [#2_-_Proc._por_p_e/ou_T 2 - Proc. por p e/ou T] - Segundo problema, onde se pode procurar por _p_ e/ou _T_ em Líquido Comprimido, Água Saturada e Vapor Sobreaquecido.
+  * [#3_-_Proc._por_h_e_p 3 - Proc. por h e p]
+  * [#4_-_Proc._por_s_e_p 4 - Proc. por s e p]
+  * [#5_-_Proc._por_v_e_p 5 - Proc. por v e p]
+  * [#6_-_Proc._por_u_e_p 6 - Proc. por u e p]
+
+<br>
+= 1 - Asstermo-D-Agua = 
+Aí é apresentado uma breve descrição do Asstermo-D e o Índice dos _Problems_ que estão neste documento. O primeiro _Problem_ tem 3 páginas:
+  * 1.1 - A introdução e índice.
+  * [#1.2 1.2] - Interpolação de valores.
+  * [#1.3 1.3] - Sobre o Asstermo-D
+
+<br>
+= 1.2 =
+*Interpolações* - A página apresentada é a seguinte:
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image002.png]
+
+Detalhes:
+  * A azul são os campos editáveis.
+  * Editar apenas os valores azuis, deixar intacto a atribuição à variável.
+  * Os valores estão entre chavetas porque é possível criar listas de valores e interpolá-los a todos duma só vez.
+
+A funcionalidade aqui é idêntica à do Asstermo-K (o original para TI-89):
+*Detalhe importante*: por exemplo, para *X1*, *X2* e *x* (ver imagens que se seguem), pode-se escolher *{1,5}*, *{2,6}* e *{3,7}*, respectivamente, retorna *{6,6}*. Basicamente, pode-se escolher listas de valores, retornando assim uma lista de valores. Útil para obter uma interpolação de vários valores, como por exemplo, obter uma linha inteira de valores interpolados para uma temperatura intermédia.
+
+Exemplos na TI-89:
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_22.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_23.png] ||
+|| Exemplo simples... || ... dá um resultado simples! ||
+
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_24.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_25.png] ||
+|| Um exemplo mais complexo, como sugerido antes no *Detalhe importante* || Obtém-se uma interpolação da mesma posição para vários valores! ||
+
+|| [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_26.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Agua_27.png] ||
+|| Um exemplo prático. || Este é um exemplo do que o Asstermo permite fazer muito mais rapidamente. ||
+
+<br>
+= 1.3 =
+Aqui está a indicação da versão do Asstermo-D que está a ser utilizado:
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image003.png]
+
+<br>
+= 2 - Proc. por p e/ou T =
+Cada página deste problema permite procurar por _p_ e/ou _T_  em Líquido Comprimido, Água Saturada e Vapor Sobreaquecido.
+
+Detalhes:
+  * A azul são os campos editáveis.
+  * Editar apenas os valores azuis, deixar intacto a atribuição à variável.
+  * Em algumas páginas há mais resultados do lado direito, o que requer que se _ande para baixo_ para ver o que falta.
+  * No fundo do lado esquerdo de cada página, ignorar a lista verde e *não editá-la de forma alguma*! Caso esta lista seja pertubada, os valores do lado direito da página irão ser afectados.
+
+Nas seguintes secções 2.1 a 2.4 está uma apresentação de cada página.
+
+= 2.1 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image004.png]
+
+= 2.2 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image005.png]
+
+= 2.3 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image006.png]
+
+= 2.4 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image007.png]
+
+<br>
+= 3 - Proc. por h e p =
+
+= 3.1 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image008.png]
+
+= 3.2 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image009.png]
+
+= 3.3 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image010.png]
+
+<br>
+= 4 - Proc. por s e p =
+
+= 4.1 =
+Esta página é diferente das outras pelo simples motivo porque aqui é onde é calculada a evolução em líquido comprimido pelo cálculo do trabalho.
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image011.png]
+
+= 4.2 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image012.png]
+
+= 4.3 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image014.png]
+
+= 4.4 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image015.png]
+
+<br>
+= 5 - Proc. por v e p =
+
+= 5.1 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image016.png]
+
+= 5.2 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image017.png]
+
+= 5.3 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image018.png]
+
+<br>
+= 6 - Proc. por u e p =
+
+= 6.1 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image019.png]
+
+= 6.2 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image020.png]
+
+= 6.3 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD010/Image021.png]
+
+= 6.4 =
+Ignorar esta página. Neste momento está apenas presente para auxiliar o desenvolvimento do Asstermo-D.
+
+<br>
