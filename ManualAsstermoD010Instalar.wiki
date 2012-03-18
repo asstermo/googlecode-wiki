@@ -10,6 +10,6 @@ Existem 2 ficheiros a ser instalados:
 
 Eis o aspecto da pasta `MyLib` onde a biblioteca `AsstermoDLib` deverá ser colocada:
 
-  [http://wiki.asstermo.googlecode.com/hg/imgD010/MyLib.png]
+  [http://wiki.asstermo.googlecode.com/hg/imgD010/MyLib.jpg]
 
 É aconselhável actualizar o sistema de gestão de bibliotecas, nomeadamente _Refresh Libraries_.
