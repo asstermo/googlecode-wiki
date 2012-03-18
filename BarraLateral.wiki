@@ -27,6 +27,11 @@
         * [ManualAsstermo215Adenda#Necessidades_deste_programa Necessidades deste programa]
         * [ManualAsstermo215Adenda#Historial_de_desenvolvimento Historial de desenvolvimento]
         * [ManualAsstermo215Adenda#Agradecimentos Agradecimentos]
+    * [ManualAsstermoD010 Manual online para o Asstermo 0.10]<br>([http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html?_gnpi_wikilist=%22ManualAsstermoD010|GFDL13|ManualAsstermoD010Intro|ManualAsstermoD010Instalar|ManualAsstermoD010Utilizacao|ManualAsstermoD010Agua%22&_gnpi_showIndex=false&_gnpi_waitmessage=%22Por%20favor%20aguarde%20enquanto%20est%E1%20a%20carregar%22 imprimir], [http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html?_gnpi_wikilist=%22ManualAsstermoD010|GFDL13|ManualAsstermoD010Intro|ManualAsstermoD010Instalar|ManualAsstermoD010Utilizacao|ManualAsstermoD010Agua%22&_gnpi_showIndex=false&_gnpi_waitmessage=%22Por%20favor%20aguarde%20enquanto%20est%E1%20a%20carregar%22 imprimir resumido])
+      * [ManualAsstermoD010Intro Nota Introdutória]
+      * [ManualAsstermoD010Instalar Instruções de instalação]
+      * [ManualAsstermoD010Utilizacao Instruções de utilização do ASSTERMO-D]
+        * [ManualAsstermoD010Agua Asstermo-D-Agua]
   * [DesenvolvimentoSoftware Desenvolvimento do Software Asstermo]
     * [DesenvolvimentoAsstermoK Desenvolvimento do Asstermo-K]
     * [DesenvolvimentoAsstermoD Desenvolvimento do Asstermo-D]
