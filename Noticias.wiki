@@ -18,7 +18,7 @@ Lançamento do Asstermo-D para TI-nSpire, versão 0.14:
   * Esta versão ainda só tem as seguintes tabelas tão operacionais como no Asstermo(-K):
     * Água
     * Amónia
-    * R22
+    * !R22
     * R134a
     * Propano
 
