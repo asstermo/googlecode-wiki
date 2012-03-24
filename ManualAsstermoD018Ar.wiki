@@ -1,0 +1,65 @@
+#summary Asstermo-D-Ar
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+A tabela do ar (A-22) indica as seguintes propriedades:
+|| T || temperatura (K) ||
+|| h || entalpia (kJ/kg) ||
+|| u || energia interna (kJ/kg) ||
+|| s0 || entropia de referência (kJ/kg.K) ||
+|| pr || razão de pressão ||
+|| vr || razão de volume ||
+
+Abra o documento `Asstermo-D-Ar`. Deverá aparecer o seguinte ecrã:
+
+[http://wiki.asstermo.googlecode.com/hg/imgD018/Image022.jpg]
+
+Neste documento estão representados os seguintes _Problems_:
+  * [#1_-_Asstermo-D-Ar 1 - Asstermo-D-Ar] - Este é o primeiro problema, onde alguma documentação e utilitários estão colocados.
+  * [#2_-_Proc._por_T 2 - Proc. por T]
+  * [#3_-_Proc._por_h 3 - Proc. por h]
+  * [#4_-_Proc._por_u 4 - Proc. por u]
+  * [#5_-_Proc._por_s0 5 - Proc. por s0]
+  * [#6_-_Proc._por_pr 6 - Proc. por pr]
+  * [#7_-_Proc._por_vr 7 - Proc. por vr]
+
+<br>
+= 1 - Asstermo-D-Ar = 
+Aí é apresentado uma breve descrição do Asstermo-D e o Índice dos _Problems_ que estão neste documento. O primeiro _Problem_ tem 3 páginas:
+  * 1.1 - A introdução e índice.
+  * 1.2 - Interpolação de valores.
+  * 1.3 - Sobre o Asstermo-D
+
+= 2 - Proc. por T =
+Cada problema permite procurar pelas propriedades descritas no início deste capítulo. Este é o aspecto da procura por temperatura conhecida em Kelvin:
+
+[http://wiki.asstermo.googlecode.com/hg/imgD018/Image025.jpg]
+
+Relembrando os detalhes:
+  * A azul são os campos editáveis.
+  * Editar apenas os valores azuis, deixar intacto a atribuição à variável. Carregar em `Enter` para que o valor seja _activado_.
+  * Em algumas páginas há mais resultados do lado direito, o que requer que se _ande para baixo_ para ver o que falta.
+  * No fundo do lado esquerdo de cada página, ignorar a lista verde e *não editá-la de forma alguma*! Caso esta lista seja pertubada, os valores do lado direito da página irão ser afectados.
+
+Nas seguintes secções 3 a 7 está uma apresentação de cada página.
+
+= 3 - Proc. por h =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD018/Image026.jpg]
+
+= 4 - Proc. por u =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD018/Image027.jpg]
+
+= 5 - Proc. por s0 =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD018/Image028.jpg]
+
+= 6 - Proc. por pr =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD018/Image029.jpg]
+
+= 7 - Proc. por vr =
+
+[http://wiki.asstermo.googlecode.com/hg/imgD018/Image030.jpg]

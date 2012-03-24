@@ -83,7 +83,7 @@ Data de 2.15: Junho de 2009
 <br>
 Horas de trabalho (estimativa total): entre 205 a 220 horas
 <br>
-Autor: Bruno M. S. Santos - [http://code.google.com/u/wyldckat/]
+Autor: Bruno M. S. Santos - wyldckat+asstermo [at] gmail [.] com
 
 <br>
 == Detalhes ==

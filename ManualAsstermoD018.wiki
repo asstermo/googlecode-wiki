@@ -1,9 +1,9 @@
-#summary Manual do Assistente de Termodinâmica - Document 0.14
+#summary Manual do Assistente de Termodinâmica - Document 0.18
 #labels Manuais
 #sidebar BarraLateral
 <wiki:toc max_depth="3" />
 
-<h1>Assistente de Termodinâmica - Document v0.14</h1>
+<h1>Assistente de Termodinâmica - Document v0.18</h1>
 Copyright (c) 2012 Bruno M. S. Santos
 
 Permissão cedida para copiar, distribuir e/ou modificar este documento dentro dos termos da licença "GNU Free Documentation License", versão 1.3 ou qualquer versão posterior publicada pela Free Software Foundation; sem Secções Invariantes, sem Textos de Capa ou Contra-Capa.
@@ -19,7 +19,9 @@ A copy of the license is included in the section entitled "GNU Free Documentatio
 <h1>Índice</h1>
 
   * [GFDL13 GNU Free Documentation License v1.3]
-  * [ManualAsstermoD014Intro Nota Introdutória]
-  * [ManualAsstermoD014Instalar Instruções de instalação]
-  * [ManualAsstermoD014Utilizacao Instruções de utilização do ASSTERMO]
-    * [ManualAsstermoD014Agua Opção 1: Água]
+  * [ManualAsstermoD018Intro Nota Introdutória]
+  * [ManualAsstermoD018Instalar Instruções de instalação]
+  * [ManualAsstermoD018Utilizacao Instruções de utilização do ASSTERMO]
+    * [ManualAsstermoD018Agua Tabelas de Água]
+    * [ManualAsstermoD018Ar Tabelas de Ar]
+  * [ManualAsstermoD018Adenda Adenda]

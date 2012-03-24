@@ -1,5 +1,19 @@
 #summary Notícias
 #sidebar BarraLateral
+= 2012-03-24 =
+Lançamento do Asstermo-D para TI-nSpire, versão 0.18:
+  * Etapas cumpridas: [Calha_TInSpire Na calha para as TI-nSpire]
+  * Download: [http://code.google.com/p/asstermo/downloads/detail?name=Asstermo-D-v0.18.zip Asstermo-D-v0.18.zip]
+  * [ManualAsstermoD018 Manual wiki para o Asstermo-D 0.18]
+  * [http://code.google.com/p/asstermo/downloads/detail?name=Asstermo-D-v0.18.pdf Manual PDF para o Asstermo-D 0.18]
+  * Esta versão ainda só tem as seguintes tabelas tão operacionais como no Asstermo(-K):
+    * Água
+    * Amónia
+    * !R22
+    * R134a
+    * Propano
+    * Ar
+
 = 2012-03-17/18 =
 
 == Antes do almoço do dia 18 ==

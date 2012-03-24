@@ -43,7 +43,7 @@ Nota mental: apesar de limitado, existe a possibilidade de usar *message boxes* 
 || Recuperar código em Basic de procura e interpolação do Asstermo original, antes deste ter passado a adoptar o TIGCC. || Completo! ||
 || Criação do formulário e respectiva interacção com este, mas para já só para a Água. || Completo! ||
 || Criação dos formulários e respectivas interacções com estes, para as tabelas restantes que são semelhantes às da Água, nomeadamente:<br>- Amónia<br>- Refrigerante 22<br>- Refrigerante 134a<br>- Propano || Completo! ||
-|| Adicionar as tabelas do Ar. || por fazer ||
+|| Adicionar as tabelas do Ar. || Completo! ||
 || Adicionar Psicrometria, excepto o Diagrama Psicrométrico Numérico. || por fazer ||
 || Adicionar Combustão, mas só parte de tabelas e contas essenciais. || por fazer ||
 || Adicionar Calor Específico. || por fazer ||

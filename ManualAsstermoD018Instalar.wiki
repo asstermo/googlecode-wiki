@@ -11,9 +11,10 @@ Existem 2 ficheiros a ser instalados:
   * `Asstermo-D-R22.tns` - Semelhante à da água, mas para o Refrigerante 22.
   * `Asstermo-D-R134a.tns` - Semelhante à da água, mas para o Refrigerante 134a.
   * `Asstermo-D-Propano.tns` - Semelhante à da água, mas para o Propano.
+  * `Asstermo-D-Ar.tns` - Semelhante à da água, mas para o Ar e um pouco de forma diferente.
 
 Eis o aspecto da pasta `MyLib` onde a biblioteca `AsstermoDLib` deverá ser colocada:
 
-  [http://wiki.asstermo.googlecode.com/hg/imgD010/MyLib.jpg]
+  [http://wiki.asstermo.googlecode.com/hg/imgD018/MyLib.jpg]
 
 É aconselhável actualizar o sistema de gestão de bibliotecas, nomeadamente _Refresh Libraries_.
