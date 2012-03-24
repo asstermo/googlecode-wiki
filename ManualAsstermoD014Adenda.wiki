@@ -1,0 +1,29 @@
+#summary Adenda
+#labels Manuais
+#sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+= Notas finais =
+
+Este manual ainda está em desenvolvimento. Links úteis:
+  * Página online do Asstermo: [http://code.google.com/p/asstermo/]
+  * Manuais actualizados directamente online: [http://code.google.com/p/asstermo/wiki/Manuais]
+  * Página onde submeter problemas e sugestões: [http://code.google.com/p/asstermo/issues/list]
+
+*NOTA*: Este programa/projecto foi desenvolvido com o máximo de cuidado, verificando sempre se as contas e os valores tabelados estão e dão certo. No entanto, como sou apenas humano e fiz o projecto todo praticamente sozinho, só posso dar garantia deste programa ser _quase_ 100% fiável.
+
+<br>
+= Historial de desenvolvimento =
+== Datas ==
+Data da versão 0.10: 17 de Março de 2012
+<br>
+Data da versão 0.14: Novembro de 2004
+<br>
+Horas de trabalho (estimativa total): entre 10 a 16 horas
+<br>
+Autor: Bruno M. S. Santos - wyldckat+asstermo [at] gmail [.] com
+
+<br>
+== Detalhes ==
+*v0.10* e *v0.14* – As primeiras edições do Asstermo-D. O código das tabelas de Água e Refrigerantes foi adaptado do Asstermo original.
+

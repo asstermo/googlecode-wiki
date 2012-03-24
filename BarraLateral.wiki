@@ -27,11 +27,12 @@
         * [ManualAsstermo215Adenda#Necessidades_deste_programa Necessidades deste programa]
         * [ManualAsstermo215Adenda#Historial_de_desenvolvimento Historial de desenvolvimento]
         * [ManualAsstermo215Adenda#Agradecimentos Agradecimentos]
-    * [ManualAsstermoD014 Manual online para o Asstermo 0.14]<br>([http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html?_gnpi_wikilist=%22ManualAsstermoD014|GFDL13|ManualAsstermoD014Intro|ManualAsstermoD014Instalar|ManualAsstermoD014Utilizacao|ManualAsstermoD014Agua%22&_gnpi_showIndex=false&_gnpi_waitmessage=%22Por%20favor%20aguarde%20enquanto%20est%E1%20a%20carregar%22&_gnpi_showLabels=false&_gnpi_showSummary=false imprimir], [http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html?_gnpi_wikilist=%22ManualAsstermoD014|ManualAsstermoD014Intro|ManualAsstermoD014Instalar|ManualAsstermoD014Utilizacao|ManualAsstermoD014Agua%22&_gnpi_showIndex=false&_gnpi_waitmessage=%22Por%20favor%20aguarde%20enquanto%20est%E1%20a%20carregar%22&_gnpi_showLabels=false&_gnpi_showSummary=false imprimir resumido])
+    * [ManualAsstermoD014 Manual online para o Asstermo 0.14]<br>([http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html?_gnpi_wikilist=%22ManualAsstermoD014|GFDL13|ManualAsstermoD014Intro|ManualAsstermoD014Instalar|ManualAsstermoD014Utilizacao|ManualAsstermoD014Agua|ManualAsstermoD014Adenda%22&_gnpi_showIndex=false&_gnpi_waitmessage=%22Por%20favor%20aguarde%20enquanto%20est%E1%20a%20carregar%22&_gnpi_showLabels=false&_gnpi_showSummary=false imprimir], [http://wiki.asstermo.googlecode.com/hg/gadgets/printwikis.html?_gnpi_wikilist=%22ManualAsstermoD014|ManualAsstermoD014Intro|ManualAsstermoD014Instalar|ManualAsstermoD014Utilizacao|ManualAsstermoD014Agua|ManualAsstermoD014Adenda%22&_gnpi_showIndex=false&_gnpi_waitmessage=%22Por%20favor%20aguarde%20enquanto%20est%E1%20a%20carregar%22&_gnpi_showLabels=false&_gnpi_showSummary=false imprimir resumido])
       * [ManualAsstermoD014Intro Nota Introdutória]
       * [ManualAsstermoD014Instalar Instruções de instalação]
       * [ManualAsstermoD014Utilizacao Instruções de utilização do ASSTERMO-D]
         * [ManualAsstermoD014Agua Asstermo-D-Agua]
+      * [ManualAsstermoD014Adenda Adenda]
   * [DesenvolvimentoSoftware Desenvolvimento do Software Asstermo]
     * [DesenvolvimentoAsstermoK Desenvolvimento do Asstermo-K]
     * [DesenvolvimentoAsstermoD Desenvolvimento do Asstermo-D]
