@@ -9,8 +9,8 @@ Lançamento do Asstermo-D para TI-nSpire, versão 0.18:
   * Esta versão ainda só tem as seguintes tabelas tão operacionais como no Asstermo(-K):
     * Água
     * Amónia
-    * !R22
-    * R134a
+    * Refrigerante 22
+    * Refrigerante 134a
     * Propano
     * Ar
 
@@ -32,8 +32,8 @@ Lançamento do Asstermo-D para TI-nSpire, versão 0.14:
   * Esta versão ainda só tem as seguintes tabelas tão operacionais como no Asstermo(-K):
     * Água
     * Amónia
-    * !R22
-    * R134a
+    * Refrigerante 22
+    * Refrigerante 134a
     * Propano
 
 = 2011-09-17 =
