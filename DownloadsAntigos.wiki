@@ -10,7 +10,7 @@ Aqui estão listadas as versões antigas do Asstermo. Estas já não são suport
 Versão de 10-07-2006, considerada estável, mas já muito antiga. Precisa do “autoalpha off” para desligar o modo _alfa_ automaticamente nas caixas de diálogo.
 Não funciona com AMS 3.XX, ou seja: *NÃO USEM* ESTA VERSÃO NAS *TI-89 TITANIUM*!!
 
-Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.1.83.zip asstermo.1.83.zip]
+Download (inclui manual): [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.1.83.zip asstermo.1.83.zip]
 
 Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO.pdf asstermo.1.83.pdf]
 

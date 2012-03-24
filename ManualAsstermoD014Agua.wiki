@@ -58,7 +58,7 @@ Cada página deste problema permite procurar por _p_ e/ou _T_  em Líquido Compr
 
 Detalhes:
   * A azul são os campos editáveis.
-  * Editar apenas os valores azuis, deixar intacto a atribuição à variável.
+  * Editar apenas os valores azuis, deixar intacto a atribuição à variável. Carregar em `Enter` para que o valor seja _activado_.
   * Em algumas páginas há mais resultados do lado direito, o que requer que se _ande para baixo_ para ver o que falta.
   * No fundo do lado esquerdo de cada página, ignorar a lista verde e *não editá-la de forma alguma*! Caso esta lista seja pertubada, os valores do lado direito da página irão ser afectados.
 

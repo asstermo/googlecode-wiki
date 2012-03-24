@@ -5,7 +5,7 @@
 = Asstermo 2.15 para TI-89/92 (inclusive Titanium/Plus), Voyage 200 =
 Versão de 13/14-05-2009, agora considerada estável, visto que não têm havido relatos de problemas. Compatível com AMS 2.08 ou 3.08 e superiores.
 
-Download: [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15.zip asstermo.2.15.zip]
+Download (inclui manual): [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15.zip asstermo.2.15.zip]
 
 Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.15.pdf asstermo.2.15.pdf]
 
@@ -15,7 +15,7 @@ Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relat
 = Asstermo-D 0.14 para TI-nSpire =
 Versão de 18-03-2012, considerada experimental. Requer AMS 3.XX em qualquer modelo de TI-nSpire, com e sem CAS.
 
-Download: [http://code.google.com/p/asstermo/downloads/detail?name=Asstermo-D-v0.14.zip Asstermo-D-v0.14.zip]
+Download (inclui manual): [http://code.google.com/p/asstermo/downloads/detail?name=Asstermo-D-v0.14.zip Asstermo-D-v0.14.zip]
 
 Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=Asstermo-D-v0.14.pdf Asstermo-D-v0.14.pdf]
 
