@@ -15,9 +15,7 @@ Este manual ainda está em desenvolvimento. Links úteis:
 <br>
 = Historial de desenvolvimento =
 == Datas ==
-Data da versão 0.10: 17 de Março de 2012
-<br>
-Data da versão 0.14: Novembro de 2004
+Data da versão 0.10 e 0.14: 18 de Março de 2012
 <br>
 Horas de trabalho (estimativa total): entre 10 a 16 horas
 <br>
