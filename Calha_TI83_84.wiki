@@ -63,6 +63,8 @@ Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
   * Editores de Assembly para o Z80:
     * [http://www.ticalc.org/archives/files/fileinfo/158/15892.html|Assembly Studio (asstudio eheheh)]
     * [http://wabbit.codeplex.com/releases/view/45275|Wabbitcode]
+  * Mais listas de informação:
+    * [http://tifreakware.net/tutorials/asmresc.htm]
 
 <br>
 = Conclusões =
