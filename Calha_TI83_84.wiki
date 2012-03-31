@@ -46,6 +46,13 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
     * [http://www.ticalc.org/archives/files/fileinfo/389/38998.html Tutorial para o BasicBuilder]
     * [http://sourceforge.net/projects/basicbuilder/ Código fonte]
 
+== Investigação sobre aplicações flash ==
+Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
+  * Lista de fontes sobre como desenvolver aplicações em Assembly: http://www.ticalc.org/basics/calculators/ti-83plus-se.html#9
+  * [http://www.ticalc.org/archives/files/fileinfo/324/32459.html|Equation Editing Aplication] - útil talvez apenas por causa do interface.
+  * [http://www.ticalc.org/archives/files/fileinfo/250/25021.html|GUI v0.2 for Z80] - útil para a interface gráfica.
+  * [http://www.omnimaga.org/index.php?topic=8316.0|Another guide on Assembly]
+  * [http://www.unitedti.org/forum/index.php?showtopic=174|A more complete list of teaching yourself ASM]
 
 <br>
 = Conclusões =
