@@ -65,6 +65,7 @@ Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
     * [http://wabbit.codeplex.com/releases/view/45275|Wabbitcode]
   * Mais listas de informação:
     * [http://tifreakware.net/tutorials/asmresc.htm]
+    * [http://www.tumblr.com/tagged/ti83%2b|sobre o wabbit]
 
 <br>
 = Conclusões =
