@@ -54,6 +54,11 @@ Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
   * [http://www.omnimaga.org/index.php?topic=8316.0|Another guide on Assembly]
   * [http://www.unitedti.org/forum/index.php?showtopic=174|A more complete list of teaching yourself ASM]
   * [http://tibasicdev.wikidot.com/basicbuilder|More info on Basic Builder]
+  * Como usar o z88dk:
+    * [http://www.z88dk.org/forum/viewtopic.php?id=4880|Exemplo]
+    * [http://www.z88dk.org/forum/viewtopic.php?id=4883|Solução para um problema com o appmake]
+    * [http://www.z88dk.org/wiki/doku.php?id=platform:ticalc|Mais info na wiki do z88dk]
+  * Mais info sobre z80 e TI-8x: [http://wikiti.brandonw.net/?title=Calculator_Documentation#Z80_programming]
 
 <br>
 = Conclusões =
