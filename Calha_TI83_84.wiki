@@ -59,6 +59,9 @@ Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
     * [http://www.z88dk.org/forum/viewtopic.php?id=4883|Solução para um problema com o appmake]
     * [http://www.z88dk.org/wiki/doku.php?id=platform:ticalc|Mais info na wiki do z88dk]
   * Mais info sobre z80 e TI-8x: [http://wikiti.brandonw.net/?title=Calculator_Documentation#Z80_programming]
+  * Editores de Assembly para o Z80:
+    * [http://www.ticalc.org/archives/files/fileinfo/158/15892.html|Assembly Studio (asstudio eheheh)]
+    * [http://wabbit.codeplex.com/releases/view/45275|Wabbitcode]
 
 <br>
 = Conclusões =
