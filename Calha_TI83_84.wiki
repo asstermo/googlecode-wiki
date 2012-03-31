@@ -53,6 +53,7 @@ Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
   * [http://www.ticalc.org/archives/files/fileinfo/250/25021.html|GUI v0.2 for Z80] - útil para a interface gráfica.
   * [http://www.omnimaga.org/index.php?topic=8316.0|Another guide on Assembly]
   * [http://www.unitedti.org/forum/index.php?showtopic=174|A more complete list of teaching yourself ASM]
+  * [http://tibasicdev.wikidot.com/basicbuilder|More info on Basic Builder]
 
 <br>
 = Conclusões =
