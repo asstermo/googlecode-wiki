@@ -46,25 +46,34 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
     * [http://www.ticalc.org/archives/files/fileinfo/389/38998.html Tutorial para o BasicBuilder]
     * [http://sourceforge.net/projects/basicbuilder/ Código fonte]
 
-== Investigação sobre aplicações flash ==
+== Investigação sobre aplicações flash e assembly ==
 Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
-  * Lista de fontes sobre como desenvolver aplicações em Assembly: http://www.ticalc.org/basics/calculators/ti-83plus-se.html#9
-  * [http://www.ticalc.org/archives/files/fileinfo/324/32459.html|Equation Editing Aplication] - útil talvez apenas por causa do interface.
-  * [http://www.ticalc.org/archives/files/fileinfo/250/25021.html|GUI v0.2 for Z80] - útil para a interface gráfica.
-  * [http://www.omnimaga.org/index.php?topic=8316.0|Another guide on Assembly]
-  * [http://www.unitedti.org/forum/index.php?showtopic=174|A more complete list of teaching yourself ASM]
-  * [http://tibasicdev.wikidot.com/basicbuilder|More info on Basic Builder]
-  * Como usar o z88dk:
-    * [http://www.z88dk.org/forum/viewtopic.php?id=4880|Exemplo]
-    * [http://www.z88dk.org/forum/viewtopic.php?id=4883|Solução para um problema com o appmake]
-    * [http://www.z88dk.org/wiki/doku.php?id=platform:ticalc|Mais info na wiki do z88dk]
-    * [https://github.com/cemeyer/tisdcc/wiki|tisdcc] baseado no sdcc. Pode ser bom para sacar alguma coisa daqui...
-  * Mais info sobre z80 e TI-8x: [http://wikiti.brandonw.net/?title=Calculator_Documentation#Z80_programming]
-  * Editores de Assembly para o Z80:
-    * [http://www.ticalc.org/archives/files/fileinfo/158/15892.html|Assembly Studio (asstudio eheheh)]
-    * [http://wabbit.codeplex.com/releases/view/45275|Wabbitcode]
-  * Mais listas de informação:
+  * Lista de fontes sobre como desenvolver aplicações em Assembly:
+    * http://www.ticalc.org/basics/calculators/ti-83plus-se.html#9
+    * [http://www.omnimaga.org/index.php?topic=8316.0|Another guide on Assembly]
+    * [http://www.unitedti.org/forum/index.php?showtopic=174|A more complete list of teaching yourself ASM]
+    * [http://wikiti.brandonw.net/?title=Calculator_Documentation#Z80_programming]
     * [http://tifreakware.net/tutorials/asmresc.htm]
+    * [http://www.ticalc.org/archives/files/fileinfo/268/26877.html|ASM em 28 dias]
+    * [http://www.ticalc.org/archives/files/fileinfo/69/6961.html|ASM guru]
+    * [http://z80-heaven.wikidot.com/flash-applications|Flash multipages]
+    * [http://www.alvasoft.net/ti83-cours-a-telecharger-assembleur-z80-14-11.html]
+  * Exemplos úteis:
+    * [http://www.ticalc.org/archives/files/fileinfo/324/32459.html|Equation Editing Aplication] - útil talvez apenas por causa do interface.
+    * [http://www.ticalc.org/archives/files/fileinfo/250/25021.html|GUI v0.2 for Z80] - útil para a interface gráfica.
+  * Editores vários:
+    * Assembly:
+      * [http://www.ticalc.org/archives/files/fileinfo/158/15892.html|Assembly Studio (asstudio eheheh)]
+      * [http://wabbit.codeplex.com/releases/view/45275|Wabbitcode]
+    * Linguagens alternativas:
+      * [http://tibasicdev.wikidot.com/basicbuilder|More info on Basic Builder]
+      * Como usar o z88dk:
+        * [http://www.z88dk.org/forum/viewtopic.php?id=4880|Exemplo]
+        * [http://www.z88dk.org/forum/viewtopic.php?id=4883|Solução para um problema com o appmake]
+        * [http://www.z88dk.org/wiki/doku.php?id=platform:ticalc|Mais info na wiki do z88dk]
+        * [https://github.com/cemeyer/tisdcc/wiki|tisdcc] baseado no sdcc. Pode ser bom para sacar alguma coisa daqui...
+      * [http://www.ticalc.org/archives/files/fileinfo/414/41454.html|SquirrelBox 1.6 alpha] - um meio termo entre Basic/C/Java e ASM. Quase parece ser a solução...
+  * Mais listas de informação:
     * [http://www.tumblr.com/tagged/ti83%2b|sobre o wabbit]
 
 <br>
