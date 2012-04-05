@@ -73,6 +73,8 @@ Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
         * [http://www.z88dk.org/wiki/doku.php?id=platform:ticalc Mais info na wiki do z88dk]
         * [https://github.com/cemeyer/tisdcc/wiki tisdcc] baseado no sdcc. Pode ser bom para sacar alguma coisa daqui...
       * [http://www.ticalc.org/archives/files/fileinfo/414/41454.html SquirrelBox 1.6 alpha] - um meio termo entre Basic/C/Java e ASM. Quase parece ser a solução...
+        * [http://code.google.com/p/opia/ OPIA for z80] - esta é a linguagem mais à frente do mesmo criador. Seria ideal conseguir-se usar esta linguagem, mas... ainda está agora em desenvolvimento! Começou este ano a ser implementada!!
+        * [http://dancookplusplus.blogspot.pt/ OPIA blog]
   * Mais listas de informação:
     * [http://www.tumblr.com/tagged/ti83%2b sobre o wabbit]
 
