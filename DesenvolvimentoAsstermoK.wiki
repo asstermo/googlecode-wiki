@@ -38,7 +38,7 @@ Eis o que interessa para o desenvolvimento de software em TI-Basic 68k:
 <br>
 == Desenvolvimento de codigo do TI-Basic 68k ==
 Esta secção divide-se nas seguintes subsecções:
-  * [#Como esta o codigo do Asstermo distribuido Como está o código do Asstermo distribuído]
+  * [#Como_esta_o_codigo_do_Asstermo_distribuido Como está o código do Asstermo distribuído]
   * [#Instrucoes_de_desenvolvimento_do_codigo_do_Asstermo Instruções de desenvolvimento do código do Asstermo]
   * [#Preparacoes_finais_do_codigo_para_testes_e_posterior_distribucao Preparações finais do código para testes e posterior distribuição]
 
