@@ -13,7 +13,7 @@ Na figura seguinte estão as opções disponíveis para a água:
   * [#4:Proc._s_e_P(L.Sat) 4:Proc. s e P(L.Sat)] – obtém entalpia para uma determinada pressão, a partir de uma outra entalpia e pressão, e volume específico. Útil para evoluções isentrópicas em líquido comprimido.
   * [#5:Proc._Por_v_e_P 5:Proc. Por v e P] – permite obter os valores a partir do volume específico e da pressão, para líquido comprimido, líquido-vapor saturado e vapor sobreaquecido.
   * [#6:Proc._Por_u_e_P 6:Proc. Por u e P] – permite obter os valores a partir da energia interna e da pressão, para líquido comprimido, líquido-vapor saturado e vapor sobreaquecido.
-  * [#7:Água:_Para_Trás 7:Água: Para Trás] – volta para o menu principal.
+  * [#7:Agua:_Para_Tras 7:Água: Para Trás] – volta para o menu principal.
   * [#8:ASSTermo:_Sair 8:ASSTermo: Sair] – sai do programa.
   * [#9:Fazer_umas_contas 9:Fazer umas contas] – permite fazer contas sem se ter de sair do programa.
   * [#A:Interpolações A:Interpolações] – permite fazer interpolações. No entanto, não permite utilizar os valores directamente, ou seja, se se utilizar h em vez do valor efectivo de h, este vai resultar numa conta em que falta substituir o h; ou seja, terá uma equação dependente de h!
