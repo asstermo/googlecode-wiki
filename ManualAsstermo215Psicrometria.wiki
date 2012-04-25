@@ -12,19 +12,19 @@ Este é o menu principal da psicrometria:
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_01.png]
 
 Cada opção tem uma secção dedicada neste capítulo:
-  * [#1:Pressão(bar):x.xxx 1:Pressão(bar):x.xxx]
+  * [#1:Pressao(bar):x.xxx 1:Pressão(bar):x.xxx]
   * [#2:Obter_w 2:Obter w]
   * [#3:Obter_HR 3:Obter HR]
   * [#4:Obter_h_com_T_e_w 4:Obter h com T e w]
   * [#5:Obter_p_T_ou_T_p 5:Obter p->T ou T->p]
   * [#6:Obter_p_vapor_(pv) 6:Obter p vapor (pv)]
-  * [#7:Cálculo_de_massas 7:Cálculo de massas]
-  * [#8:Diag_Psicrométrico 8:Diag Psicrométrico]
+  * [#7:Calculo_de_massas 7:Cálculo de massas]
+  * [#8:Diag_Psicrometrico 8:Diag Psicrométrico]
   * [#9:Psicrometria:_Sair 9:Psicrometria: Sair]
   * [#A:Fazer_uma_contas A:Fazer uma contas]
 
 <br>
-= 1:Pressão(bar):x.xxx =
+= 1:Pressao(bar):x.xxx =
 A primeira opção permite escolher a pressão do ar húmido. Este valor é utilizado ao longo de todo a psicrometria. Este valor é guardado na
 variável *b_par*.
 
@@ -79,7 +79,7 @@ Este é o menu atingido por aceder à opção 6 do menu de psicrometria:
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_13.png]
 
 <br>
-= 7:Cálculo de massas =
+= 7:Calculo de massas =
 Este é o menu atingido por aceder à opção 6 do menu de psicrometria:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_14.png]
@@ -87,7 +87,7 @@ Este é o menu atingido por aceder à opção 6 do menu de psicrometria:
 É de notar que na caixa de diálogo que mostra os resultados, também mostra a fórmula/equação utilizada!
 
 <br>
-= 8:Diag Psicrométrico =
+= 8:Diag Psicrometrico =
 Este é o sub-menu da opção 8 do menu de psicrometria, é o menu do diagrama psicrométrico numérico:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Psicrometria_15.png]
