@@ -3,7 +3,7 @@
 #sidebar BarraLateral
 <wiki:toc max_depth="3" />
 
-= Instrucoes de Instalacao =
+= Instruções de Instalação =
 Se fez o download deste programa da página [http://asstermo.no.sapo.pt asstermo.no.sapo.pt] ou [http://code.google.com/p/asstermo/ asstermo no code.google] e transferiu para a calculadora, trate de executar os seguintes passos:
   # Arquivar os ficheiros todos na calculadora. Para tal:
     # *2nd* + *–* para aceder ao _Var-Link_, vá até à pasta *ASSTERMO* e carregue no *F4* quando a selecção estiver sobre o nome da pasta *ASSTERMO*;
@@ -13,12 +13,12 @@ Se fez o download deste programa da página [http://asstermo.no.sapo.pt asstermo
   # Corra o programa *ASSTERMO\ZCOMPILE()* - ainda no _Var-Link_, carregue no *Z* e deve calhar mesmo em cima do *ZCOMPILE*; carregue em _Enter_ e depois no *)* e *Enter* de novo. Aguarde enquanto ele compila todos os programas e funções, por forma a todo o projecto correr em velocidade optimizada!
   # Já tá pronto a correr! *ASSTERMO\ASSTERMO()* para correr o programa!
 
-= Instrucoes de transferencia/copia para outra calculadora =
+= Instruções de transferência/cópia para outra calculadora =
 Existem duas soluções:
   # Utilizar o *F3:Link\Send* que está no _Var-Link_;
   # Utilizar o programa *ASSTERMO\ZCOPIAR()*.
 
-A primeira está explicada no manual da calculadora e após a cópia feita, seguir os passos descritos acima [#Instrucoes_de_Instalacao Instruções de instalação]. A segunda tive deu um trabalho razoável a criar, para tornar o processo mais automatizado.
+A primeira está explicada no manual da calculadora e após a cópia feita, seguir os passos descritos acima [#Instruções_de_Instalação Instruções de instalação]. A segunda tive deu um trabalho razoável a criar, para tornar o processo mais automatizado.
 
 Como utilizar o *ZCOPIAR*: Execute o programa, indo ao _Var-Link_, de seguida carregue em *Z* três vezes e deve estar lá; carregue em *Enter* e depois *)* e *Enter* de novo! A seguinte imagem aparece:
 

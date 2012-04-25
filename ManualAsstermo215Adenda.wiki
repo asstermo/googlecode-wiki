@@ -12,7 +12,7 @@ Espero ter sido elucidativo quanto ao como utilizar este programa. Links úteis:
 *NOTA*: Este programa/projecto foi desenvolvido com o máximo de cuidado, verificando sempre se as contas e os valores tabelados estão e dão certo. No entanto, como sou apenas humano e fiz o projecto todo praticamente sozinho, só posso dar garantia deste programa ser _quase_ 100% fiável. É de notar desde já que o Diagrama Psicrométrico é obtido com base nas tabelas de líquido-vapor saturado da água, portanto poderá não coincidir exactamente com todos os diagramas psicrométricos à face da terra!
 
 <br>
-= Motivacao =
+= Motivação =
 Este programa "Assistente de Termodinâmica", composto por cento e pouco ficheiros, que tem de estar obrigatoriamente na pasta "asstermo", foi desenvolvido por mim como resultado de ter saído extremamente chateado do segundo exame de Termodinâmica II, que eu pensava que não ia passar... mas que acabei por passar com 12. No entanto, como a ideia já estava a ganhar raízes na minha cabeça, e andava a precisar de um escape a minha capacidade artística... criativa... Bem, quando meto uma ideia na cabeça, ela acaba por sair cá para fora... a bem ou a mal! Espero que este programa vos seja útil, visto que fi-lo já não para mim propriamente dito, mas para amigos e colegas que passam e iram passar pelas cadeiras de Termodinâmica I e II, pelo menos no Instituto Superior Técnico! Aproveitem bem as 2h30 do exame!!!
 
 Ass.: Bruno M. S. Santos, 12/09/2004

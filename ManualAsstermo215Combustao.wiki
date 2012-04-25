@@ -12,7 +12,7 @@ Cada uma destas opções tem uma secção dedicada:
   * [#2:Prop._TermoQuim. 2:Prop. TermoQuim.] – acesso à tabela das propriedades termoquímicas (h^0^,,f,,, gibbs, HHV, LHV...) de várias moléculas, a 298K e 1bar.
   * [#3:Log10(K) 3:Log10(K)] – acesso à tabela com os valores de Log,,10,,(K) para várias equações e várias temperaturas.
   * [#4:Modo(T\V):Valores 4:Modo(T\V):Valores] – muda entre modos de visualização de tabelas: “Valores” procura e obtém os valores da tabela, e “Tabela” dá acesso à tabela.
-  * [#5:Solver_Quimico 5:Solver Químico] – Solver Químico dá acesso a outra parte da combustão: _Construção_ da Equação Química e cálculos _estequiométricos_ e acerto de contas; e cálculo das entalpias molares e totais dos Reagentes e dos Produtos! Este último permite fazer iteração manual!
+  * [#5:Solver_Químico 5:Solver Químico] – Solver Químico dá acesso a outra parte da combustão: _Construção_ da Equação Química e cálculos _estequiométricos_ e acerto de contas; e cálculo das entalpias molares e totais dos Reagentes e dos Produtos! Este último permite fazer iteração manual!
   * [#6:ASSComb:_Sair 6:ASSComb: Sair] – Sair deste Assistente, nomeadamente o de Combustão!
   * [#7:Fazer_umas_contas 7:Fazer umas contas] e [#8:Interpolacoes 8:Interpolações] são já _velhos conhecidos_...
 
@@ -75,7 +75,7 @@ Em modo *Tabelas* (ver [#4:Modo(T\V):Valores 4:Modo(T\V):Valores]) mostra o segu
 Esta opção permite mudar entre os modos *Valores* e *Tabelas*. O que for apresentado _neste momento_ no menu é o que está seleccionado _actualmente_.
 
 <br>
-= 5:Solver Quimico =
+= 5:Solver Químico =
 Como o nome dá a entender, trata da parte de química de combustão. É um assistente simples, adaptado específicamente *apenas* para combustão (involvendo apenas os elementos mais comuns em combustão), ou seja, não lida com todos os elementos da tabela periódica, só com os elementos mais utilizados e sem minúsculas:
   * Não permitido: *Cr*, *Cl*, *Ar*.
   * Permitido: *C*, *O*, *N*, *H*.
@@ -84,17 +84,17 @@ O menu seguinte é mostrado:
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_15.png]
 
 Cada opção do menu tem uma sub-secção dedicada:
-  * [#1:Equacao:_R0_P0 1:Equacao: R0 P0] – 0 reagentes e 0 produtos estão na equação. Dá acesso ao editor e solver de fórmulas (equilibra as equações químicas);
+  * [#1:Equação:_R0_P0 1:Equação: R0 P0] – 0 reagentes e 0 produtos estão na equação. Dá acesso ao editor e solver de fórmulas (equilibra as equações químicas);
   * [#2:Calc.Entalpias_Tot 2:Calc.Entalpias Tot] – calcula as entalpias dos reagentes e/ou produtos, das moléculas (kJ/kmol) e de totais (kJ).
   * [#3:Calc.Temp.Intermed 3:Calc.Temp.Intermed] – significa "Calcular a temperatura intermédia", ou seja, interpolar a temperatura onde deverá estar o equíbrio químico.
   * [#4:Ver_EntalpListadas 4:Ver EntalpListadas] – Permite aceder à informação gravada das entalpias já calculadas. Útil para auxiliar nas iterações manuais!
   * [#5:Apagar_Entalpias 5:Apagar Entalpias] – Apaga todas as entalpias calculadas. Uma a uma dava muito trabalho, visto que há muita informação para ver!!!
-  * [#6:SolverQ:_Para_tras 6:SolverQ: Para trás] – voltar ao menu anterior.
+  * [#6:SolverQ:_Para_trás 6:SolverQ: Para trás] – voltar ao menu anterior.
   * [7:AssCombustao:_Sair 7:AssCombustao: Sair] – Sair do Assistente de Combustão.
   * [#8:Fazer_umas_contas 8:Fazer umas contas] e [#9:Interpolacoes 9:Interpolações] são os já conhecidos, que _andam por aqui_ porque nunca se sabe quando poderão vir a serem necessários.
 
 <br>
-== 1:Equacao: `R0` `P0` ==
+== 1:Equação: `R0` `P0` ==
 Este é o Assistente de Química para Combustão. O seguinte menu é mostrado:
 
 [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_16.png]
@@ -105,9 +105,9 @@ Cada opção do menu tem uma sub-secção dedicada, apesar que algumas são aglo
   * [#3:Alterar_Reagentes 3:Alterar Reagentes] e [#5:Alterar_Produtos 5:Alterar Produtos] – Permitem alterar as características das moléculas inseridas em cada um dos lados da equação;
   * [#4:Remover_Reagentes 4:Remover Reagentes] e [#6:Remover_Produtos 6:Remover Produtos] – Permitem remover moléculas de cada lado.
   * [#7:Ver_Equacoes 7:Ver Equações] – Ver se está tudo como está na folha que está à vossa frente;
-  * [#8:Solve_Incognitas 8:Solve Incognitas] – Resolver as incógnitas das equações.
+  * [#8:Solve_Incógnitas 8:Solve Incógnitas] – Resolver as incógnitas das equações.
   * [#9:Apagar_Equacoes 9:Apagar Equações] – Apagar cada lado da equação por completo.
-  * [#A:Equacao_Quim:_Sair A:Equacao Quim: Sair] – Sair do editor de equações/fórmulas químicas.
+  * [#A:Equação_Quim:_Sair A:Equação Quim: Sair] – Sair do editor de equações/fórmulas químicas.
   * [#B:Fazer_umas_contas B:Fazer umas contas] – já o habitualmente conhecido...
 
 <br>
@@ -166,7 +166,7 @@ Onde:
 || Onde é mostrada em cada linha a quantidade e a molécula por ordem de inserção! || ||
 
 <br>
-=== 8:Solve Incognitas ===
+=== 8:Solve Incógnitas ===
 O Solve Incógnitas trata de resolver a equação, quando esta não está toda resolvida. O seguinte exemplo demonstra a equação existente:
 || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_25.png] || [http://wiki.asstermo.googlecode.com/hg/img215/ManualAsstermo215Combustao_26.png] ||
 || Estes são os reagentes. || Estes são os produtos. ||
@@ -194,8 +194,8 @@ Se pretender apagar as equações, as seguintes 2 caixas serão mostradas (uma d
 || Primeiro pergunta sobre os reagentes. || Depois sobre os produtos. ||
 
 <br>
-=== A:Equacao Quim: Sair ===
-Esta opção fará sair do Assistente de Química para Combustão e voltará ao Assistente de Combustão, nomeadamente para o menu principal do [#5:Solver_Quimico 5:Solver Químico].
+=== A:Equação Quim: Sair ===
+Esta opção fará sair do Assistente de Química para Combustão e voltará ao Assistente de Combustão, nomeadamente para o menu principal do [#5:Solver_Químico 5:Solver Químico].
 
 <br>
 === B:Fazer umas contas ===
@@ -295,8 +295,8 @@ Uma vez vista a informação, chega-se à caixa inicial para se poder ver outras
 Aqui não há _grande ciência_. O interface é semelhante ao da opção [#4:Ver_EntalpListadas 4:Ver EntalpListadas], mas desta vez é para remover resultados.
 
 <br>
-== 6:SolverQ: Para tras ==
-Regressa ao menu anterior, nomeadamente o menu principal do [#5:Solver_Quimico 5:Solver Químico].
+== 6:SolverQ: Para trás ==
+Regressa ao menu anterior, nomeadamente o menu principal do [#5:Solver_Químico 5:Solver Químico].
 
 <br>
 == 7:AssCombustao: Sair ==
