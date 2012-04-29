@@ -1,14 +1,46 @@
 #summary Informações gerais sobre a Instalação
 #labels Instalacao
 #sidebar BarraLateral
+<wiki:toc max_depth="3" />
+
+= Asstermo-K (TI-89/92/200) =
+
+Passos detalhados sobre como instalar o Asstermo-K numa TI-89, que deverá servir minimamente para as TI-92 e Voyage 200.
+
+Software necessário no PC:
+  * [http://lpg.ticalc.org/prj_tilp/ TiLP 2] - É preciso ter cuidado, porque os drivers de USB do TiLP são incompatíveis com os do TI Connect.
+
+São necessárias três fases de instalação:
+  # [#Arrumar_a_memória Arrumar a memória]
+  # [#Transferir_o_pacote Transferir o pacote]
+  # [#Finalizar_a_instalação Finalizar a instalação]
+  
+== Arrumar a memória ==
+A primeira fase serve para arrumar a memória da calculadora. Isto porque o Asstermo-K requer cerca de 180kB para se instalar e 150kB de RAM para funcionar normalmente.
+
+Portanto, tem-se de arquivar os ficheiros todos na calculadora. Para tal:
+|| 0. O ecrã inicial da calculadora -> || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png] ||
+|| 1. `2nd` + `–` para aceder ao Var-Link. À direita, eis como exemplo uma versão muito antiga do Asstermo que está desarrumada -> || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_001.png] ||
+|| 2. `F5` + `1` para seleccionar todas as pastas e ficheiros. || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_002.png] -> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_003.png] ||
+|| 3. Faça `UNLOCK` - carregue nas teclas `F1` e depois `7`.  || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_004.png] -> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_005.png] ||
+|| 4. A seguir `ARQUIVE` - carregue nas teclas `F1` e depois `8`.  || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_006.png] -> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_007.png] ||
+|| 5. `ESC` para sair do Var-Link.  || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png] ||
+|| 6. Agora para verificar se há RAM e Flash ROM suficientes, `2nd` + `6`  e verificar se as seguintes entradas têm:
+  * *RAM free* - mais de 150000 bytes.
+  * *Flash ROM free* -  mais de 180000 bytes. || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_001.png] ||
+
+A calculadora está agora pronta a receber o Asstermo-K.
+
+== Transferir o pacote ==
+
+
+== Finalizar a instalação ==
+
+= Instruções antigas... =
 NOTAS adicionais sobre instalação:
 
    # Infelizmente, o software da TI é ... incompleto. Nomeadamente, apesar dos ficheiros estarem devidamente catalogados como arquivados, o seu estado após transferido varia de modelo para modelo.
-
      Na maioria das situações, aparentemente, os ficheiros aparecem em modo lock em vez de arquive. Portanto, *antes* de transferir o Asstermo para a calculadora, é preciso *arquivar todos os ficheiros* que existem na calculadora, para que os 150 kB do Asstermo caibam na RAM.
-
      Ao transferir o Asstermo, é preciso ter cuidado como se efectua a tranferência. No TI Device Explorer, eu costumo arrastar o ficheiro “asstermo.89g” a partir da janela do Windows Explorer para a janela do TI Device Explorer, mas só largo o ficheiro em cima do símbolo da calculadora (TI-89 no meu caso). Caso se largue em cima da pasta `main`, os ficheiros não vão parar à pasta intencionada asstermo. Finalmente, já na calculadora, seleccionar a pasta asstermo e fazer unlock, e voltar a seleccionar e fazer archive.
-
-   # Outra hipótese, é usar o [http://sourceforge.net/projects/tilp/ TiLP] para transferir os ficheiros para a calculadora. A versão TiLP2 é a mais recente. Convém permitir que o instalador do TiLP faça o download do GTK+, que assim é mais fácil que fique tudo instalado. A parte porreira, é que o TiLP existe em versões para Windows e Linux! No entanto, é preciso ter cuidado, porque os drivers de USB do TiLP são incompatíveis com os do TI Connect. No site tem lá o manual de utilização.
-
+   # Outra hipótese, é usar o [http://sourceforge.net/projects/tilp/ TiLP] para transferir os ficheiros para a calculadora. A versão TiLP2 é a mais recente. Convém permitir que o instalador do TiLP faça o download do GTK+, que assim é mais fácil que fique tudo instalado. A parte porreira, é que o TiLP existe em versões para Windows e Linux! 
    # Executar `asstermo\zcompile()` na calculadora, após fazer o upload para esta, antes de começar a utilizar o programa. Isto é para optimizar a sua utilização, se não fica muito lento em várias partes do programa.
