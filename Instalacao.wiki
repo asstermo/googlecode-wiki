@@ -53,12 +53,49 @@ Portanto, tem-se de arquivar os ficheiros todos na calculadora. Para tal:
 <td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png]
 <tr>
 <table>
+
 <br>
 == Transferir o pacote ==
 
+*Nota*: Com os _AMS_ e _TI Connect_ mais recentes, talvez este passo não seja necessário. Sei que com o [http://lpg.ticalc.org/prj_tilp/ TiLP2] não é necessário! Caso a transferência pare a meio, verifique se a calculadora não está a perguntar qualquer coisa sobre _garbage collection_; carregue enter na calculadora para continuar.
 
+<br>
 == Finalizar a instalacao ==
+Se a transferência para a calculadora foi executada com sucesso, trate de executar os seguintes passos:
+<table border="1" title="Passos de finalizar a instalação"><tbody>
+<tr>
+<th> Passo </th>
+<th> Imagens </th>
+<tr>
+<td width=300> Começando no ecrã inicial da calculadora, tratar de arquivar os ficheiros do `ASSTERMO`:
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png]
+<tr>
+<td> *1.* `2nd` + `–` para aceder ao _Var-Link_, vá até à pasta `ASSTERMO` e carregue no `F4` quando a selecção estiver sobre o nome da pasta `ASSTERMO`;
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_001.png] `---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_002.png]
+<tr>
+<td> *2.* Faça `UNLOCK` - carregue nas teclas `F1` e depois `7`.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_003.png] `---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_004.png]
+<tr>
+<td> *3.* A seguir `ARQUIVE` - carregue nas teclas `F1` e depois `8`.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_005.png]
+<tr>
+<td> A pergunta apresentada na imagem à direita poderá aparecer no ponto anterior, à qual deve carregar na tecla `Enter` para prosseguir.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_006.png]
+<tr>
+<td> Após o Asstermo estar arquivado, a imagem deverá ter aspecto semelhante à da direita.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_007.png]
+<tr>
+<td> *4.* Corra o programa `ASSTERMO\ZCOMPILE()` - ainda no Var-Link, carregue no `Z` e deve calhar mesmo em cima do `ZCOMPILE`; carregue em _Enter_ e depois no `)` e `Enter` de novo.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_008.png] `---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_009.png] `---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_010.png]
+<tr>
+<td> Aguarde enquanto ele compila todos os programas e funções, por forma a todo o projecto correr em velocidade optimizada!
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_011.png]
+<td> *5.* Já tá pronto a correr! `ASSTERMO\ASSTERMO()` para correr o programa!
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_012.png] <br> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_013.png] <br> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_014.png] <br> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_015.png] <br> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_016.png]
+<tr>
+<table>
 
+<br>
 = Instruções antigas... =
 NOTAS adicionais sobre instalação:
 

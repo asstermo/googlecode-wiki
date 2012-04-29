@@ -9,7 +9,7 @@ Se fez o download deste programa da página [http://asstermo.no.sapo.pt asstermo
     # *2nd* + *–* para aceder ao _Var-Link_, vá até à pasta *ASSTERMO* e carregue no *F4* quando a selecção estiver sobre o nome da pasta *ASSTERMO*;
     # faça *UNLOCK* (carregue nas teclas *F1* e depois *7*).
     # A seguir *ARQUIVE* (carregue nas teclas *F1* e depois *8*).
-  Com os _AMS_ e _TI Connect_ mais recentes, talvez este passo não seja necessário. Sei que com o [http://lpg.ticalc.org/prj_tilp/ TiLP2] não é necessário! Caso a transferência pare a meio, verifique se a calculadora não está a perguntar qualquer coisa sobre _garbage collection_; carregue enter na calculadora para continuar.
+    * Com os _AMS_ e _TI Connect_ mais recentes, talvez este passo não seja necessário. Sei que com o [http://lpg.ticalc.org/prj_tilp/ TiLP2] não é necessário! Caso a transferência pare a meio, verifique se a calculadora não está a perguntar qualquer coisa sobre _garbage collection_; carregue enter na calculadora para continuar.
   # Corra o programa *ASSTERMO\ZCOMPILE()* - ainda no _Var-Link_, carregue no *Z* e deve calhar mesmo em cima do *ZCOMPILE*; carregue em _Enter_ e depois no *)* e *Enter* de novo. Aguarde enquanto ele compila todos os programas e funções, por forma a todo o projecto correr em velocidade optimizada!
   # Já tá pronto a correr! *ASSTERMO\ASSTERMO()* para correr o programa!
 
