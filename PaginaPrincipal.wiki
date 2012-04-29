@@ -3,7 +3,9 @@
 <wiki:toc max_depth="3" />
 
 = Introdução =
-O Asstermo (Assistente de Termodinâmica) foi concebido para as calculadoras gráficas *TI-89 (Titanium)*, *TI-92 (Plus)* e *Voyage 200*. O Asstermo-D é uma variante do original (agora denominado por Asstermo-K), concebido para as TI-nSpire. O software em si é gratuito,  mas aconselha-se que na sua utilização (e consequente validação) das tabelas se tenha o livro "Fundamentals of Engineering Thermodynamics, by Michael J. Moran and Howard N. Shapiro".
+O Asstermo (Assistente de Termodinâmica) foi inicialmente concebido para as calculadoras gráficas *TI-89 (Titanium)*, *TI-92 (Plus)* e *Voyage 200*, mas a variante *D* foi também já criada para as *TI-nSpire*.
+
+O software em si é gratuito,  mas aconselha-se que na sua utilização (e consequente validação) das tabelas se tenha o livro "Fundamentals of Engineering Thermodynamics, by Michael J. Moran and Howard N. Shapiro".
 
 Este software foi concebido para auxiliar os estudantes com as disciplinas de Termodinâmica, nomeadamente no cálculo das interpolações de valores a partir das tabelas do livro. Este software permite reduzir o tempo de resolução de um problema de 20 minutos para aproximadamente 5 minutos.
 
