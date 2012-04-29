@@ -56,11 +56,50 @@ Portanto, tem-se de arquivar os ficheiros todos na calculadora. Para tal:
 
 <br>
 == Transferir o pacote ==
+Os seguintes passos requerem que o TiLP2 já esteja instalado. Apesar das imagens serem tiradas de um Windows XP, as instruções deverão ser aplicáveis noutros sistemas operativos também. Os passos são os que se seguem:
+<table border="1" title="Passos de transferência"><tbody>
+<tr>
+<th> Passo </th>
+<th> Imagens </th>
+<tr>
+<td width=300> *1.* Abrir o TiLP 2. No Windows: `Start->Programs->TiLP2->TiLP`. Also semelhante à imagem à direita deverá aparecer.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase2_001.png]
+<tr>
+<td> *2.* Caso ainda não esteja tudo configurado, ligar a calculadora ao computador e ir ao menu `File->Change Device`.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase2_002.png]
+<tr>
+<td> *3.* As configurações à direita são para uma TI-89 via cabo _BlackLink_ (via porta série `COM1:`). Carregar no botão com a lupa para confirmar a detecção.
 
-*Nota*: Com os _AMS_ e _TI Connect_ mais recentes, talvez este passo não seja necessário. Sei que com o [http://lpg.ticalc.org/prj_tilp/ TiLP2] não é necessário! Caso a transferência pare a meio, verifique se a calculadora não está a perguntar qualquer coisa sobre _garbage collection_; carregue enter na calculadora para continuar.
+Uma vez detectada, deverá apresentar por baixo a calculadora identifica. Carregar no botão `OK`.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase2_003.png] `---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase2_004.png]
+<tr>
+<td> *4.* Agora pode-se confirmar se a ligação está a funcionar carregando no botão grande que diz `Dirlist`.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase2_005.png]
+<tr>
+<td> *5.* Se tudo correu bem, deve ser apresentada uma longa lista de ficheiros. No caso apresentado à direita, as pastas foram _encolhidas_ carregando no `+` que está ao lado de cada pasta.
+
+Do lado direito, procurar o ficheiro onde está o ficheiro do Asstermo-K. Arrastar o ficheiro para cima da pasta na esquerda de nome `Variables`.
+
+*Ou* usar o botão `Send` para o mesmo efeito, que permite ir procurar pelo ficheiro a ser enviado.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase2_006.png]
+<tr>
+<td> *6.* Uma vez iniciada a transferência, deve aparecer uma pequena janela como representada na imagem à direita.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase2_007.png]
+<tr>
+<td> *6.1.* Se a mensagem apresentada à direita aparecer, olhar para a calculadora. Se a mensagem apresentada mais à direita for semelhante, então carregar no botão `Enter` da calculadora e aguardar que ela deixe de estar _Busy_; quando acabar, carregar no botão `Fechar` da imagem à esquerda.
+
+O TiLP deve depois perguntar se é para fazer `Retry` ou `Skip`. Usar o `Retry`; ele se queixar que a variável está _locked_, então usar o `Skip`.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase2_008.png] `<---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_006.png]
+<tr>
+<td> *7.* Uma vez a transferência esteja terminada, deverá aparecer na lista de pastas na calculadora a pasta `ASSTERMO`. Agora é só seguir para a próxima fase.
+<td align="center"> 
+<tr>
+<table>
 
 <br>
 == Finalizar a instalacao ==
+*Nota*: Com os _AMS_ e _TI Connect_ mais recentes, talvez os passos 1 a 3 da lista abaixo não sejam necessários. Sei que com o [http://lpg.ticalc.org/prj_tilp/ TiLP2] não é necessário!
+
 Se a transferência para a calculadora foi executada com sucesso, trate de executar os seguintes passos:
 <table border="1" title="Passos de finalizar a instalação"><tbody>
 <tr>
