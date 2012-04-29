@@ -2,7 +2,7 @@
 #sidebar BarraLateral
 <wiki:toc max_depth="3" />
 
-= Asstermo 2.15 para TI-89/92 (inclusive Titanium/Plus), Voyage 200 =
+= Asstermo-K 2.15 para TI-89/92 (inclusive Titanium/Plus), Voyage 200 =
 Versão de 13/14-05-2009, agora considerada estável, visto que não têm havido relatos de problemas. Compatível com AMS 2.08 ou 3.08 e superiores.
 
 Download (inclui manual): [http://code.google.com/p/asstermo/downloads/detail?name=asstermo.2.15.zip asstermo.2.15.zip]
