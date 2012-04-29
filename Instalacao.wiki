@@ -90,6 +90,7 @@ Se a transferência para a calculadora foi executada com sucesso, trate de execu
 <tr>
 <td> Aguarde enquanto ele compila todos os programas e funções, por forma a todo o projecto correr em velocidade optimizada!
 <td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_011.png]
+<tr>
 <td> *5.* Já tá pronto a correr! `ASSTERMO\ASSTERMO()` para correr o programa!
 <td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_012.png] <br> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_013.png] <br> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_014.png] <br> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_015.png] <br> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase3_016.png]
 <tr>
