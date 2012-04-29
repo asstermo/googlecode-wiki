@@ -11,30 +11,53 @@ Software necessário no PC:
   * [http://lpg.ticalc.org/prj_tilp/ TiLP 2] - É preciso ter cuidado, porque os drivers de USB do TiLP são incompatíveis com os do TI Connect.
 
 São necessárias três fases de instalação:
-  # [#Arrumar_a_memória Arrumar a memória]
+  # [#Arrumar_a_memoria Arrumar a memória]
   # [#Transferir_o_pacote Transferir o pacote]
-  # [#Finalizar_a_instalação Finalizar a instalação]
+  # [#Finalizar_a_instalacao Finalizar a instalação]
   
-== Arrumar a memória ==
+== Arrumar a memoria ==
 A primeira fase serve para arrumar a memória da calculadora. Isto porque o Asstermo-K requer cerca de 180kB para se instalar e 150kB de RAM para funcionar normalmente.
 
 Portanto, tem-se de arquivar os ficheiros todos na calculadora. Para tal:
-|| 0. O ecrã inicial da calculadora -> || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png] ||
-|| 1. `2nd` + `–` para aceder ao Var-Link. À direita, eis como exemplo uma versão muito antiga do Asstermo que está desarrumada -> || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_001.png] ||
-|| 2. `F5` + `1` para seleccionar todas as pastas e ficheiros. || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_002.png] -> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_003.png] ||
-|| 3. Faça `UNLOCK` - carregue nas teclas `F1` e depois `7`.  || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_004.png] -> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_005.png] ||
-|| 4. A seguir `ARQUIVE` - carregue nas teclas `F1` e depois `8`.  || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_006.png] -> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_007.png] ||
-|| 5. `ESC` para sair do Var-Link.  || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png] ||
-|| 6. Agora para verificar se há RAM e Flash ROM suficientes, `2nd` + `6`  e verificar se as seguintes entradas têm:
+<table border="1" title="Passos de arrumação"><tbody>
+<tr>
+<th> Passo </th>
+<th> Imagens </th>
+<tr>
+<td width=300> Começando no ecrã inicial da calculadora:
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png]
+<tr>
+<td> *1.* `2nd` + `–` para aceder ao Var-Link.
+
+À direita, eis como exemplo uma versão muito antiga do Asstermo que está desarrumada.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_001.png]
+<tr>
+<td> *2.* `F5` + `1` para seleccionar todas as pastas e ficheiros
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_002.png] `---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_003.png]
+<tr>
+<td> *3.* Faça `UNLOCK` - carregue nas teclas `F1` e depois `7`.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_004.png] `---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_005.png]
+<tr>
+<td> *4.* A seguir `ARQUIVE` - carregue nas teclas `F1` e depois `8`.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_006.png] `---->` [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_007.png]
+<tr>
+<td> *5.* `ESC` para sair do Var-Link.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png]
+<tr>
+<td> *6.* Agora para verificar se há RAM e Flash ROM suficientes, `2nd` + `6`  e verificar se as seguintes entradas têm:
   * *RAM free* - mais de 150000 bytes.
-  * *Flash ROM free* -  mais de 180000 bytes. || [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_001.png] ||
-
-A calculadora está agora pronta a receber o Asstermo-K.
-
+  * *Flash ROM free* -  mais de 180000 bytes.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_008.png]
+<tr>
+<td> *7.* `ESC` ou `Enter` para sair do ecrã `Memory` e a calculadora está agora pronta a receber o Asstermo-K.
+<td align="center"> [http://wiki.asstermo.googlecode.com/hg/imgKinst/fase1_000.png]
+<tr>
+<table>
+<br>
 == Transferir o pacote ==
 
 
-== Finalizar a instalação ==
+== Finalizar a instalacao ==
 
 = Instruções antigas... =
 NOTAS adicionais sobre instalação:
