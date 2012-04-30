@@ -9,6 +9,8 @@ Download (inclui manual): [http://code.google.com/p/asstermo/downloads/detail?na
 
 Manual em PDF: [http://code.google.com/p/asstermo/downloads/detail?name=O%20manual%20do%20ASSTERMO%202.15.pdf asstermo.2.15.pdf]
 
+Para instruções detalhadas de instalação ver: [Instalacao Notas sobre instalação]
+
 Se tiver problemas com o Asstermo, utilize a zona dedicada deste site para relatar os problemas: [http://code.google.com/p/asstermo/issues/list Issues/Problemas].
 
 <br>
