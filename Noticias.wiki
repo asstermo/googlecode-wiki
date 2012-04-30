@@ -1,5 +1,10 @@
 #summary Notícias
 #sidebar BarraLateral
+= 2012-04-29/30 =
+A página de [Instalacao Notas sobre instalação] foi actualizada para algo mais detalhado sobre como instalar o Asstermo-K nas TI-89/92/200.
+
+Alguém já me tinha proposto fazer-se um vídeo no Youtube sobre este tópico, mas eu não tenho paciência para andar a fazer vídeos... se alguém quiser fazer um, está à vontade!
+
 = 2012-03-24 =
 Lançamento do Asstermo-D para TI-nSpire, versão 0.18:
   * Etapas cumpridas: [Calha_TInSpire Na calha para as TI-nSpire]
