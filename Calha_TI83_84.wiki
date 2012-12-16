@@ -22,6 +22,7 @@ No entanto, para evitar problemas com _trademarks_, irá se chamar somente *Asst
     * Solução possível: criar uma função/subrotina genérica com base no [http://www.ticalc.org/archives/files/fileinfo/318/31801.html cheetah].
   * Descobrir como armazenar tabelas tão grandes como as do Asstermo, quando o que as TI 83/84 têm são apenas listas muita estranhas.
     * Pelos vistos a única solução é guardar os dados num ficheiro flash (.8xk). Só assim é que podemos armazenar os dados todos que quisermos. Isto significa que a dita aplicação flash tem de ser um sistema interno de organização de dados.
+  * Ou então, converter as tabelas para longos polinómios... para mais, ver os "[#Apontamentos_-_parte_2 Apontamentos - parte 2]".
 
 Muito provavelmente a única solução mais viável será criar um programa mais centrado em assembly do que basic.
 Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar nas TI-nSpire (sem CAS e com o teclado TI-84).
@@ -29,7 +30,7 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
 *Se souberem mais detalhes para alguns destes pontos, por favor comentem nesta página wiki que estão a ler!*
 
 <br>
-= Apontamentos =
+= Apontamentos - parte 1 =
   * As TI-83 originais estão excluídas logo à partida. Só têm 27kB de RAM. Só dá para fazer interpolações.
   * Doors CS é uma referência importante no mundo das TI-83/84. No entanto:
     * apesar de eles terem uma biblioteca para comunicação quase infinita (2 milhões!) entre calculadoras ao mesmo tempo, não aparentam ter ainda um sistema avançado de gestão de ficheiros.
@@ -46,7 +47,7 @@ Vantagem de criar um Asstermo para TI-83/84 é que este deveria depois funcionar
     * [http://www.ticalc.org/archives/files/fileinfo/389/38998.html Tutorial para o BasicBuilder]
     * [http://sourceforge.net/projects/basicbuilder/ Código fonte]
 
-== Investigação sobre aplicações flash e assembly ==
+== Investigação sobre aplicações TI-Flash e Assembly ==
 Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
   * Lista de fontes sobre como desenvolver aplicações em Assembly:
     * http://www.ticalc.org/basics/calculators/ti-83plus-se.html#9
@@ -78,9 +79,29 @@ Eis uma lista de informações adicionais que podem ajudar no desenvolvimento:
   * Mais listas de informação:
     * [http://www.tumblr.com/tagged/ti83%2b sobre o wabbit]
 
-<br>
-= Conclusões =
+== Conclusões ==
   # Só as TI-83 +SE, TI-84 Plus e TI-84 +SE é que estão dentro dos parâmetros operacionais.
   # Face às necessidades operacionais de uma variante do Asstermo, só será possível se se fizer uma aplicação completa em TI-Flash. Isto implica aprender Z80 Assembly específico para estas calculadoras: [http://education.ti.com/downloads/guidebooks/sdk/83p/sdk83pguide.pdf Manual do SDK para TI-83]
   # O BasicBuilder pode ajudar a reduzir as lacunas criadas ao se usar somente Assembly. Deverá permitir que mais facilmente se consiga criar uma aplicação flash _super poderosa_, em que parte do código seja escrito em Basic e o que faltar seja em Assembly. Algumas arestas potencialmente também poderão ser colmatadas ao usar o z88dk.
   # Esta variante será a que apresenta um maior desafio, quando comparada à versão original e às variantes Asstermo-D e Asstermo-N.
+
+
+<br/>
+= Apontamentos - parte 2 =
+Depois de muito pensar sobre o assunto, parece que a solução que se tem de atingir é algo que tem de ser mais prático. Desenvolver uma brutal tecnologia para algo que está a gradualmente sair do mercado, em favor das nSpire, acho que a solução a implementar terá de ser algo bem mais prático.
+
+Assim sendo, o plano provavelmente será o seguinte:
+
+  # Converter as tabelas de vapor sobre-aquecido para superfícies 3D (Tabelas A-4 do livro), recorrendo ao MATLAB ou ao R. Isto implica que resultarão 20 equações, em que a pressão é sempre conhecida e depois 1 das 5 propriedades vs outra. Exemplo:
+    * p,T -> h
+    * p,T -> s
+    * p,T -> u
+    * p,T -> v
+  # Criar uma routina ou função que pergunta pelo par de valores e depois devolve os resultados respectivos.
+  # Converter para Assembly utilizando o [http://www.ticalc.org/archives/files/fileinfo/321/32127.html BasicBuilder 3.0], que fornece um menu mais ou menos catita.
+  # Salvo erro, o objectivo é provar e levar a cabo uma rotina para cada procura e se agrupam as 5 ou 10 ou 20 procuras num só programa com o BasicBuilder. E depois tem-se uma aplicação por cada grupo principal, tal como foi feito para o Asstermo-D.
+  # Atingir o mesmo ponto onde o Asstermo-D 0.18 atingiu seria um bom alvo, ou seja, ter as tabelas para: Água, Amónia, Refrigerante 22, Refrigerante 134a, Propano, Ar.
+
+
+== Conclusão ==
+Seguindo este plano, acho que se torna mais prático ter assim algo mais realista, apesar de que os resultados atingidos serão na realidade interpolações de grande escala, ou seja, brutais polinómios de 4 a 8 graus, correlacionando cada trio de valores tabelados. A vantagem é que assim não se tem de arquivar bateladas de tabelas em listas armazenadas duma forma não nativa às TI-83/84.
