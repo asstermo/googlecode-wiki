@@ -99,7 +99,7 @@ Assim sendo, o plano provavelmente será o seguinte:
     * p,T -> v
   # Criar uma routina ou função que pergunta pelo par de valores e depois devolve os resultados respectivos.
   # Converter para Assembly utilizando o [http://www.ticalc.org/archives/files/fileinfo/321/32127.html BasicBuilder 3.0], que fornece um menu mais ou menos catita.
-  # Salvo erro, o objectivo é provar e levar a cabo uma rotina para cada procura e se agrupam as 5 ou 10 ou 20 procuras num só programa com o BasicBuilder. E depois tem-se uma aplicação por cada grupo principal, tal como foi feito para o Asstermo-D.
+  # Salvo erro, o objectivo é provar e levar a cabo uma rotina para cada procura e se agrupam as 5 ou 10 ou 20 procuras num só programa com o !BasicBuilder. E depois tem-se uma aplicação por cada grupo principal, tal como foi feito para o Asstermo-D.
   # Atingir o mesmo ponto onde o Asstermo-D 0.18 atingiu seria um bom alvo, ou seja, ter as tabelas para: Água, Amónia, Refrigerante 22, Refrigerante 134a, Propano, Ar.
 
 
