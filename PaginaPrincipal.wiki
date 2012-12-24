@@ -11,8 +11,8 @@ Para mais informações:
  * [SobreAsstermo Mais sobre o Asstermo]
  * [Noticias Notícias]
  * [https://twitter.com/asstermo @asstermo] (Twitter)
- * [Downloads Versões Disponíveis (Downloads)]
- * [Manuais Manuais]
+ * *[Downloads Versões Disponíveis (Downloads)]*
+ * *[Manuais Manuais]*
 
 *NOTE to english readers*: This software is currently *not* available in English.
 
