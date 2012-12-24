@@ -1,33 +1,20 @@
 #summary Aqui está o desenvolvimento da página principal
-<h1>Bem vindo à página do Assistente de Termodinâmica <a href="http://twitter.com/asstermo"><img src="http://wiki.asstermo.googlecode.com/hg/images/twitter.png" width="80" alt="Assistente de Termodinâmica no Twitter" title="Assistente de Termodinâmica no Twitter"/></a></h1>
-<wiki:toc max_depth="3" />
+<h1>Bem vindo à página do Assistente de Termodinâmica</h1>
 
-= Introdução =
 O Asstermo (Assistente de Termodinâmica) foi inicialmente concebido para as calculadoras gráficas *TI-89 (Titanium)*, *TI-92 (Plus)* e *Voyage 200*, mas a variante *D* foi também já criada para as *TI-nSpire*.
 
 O software em si é gratuito,  mas aconselha-se que na sua utilização (e consequente validação) das tabelas se tenha o livro "Fundamentals of Engineering Thermodynamics, by Michael J. Moran and Howard N. Shapiro".
 
-Este software foi concebido para auxiliar os estudantes com as disciplinas de Termodinâmica, nomeadamente no cálculo das interpolações de valores a partir das tabelas do livro. Este software permite reduzir o tempo de resolução de um problema de 20 minutos para aproximadamente 5 minutos.
+Este software foi concebido para auxiliar os estudantes com as disciplinas/cadeiras de Termodinâmica, nomeadamente no cálculo das interpolações de valores a partir das tabelas do livro. Este software permite reduzir o tempo de resolução de um problema de 20 minutos para aproximadamente 5 minutos.
 
-[SobreAsstermo Mais sobre o Asstermo aqui].
+Para mais informações:
+ * [SobreAsstermo Mais detalhes sobre o Asstermo]
+ * [Noticias Notícias]
+ * [Downloads Versões Disponíveis (Downloads)]
+ * [Manuais Manuais]
 
-<br/>
 *NOTE to english readers*: This software is currently *not* available in English.
 
 <br/>
-
-= Notícias =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/wikigateway.xml" height="300" width="100%" border="1" up_projectname="asstermo" up_subversion="hg" up_wikiname="Noticias" up_autoresize="true" up_wikiBaseURL="http://code.google.com/p/asstermo/wiki/" up_openURLSInNewWindow="true" up_cachedTime="3600" up_plugins="presummarize?message=%22Premir%20aqui%20para%20ver%20todas%20as%20notícias%22&numH12=[3,0]"/>
-
-<br/>
-
-= Versões Disponíveis =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/wikigateway.xml" height="300" width="100%" border="1" up_projectname="asstermo" up_subversion="hg" up_wikiname="Downloads" up_autoresize="true" up_wikiBaseURL="http://code.google.com/p/asstermo/wiki/" up_openURLSInNewWindow="true" />
-
-<br/>
-
-= Wiki =
-<wiki:gadget url="http://wiki.asstermo.googlecode.com/hg/gadgets/wikigateway.xml" height="60" width="100%" border="0" up_projectname="asstermo" up_subversion="hg" up_wikiname="BarraLateral" up_autoresize="true" up_wikiBaseURL="http://code.google.com/p/asstermo/wiki/" up_openURLSInNewWindow="true" />
-
-<br/>
-Sistema de wiki-dentro-de-wiki: [http://code.google.com/p/wikignpi/ wikignpi]
+<h1>Comparação de versões</h1>
+TODO
