@@ -1,5 +1,9 @@
 #summary Notícias
 #sidebar BarraLateral
+
+= 2012-12-24 =
+Reestruturação da página principal...
+
 = 2012-04-29/30 =
 A página de [Instalacao Notas sobre instalação] foi actualizada para algo mais detalhado sobre como instalar o Asstermo-K nas TI-89/92/200.
 
