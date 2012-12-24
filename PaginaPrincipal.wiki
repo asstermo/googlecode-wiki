@@ -8,8 +8,9 @@ O software em si é gratuito,  mas aconselha-se que na sua utilização (e conse
 Este software foi concebido para auxiliar os estudantes com as disciplinas/cadeiras de Termodinâmica, nomeadamente no cálculo das interpolações de valores a partir das tabelas do livro. Este software permite reduzir o tempo de resolução de um problema de 20 minutos para aproximadamente 5 minutos.
 
 Para mais informações:
- * [SobreAsstermo Mais detalhes sobre o Asstermo]
+ * [SobreAsstermo Mais sobre o Asstermo]
  * [Noticias Notícias]
+ * [https://twitter.com/asstermo @asstermo] (Twitter)
  * [Downloads Versões Disponíveis (Downloads)]
  * [Manuais Manuais]
 
@@ -17,4 +18,16 @@ Para mais informações:
 
 <br/>
 <h1>Comparação de versões</h1>
-TODO
+
+|| *Características* || [Downloads Asstermo-K] || [Downloads Asstermo-D] ||
+|| Calculadoras || TI-89 (Titanium) <br> TI-92 (Plus) <br> Voyage 200 || TI-nSpire ||
+|| AMS mínimo || 2.08 ou 3.08 || 3.XX ||
+|| *Tabelas disponíveis* <br> (Referências aos apêndices) || - || - ||
+|| Água (A2, A3, A4, A5) || Sim || Sim ||
+|| Amónia () || || ||
+|| Refrigerante 22 || || ||
+|| Refrigerante 134a || || ||
+|| Propano || || ||
+|| Fórmulas químicas,<br> Massas Molares <br> R's mássicos || || ||
+|| Calores Específicos <br> para Gases Comuns: <br> Ar, N2, O2, CO2, CO, H2 || || ||
+|| Ar || || ||
